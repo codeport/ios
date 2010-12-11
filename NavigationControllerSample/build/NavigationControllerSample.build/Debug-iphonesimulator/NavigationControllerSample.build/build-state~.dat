@@ -1,0 +1,262 @@
+TNavigationControllerSample
+v7
+r0
+t311601539.111090
+cCheck dependencies
+cProcessInfoPlistFile /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/Info.plist NavigationControllerSample-Info.plist
+cCompileXIB /Users/i015005/development/objective-c/NavigationControllerSample/MainWindow.xib
+cCompileXIB /Users/i015005/development/objective-c/NavigationControllerSample/RootViewController.xib
+cProcessPCH /var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavigationControllerSample_Prefix-bqpsroqfozvrxgezikhvyxypgaqn/NavigationControllerSample_Prefix.pch.gch NavigationControllerSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/main.o /Users/i015005/development/objective-c/NavigationControllerSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/NavigationControllerSampleAppDelegate.o /Users/i015005/development/objective-c/NavigationControllerSample/Classes/NavigationControllerSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/RootViewController.o /Users/i015005/development/objective-c/NavigationControllerSample/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample normal i386
+cGenerateDSYMFile /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app.dSYM /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample
+cTouch /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/Classes/NavigationControllerSampleAppDelegate.h
+c000000004CE26AD70000000000000209
+t1289906903
+s521
+i<UIKit/UIKit.h>
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/Classes/NavigationControllerSampleAppDelegate.m
+c000000004CE26AD70000000000000AE6
+t1289906903
+s2790
+i"NavigationControllerSampleAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/Classes/RootViewController.h
+c000000004CE2720000000000000000F6
+t1289908736
+s246
+i<UIKit/UIKit.h>
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/Classes/RootViewController.m
+c000000004CE271FB0000000000000651
+t1289908731
+s1617
+i"RootViewController.h"
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/MainWindow.xib
+c000000004CE26AD70000000000006040
+t1289906903
+s24640
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/NavigationControllerSample_Prefix.pch
+c000000004CE26AD70000000000000166
+t1289906903
+s358
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/RootViewController.xib
+c000000004CE271D100000000000045D5
+t1289908689
+s17877
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app
+t1289908739
+s238
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app.dSYM
+t1289908739
+s102
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/Info.plist
+t1289908737
+s673
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/MainWindow.nib
+t1289908737
+s2475
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample
+t1289908739
+s17988
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/PkgInfo
+t1289908737
+s8
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/RootViewController.nib
+t1289908737
+s2223
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/NavigationControllerSample.LinkFileList
+c000000004CE272010000000000000260
+t1289908737
+s608
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/NavigationControllerSampleAppDelegate.o
+t1289908739
+s50528
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/RootViewController.o
+t1289908739
+s34444
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/main.o
+t1289908739
+s6356
+
+N/Users/i015005/development/objective-c/NavigationControllerSample/main.m
+c000000004CE26AD70000000000000179
+t1289906903
+s377
+i<UIKit/UIKit.h>
+
+N/var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavigationControllerSample_Prefix-bqpsroqfozvrxgezikhvyxypgaqn/NavigationControllerSample_Prefix.pch.gch
+t1289908738
+s15211536
+
+NNavigationControllerSample-Info.plist
+c000000004CE26AD7000000000000038D
+t1289906903
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311601537#311601537#0(0"0(0#1#0"4858943546694133760#0"0#
+
+CCompileC build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/NavigationControllerSampleAppDelegate.o /Users/i015005/development/objective-c/NavigationControllerSample/Classes/NavigationControllerSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311601538.936962
+e311601539.038563
+r1
+xCompileC
+xbuild/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/NavigationControllerSampleAppDelegate.o
+x/Users/i015005/development/objective-c/NavigationControllerSample/Classes/NavigationControllerSampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/i015005/development/objective-c/NavigationControllerSample/Classes/NavigationControllerSampleAppDelegate.m311601538#311601539#0(0"0(0#0#113"/Users/i015005/development/objective-c/NavigationControllerSample/Classes/NavigationControllerSampleAppDelegate.m8602062208#2665"    cd /Users/i015005/development/objective-c/NavigationControllerSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-generated-files.hmap -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-own-target-headers.hmap -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-all-target-headers.hmap -iquote /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-project-headers.hmap -F/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator -I/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/include -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/DerivedSources/i386 -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/DerivedSources -include /var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavigationControllerSample_Prefix-bqpsroqfozvrxgezikhvyxypgaqn/NavigationControllerSample_Prefix.pch -c /Users/i015005/development/objective-c/NavigationControllerSample/Classes/NavigationControllerSampleAppDelegate.m -o /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/NavigationControllerSampleAppDelegate.o0#
+
+CCompileC build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/RootViewController.o /Users/i015005/development/objective-c/NavigationControllerSample/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311601539.003674
+e311601539.065890
+r1
+xCompileC
+xbuild/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/RootViewController.o
+x/Users/i015005/development/objective-c/NavigationControllerSample/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/i015005/development/objective-c/NavigationControllerSample/Classes/RootViewController.m311601539#311601539#0(0"0(0#0#94"/Users/i015005/development/objective-c/NavigationControllerSample/Classes/RootViewController.m8603321792#2627"    cd /Users/i015005/development/objective-c/NavigationControllerSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-generated-files.hmap -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-own-target-headers.hmap -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-all-target-headers.hmap -iquote /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-project-headers.hmap -F/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator -I/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/include -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/DerivedSources/i386 -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/DerivedSources -include /var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavigationControllerSample_Prefix-bqpsroqfozvrxgezikhvyxypgaqn/NavigationControllerSample_Prefix.pch -c /Users/i015005/development/objective-c/NavigationControllerSample/Classes/RootViewController.m -o /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/main.o /Users/i015005/development/objective-c/NavigationControllerSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311601538.935297
+e311601539.003573
+r1
+xCompileC
+xbuild/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/main.o
+x/Users/i015005/development/objective-c/NavigationControllerSample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/i015005/development/objective-c/NavigationControllerSample/main.m311601538#311601539#0(0"0(0#0#72"/Users/i015005/development/objective-c/NavigationControllerSample/main.m8600975776#2591"    cd /Users/i015005/development/objective-c/NavigationControllerSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-generated-files.hmap -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-own-target-headers.hmap -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-all-target-headers.hmap -iquote /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-project-headers.hmap -F/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator -I/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/include -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/DerivedSources/i386 -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/DerivedSources -include /var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavigationControllerSample_Prefix-bqpsroqfozvrxgezikhvyxypgaqn/NavigationControllerSample_Prefix.pch -c /Users/i015005/development/objective-c/NavigationControllerSample/main.m -o /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/i015005/development/objective-c/NavigationControllerSample/MainWindow.xib
+s311601537.455218
+e311601537.931842
+r1
+xCompileXIB
+x/Users/i015005/development/objective-c/NavigationControllerSample/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib311601537#311601537#0(0"0(0#0#80"/Users/i015005/development/objective-c/NavigationControllerSample/MainWindow.xib8604702112#670"    cd /Users/i015005/development/objective-c/NavigationControllerSample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/MainWindow.nib /Users/i015005/development/objective-c/NavigationControllerSample/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/i015005/development/objective-c/NavigationControllerSample/RootViewController.xib
+s311601537.456811
+e311601537.897127
+r1
+xCompileXIB
+x/Users/i015005/development/objective-c/NavigationControllerSample/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib311601537#311601537#0(0"0(0#0#88"/Users/i015005/development/objective-c/NavigationControllerSample/RootViewController.xib8604491296#686"    cd /Users/i015005/development/objective-c/NavigationControllerSample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/RootViewController.nib /Users/i015005/development/objective-c/NavigationControllerSample/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CGenerateDSYMFile /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app.dSYM /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample
+s311601539.092823
+e311601539.108362
+r1
+xGenerateDSYMFile
+x/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app.dSYM
+x/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample
+lSLF07#2@166"GenerateDSYMFile build/Debug-iphonesimulator/NavigationControllerSample.app.dSYM build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample311601539#311601539#0(0"0(0#0#151"/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample8601951200#521"    cd /Users/i015005/development/objective-c/NavigationControllerSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample -o /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app.dSYM0#
+
+CLd /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample normal i386
+s311601539.065986
+e311601539.092724
+r1
+xLd
+x/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample
+xnormal
+xi386
+lSLF07#2@156"Link /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample311601539#311601539#0(0"0(0#0#0"8604857792#1130"    cd /Users/i015005/development/objective-c/NavigationControllerSample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator -F/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator -filelist /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/Objects-normal/i386/NavigationControllerSample.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/NavigationControllerSample0#
+
+CProcessInfoPlistFile /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/Info.plist NavigationControllerSample-Info.plist
+s311601537.435067
+e311601537.455111
+r1
+xProcessInfoPlistFile
+x/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/Info.plist
+xNavigationControllerSample-Info.plist
+lSLF07#2@45"Process NavigationControllerSample-Info.plist311601537#311601537#0(0"0(0#0#103"/Users/i015005/development/objective-c/NavigationControllerSample/NavigationControllerSample-Info.plist30399778528231520#617"    cd /Users/i015005/development/objective-c/NavigationControllerSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NavigationControllerSample-Info.plist -genpkginfo /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app/Info.plist0#
+
+CProcessPCH /var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavigationControllerSample_Prefix-bqpsroqfozvrxgezikhvyxypgaqn/NavigationControllerSample_Prefix.pch.gch NavigationControllerSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s311601537.932059
+e311601538.935020
+r1
+xProcessPCH
+x/var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavigationControllerSample_Prefix-bqpsroqfozvrxgezikhvyxypgaqn/NavigationControllerSample_Prefix.pch.gch
+xNavigationControllerSample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Precompile NavigationControllerSample_Prefix.pch311601537#311601538#0(0"0(0#0#103"/Users/i015005/development/objective-c/NavigationControllerSample/NavigationControllerSample_Prefix.pch8603297088#2437"    cd /Users/i015005/development/objective-c/NavigationControllerSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-generated-files.hmap -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-own-target-headers.hmap -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-all-target-headers.hmap -iquote /Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/NavigationControllerSample-project-headers.hmap -F/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator -I/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/include -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/DerivedSources/i386 -I/Users/i015005/development/objective-c/NavigationControllerSample/build/NavigationControllerSample.build/Debug-iphonesimulator/NavigationControllerSample.build/DerivedSources -c /Users/i015005/development/objective-c/NavigationControllerSample/NavigationControllerSample_Prefix.pch -o /var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NavigationControllerSample_Prefix-bqpsroqfozvrxgezikhvyxypgaqn/NavigationControllerSample_Prefix.pch.gch0#
+
+CTouch /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app
+s311601539.108445
+e311601539.111042
+r1
+xTouch
+x/Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app
+lSLF07#2@130"Touch /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app311601539#311601539#0(0"0(0#0#0"8600521120#351"    cd /Users/i015005/development/objective-c/NavigationControllerSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/i015005/development/objective-c/NavigationControllerSample/build/Debug-iphonesimulator/NavigationControllerSample.app0#
+

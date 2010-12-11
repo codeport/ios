@@ -1,0 +1,39 @@
+TTabBarControllerSample
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Window-based Application/Window-based iPhone Application/MainWindow.xib
+c000000004C5A4322000000000000216A
+t1280983842
+s8554
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Window-based Application/Window-based iPhone Application/build/Debug/TabBarControllerSample.app
+t2
+s0
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Window-based Application/Window-based iPhone Application/build/Debug/TabBarControllerSample.app/Contents/Info.plist
+t2
+s0
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Window-based Application/Window-based iPhone Application/build/Debug/TabBarControllerSample.app/Contents/PkgInfo
+t2
+s0
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Window-based Application/Window-based iPhone Application/build/Debug/TabBarControllerSample.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+NTabBarControllerSample-Info.plist
+c000000004C5A4322000000000000038D
+t1280983842
+s909
+
+CCompileXIB "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Window-based Application/Window-based iPhone Application/MainWindow.xib"
+r0
+
+CProcessInfoPlistFile "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Window-based Application/Window-based iPhone Application/build/Debug/TabBarControllerSample.app/Contents/Info.plist" TabBarControllerSample-Info.plist
+r0
+
+CTouch "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Window-based Application/Window-based iPhone Application/build/Debug/TabBarControllerSample.app"
+r0
+
