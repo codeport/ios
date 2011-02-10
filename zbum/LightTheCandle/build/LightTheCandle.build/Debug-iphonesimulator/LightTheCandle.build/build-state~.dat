@@ -1,0 +1,243 @@
+TLightTheCandle
+v7
+r0
+t318957175.829529
+cCheck dependencies
+cProcessInfoPlistFile /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/Info.plist LightTheCandle-Info.plist
+cCompileXIB /Users/jibeomjung/Develop/iPhone/LightTheCandle/MainWindow.xib
+cCpResource "build/Debug-iphonesimulator/LightTheCandle.app/candle off.jpg" "candle off.jpg"
+cCpResource "build/Debug-iphonesimulator/LightTheCandle.app/candle on.jpg" "candle on.jpg"
+cProcessPCH /var/folders/Rp/Rp6DrOfrE00t13aeEnyz5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-cnulibmlieqaqlfeiwckmjtjbbbj/LightTheCandle_Prefix.pch.gch LightTheCandle_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/main.o /Users/jibeomjung/Develop/iPhone/LightTheCandle/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandleAppDelegate.o /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h
+c000000004D52AC8500000000000002DC
+t1297263749
+s732
+i<UIKit/UIKit.h>
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m
+c000000004D52AEEB0000000000000D5F
+t1297264363
+s3423
+i"LightTheCandleAppDelegate.h"
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/LightTheCandle_Prefix.pch
+c000000004D52A55E00000000000000C5
+t1297261918
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/MainWindow.xib
+c000000004D52AACE0000000000006519
+t1297263310
+s25881
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app
+t2
+s0
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app.dSYM
+t2
+s0
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/Info.plist
+t1297264374
+s619
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle
+t2
+s0
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/MainWindow.nib
+t1297264374
+s1864
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/PkgInfo
+t1297264374
+s8
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/candle off.jpg
+t1297264374
+s17097
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/candle on.jpg
+t1297264374
+s26335
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandle.LinkFileList
+c000000004D52AEF60000000000000137
+t1297264374
+s311
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandleAppDelegate.o
+t2
+s0
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/main.o
+t1297264375
+s6320
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/candle off.jpg
+c000000004A35172F00000000000042C9
+t1244993327
+s17097
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/candle on.jpg
+c000000004A22850E00000000000066DF
+t1243776270
+s26335
+
+N/Users/jibeomjung/Develop/iPhone/LightTheCandle/main.m
+c000000004D52A55E0000000000000166
+t1297261918
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/Rp/Rp6DrOfrE00t13aeEnyz5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-cnulibmlieqaqlfeiwckmjtjbbbj/LightTheCandle_Prefix.pch.gch
+t1297264375
+s15453392
+
+NLightTheCandle-Info.plist
+c000000004D52A55E000000000000038D
+t1297261918
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318957174#318957174#0(0"0(0#1#0"29836824280170608#0"0#
+
+CCompileC build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandleAppDelegate.o /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318957175.738017
+e318957175.819210
+r0
+xCompileC
+xbuild/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandleAppDelegate.o
+x/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:9:
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h:25: error: expected a property attribute before 'ratain'
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h:26: error: expected a property attribute before 'ratain'
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h:27: error: expected a property attribute before 'ratain'
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:14: error: no declaration of property 'onOffSwitch' found in the interface
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m: In function '-[LightTheCandleAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:26: error: 'canldeOffPath' undeclared (first use in this function)
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:26: error: (Each undeclared identifier is reported only once
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:26: error: for each function it appears in.)
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:27: error: 'candleOnImage' undeclared (first use in this function)
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:27: error: 'canldeOnPath' undeclared (first use in this function)
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:24: warning: unused variable 'candleOffPath'
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:23: warning: unused variable 'candleOnPath'
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m: In function '-[LightTheCandleAppDelegate dealloc]':
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:88: error: 'candleOnImage' undeclared (first use in this function)
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m: In function '-[LightTheCandleAppDelegate toggleCandle:]':
+o/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:99: error: 'candleOnImage' undeclared (first use in this function)
+lSLF07#2@91"Compile /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957175#318957175#0(2428"In file included from /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:9:/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h:25: error: expected a property attribute before 'ratain'/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h:26: error: expected a property attribute before 'ratain'/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h:27: error: expected a property attribute before 'ratain'/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:14: error: no declaration of property 'onOffSwitch' found in the interface/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m: In function '-[LightTheCandleAppDelegate application:didFinishLaunchingWithOptions:]':/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:26: error: 'canldeOffPath' undeclared (first use in this function)/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:26: error: (Each undeclared identifier is reported only once/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:26: error: for each function it appears in.)/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:27: error: 'candleOnImage' undeclared (first use in this function)/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:27: error: 'canldeOnPath' undeclared (first use in this function)/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:24: warning: unused variable 'candleOffPath'/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:23: warning: unused variable 'candleOnPath'/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m: In function '-[LightTheCandleAppDelegate dealloc]':/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:88: error: 'candleOnImage' undeclared (first use in this function)/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m: In function '-[LightTheCandleAppDelegate toggleCandle:]':/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m:99: error: 'candleOnImage' undeclared (first use in this function)11(4@45"Expected a property attribute before 'ratain'318957175#109#141#2(7@105"In file included from /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957175#18446744073709551615#0#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#9#0#9#0#0"0(13@132"Expected a property attribute before 'ratain' in /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h318957175#18446744073709551615#0#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h318956549#25#0#25#0#0"0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h318956549#25#0#25#0#19"expected * before *0(4@45"Expected a property attribute before 'ratain'318957175#250#141#2(7@105"In file included from /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957175#18446744073709551615#0#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#9#0#9#0#0"0(13@132"Expected a property attribute before 'ratain' in /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h318957175#18446744073709551615#0#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h318956549#26#0#26#0#0"0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h318956549#26#0#26#0#19"expected * before *0(4@45"Expected a property attribute before 'ratain'318957175#391#141#2(7@105"In file included from /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957175#18446744073709551615#0#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#9#0#9#0#0"0(13@132"Expected a property attribute before 'ratain' in /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h318957175#18446744073709551615#0#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h318956549#27#0#27#0#0"0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.h318956549#27#0#27#0#19"expected * before *0(4@63"No declaration of property 'onOffSwitch' found in the interface318957175#532#159#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#14#0#14#0#0"0(4@55"'canldeOffPath' undeclared (first use in this function)318957175#863#151#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#26#0#26#0#43"'*' undeclared (first use in this function)0(4@55"'candleOnImage' undeclared (first use in this function)318957175#1288#151#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#27#0#27#0#43"'*' undeclared (first use in this function)0(4@54"'canldeOnPath' undeclared (first use in this function)318957175#1439#150#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#27#0#27#0#43"'*' undeclared (first use in this function)0(22@31"Unused variable 'candleOffPath'318957175#1589#129#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#24#0#24#0#19"unused variable '*'0(22@30"Unused variable 'candleOnPath'318957175#1718#128#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#23#0#23#0#19"unused variable '*'0(4@55"'candleOnImage' undeclared (first use in this function)318957175#1983#151#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#88#0#88#0#43"'*' undeclared (first use in this function)0(4@55"'candleOnImage' undeclared (first use in this function)318957175#2277#151#0(6@83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m318957163#99#0#99#0#43"'*' undeclared (first use in this function)0(0#0#83"/Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m8613676800#2203"    cd /Users/jibeomjung/Develop/iPhone/LightTheCandle    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-generated-files.hmap -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-own-target-headers.hmap -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-all-target-headers.hmap -iquote /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-project-headers.hmap -F/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/include -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources/i386 -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources -include /var/folders/Rp/Rp6DrOfrE00t13aeEnyz5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-cnulibmlieqaqlfeiwckmjtjbbbj/LightTheCandle_Prefix.pch -c /Users/jibeomjung/Develop/iPhone/LightTheCandle/Classes/LightTheCandleAppDelegate.m -o /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/LightTheCandleAppDelegate.o1#
+
+CCompileC build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/main.o /Users/jibeomjung/Develop/iPhone/LightTheCandle/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318957175.736869
+e318957175.829433
+r1
+xCompileC
+xbuild/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/main.o
+x/Users/jibeomjung/Develop/iPhone/LightTheCandle/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jibeomjung/Develop/iPhone/LightTheCandle/main.m318957175#318957175#0(0"0(0#0#54"/Users/jibeomjung/Develop/iPhone/LightTheCandle/main.m8614523040#2153"    cd /Users/jibeomjung/Develop/iPhone/LightTheCandle    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-generated-files.hmap -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-own-target-headers.hmap -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-all-target-headers.hmap -iquote /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-project-headers.hmap -F/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/include -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources/i386 -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources -include /var/folders/Rp/Rp6DrOfrE00t13aeEnyz5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-cnulibmlieqaqlfeiwckmjtjbbbj/LightTheCandle_Prefix.pch -c /Users/jibeomjung/Develop/iPhone/LightTheCandle/main.m -o /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/jibeomjung/Develop/iPhone/LightTheCandle/MainWindow.xib
+s318957174.429618
+e318957174.927362
+r1
+xCompileXIB
+x/Users/jibeomjung/Develop/iPhone/LightTheCandle/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib318957174#318957174#0(168"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#62"/Users/jibeomjung/Develop/iPhone/LightTheCandle/MainWindow.xib8603626976#604"    cd /Users/jibeomjung/Develop/iPhone/LightTheCandle    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/MainWindow.nib /Users/jibeomjung/Develop/iPhone/LightTheCandle/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource "build/Debug-iphonesimulator/LightTheCandle.app/candle off.jpg" "candle off.jpg"
+s318957174.431659
+e318957174.443683
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LightTheCandle.app/candle off.jpg
+xcandle off.jpg
+lSLF07#2@19"Copy candle off.jpg318957174#318957174#0(0"0(0#0#62"/Users/jibeomjung/Develop/iPhone/LightTheCandle/candle off.jpg8602788128#508"    cd /Users/jibeomjung/Develop/iPhone/LightTheCandle    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jibeomjung/Develop/iPhone/LightTheCandle/candle off.jpg" /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app0#
+
+CCpResource "build/Debug-iphonesimulator/LightTheCandle.app/candle on.jpg" "candle on.jpg"
+s318957174.432416
+e318957174.447825
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LightTheCandle.app/candle on.jpg
+xcandle on.jpg
+lSLF07#2@18"Copy candle on.jpg318957174#318957174#0(0"0(0#0#61"/Users/jibeomjung/Develop/iPhone/LightTheCandle/candle on.jpg8613241600#507"    cd /Users/jibeomjung/Develop/iPhone/LightTheCandle    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jibeomjung/Develop/iPhone/LightTheCandle/candle on.jpg" /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app0#
+
+CGenerateDSYMFile /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app.dSYM /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle
+r0
+
+CLd /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/LightTheCandle normal i386
+r0
+
+CProcessInfoPlistFile /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/Info.plist LightTheCandle-Info.plist
+s318957174.415318
+e318957174.429520
+r1
+xProcessInfoPlistFile
+x/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/Info.plist
+xLightTheCandle-Info.plist
+lSLF07#2@33"Process LightTheCandle-Info.plist318957174#318957174#0(0"0(0#0#73"/Users/jibeomjung/Develop/iPhone/LightTheCandle/LightTheCandle-Info.plist30962664054390884#527"    cd /Users/jibeomjung/Develop/iPhone/LightTheCandle    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LightTheCandle-Info.plist -genpkginfo /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app/Info.plist0#
+
+CProcessPCH /var/folders/Rp/Rp6DrOfrE00t13aeEnyz5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-cnulibmlieqaqlfeiwckmjtjbbbj/LightTheCandle_Prefix.pch.gch LightTheCandle_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318957174.927577
+e318957175.736760
+r1
+xProcessPCH
+x/var/folders/Rp/Rp6DrOfrE00t13aeEnyz5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-cnulibmlieqaqlfeiwckmjtjbbbj/LightTheCandle_Prefix.pch.gch
+xLightTheCandle_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile LightTheCandle_Prefix.pch318957174#318957175#0(0"0(0#0#73"/Users/jibeomjung/Develop/iPhone/LightTheCandle/LightTheCandle_Prefix.pch8613676608#2029"    cd /Users/jibeomjung/Develop/iPhone/LightTheCandle    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-generated-files.hmap -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-own-target-headers.hmap -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-all-target-headers.hmap -iquote /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/LightTheCandle-project-headers.hmap -F/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/include -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources/i386 -I/Users/jibeomjung/Develop/iPhone/LightTheCandle/build/LightTheCandle.build/Debug-iphonesimulator/LightTheCandle.build/DerivedSources -c /Users/jibeomjung/Develop/iPhone/LightTheCandle/LightTheCandle_Prefix.pch -o /var/folders/Rp/Rp6DrOfrE00t13aeEnyz5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LightTheCandle_Prefix-cnulibmlieqaqlfeiwckmjtjbbbj/LightTheCandle_Prefix.pch.gch0#
+
+CTouch /Users/jibeomjung/Develop/iPhone/LightTheCandle/build/Debug-iphonesimulator/LightTheCandle.app
+r0
+
