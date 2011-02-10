@@ -1,0 +1,7 @@
+_Store
+*.swp
+*~.nib
+
+build/
+
+.xcodeproj/ !*.xcodeproj/project.pbxproj
