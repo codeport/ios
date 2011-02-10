@@ -55,9 +55,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3960878412A8D6B30010120F /* Controllers */,
-				3960878312A8D6AD0010120F /* Models */,
-				3960878212A8D6A60010120F /* Helpers */,
+				39DC98EF13044A1200C0A227 /* Models */,
 				3960877812A8D3090010120F /* AppDelegate */,
 			);
 			path = Classes;
@@ -98,7 +96,6 @@
 			children = (
 				3960877412A8D0470010120F /* NIBs */,
 				3960877512A8D0530010120F /* images */,
-				3960877712A8D0700010120F /* sounds */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -133,13 +130,6 @@
 			path = images;
 			sourceTree = "<group>";
 		};
-		3960877712A8D0700010120F /* sounds */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = sounds;
-			sourceTree = "<group>";
-		};
 		3960877812A8D3090010120F /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,13 +139,6 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		3960878212A8D6A60010120F /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
 		3960878312A8D6AD0010120F /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,11 +146,12 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		3960878412A8D6B30010120F /* Controllers */ = {
+		39DC98EF13044A1200C0A227 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3960878312A8D6AD0010120F /* Models */,
 			);
-			path = Controllers;
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

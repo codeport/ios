@@ -10,9 +10,16 @@
 
 @interface LightTheCandleAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	
+	
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+
+#pragma mark -
+#pragma mark 이벤트 처리 
+
+- (IBAction) nextWalkingFrame:(id)sender;
 
 @end
 

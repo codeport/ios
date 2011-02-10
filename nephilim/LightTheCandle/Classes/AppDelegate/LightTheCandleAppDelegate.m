@@ -12,6 +12,12 @@
 
 @synthesize window;
 
+#pragma mark -
+#pragma mark 이벤트 처리
+
+- (IBAction) nextWalkingFrame:(id)sender {
+	NSLog(@"%s", __FUNCTION__);
+}
 
 #pragma mark -
 #pragma mark Application lifecycle
