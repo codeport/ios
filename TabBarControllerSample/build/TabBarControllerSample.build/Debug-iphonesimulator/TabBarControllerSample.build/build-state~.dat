@@ -1,197 +1,0 @@
-TTabBarControllerSample
-v7
-r0
-t313078790.335095
-cCheck dependencies
-cProcessInfoPlistFile /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/Info.plist TabBarControllerSample-Info.plist
-cCompileXIB /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Resources/NIBs/MainWindow.xib
-cProcessPCH /var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarControllerSample_Prefix-egltffjkkrjmfpbrbwjtqoxruspk/TabBarControllerSample_Prefix.pch.gch TabBarControllerSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/main.o /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/TabBarControllerSampleAppDelegate.o /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Classes/AppDelegate/TabBarControllerSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample normal i386
-cGenerateDSYMFile /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app.dSYM /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample
-cTouch /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Classes/AppDelegate/TabBarControllerSampleAppDelegate.h
-c000000004CF8F3720000000000000170
-t1291383666
-s368
-i<UIKit/UIKit.h>
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Classes/AppDelegate/TabBarControllerSampleAppDelegate.m
-c000000004CF8F3720000000000000A01
-t1291383666
-s2561
-i"TabBarControllerSampleAppDelegate.h"
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Resources/NIBs/MainWindow.xib
-c000000004CF8F3720000000000002153
-t1291383666
-s8531
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/TabBarControllerSample_Prefix.pch
-c000000004CF8F37200000000000000D5
-t1291383666
-s213
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app
-t1291385990
-s204
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app.dSYM
-t1291385990
-s102
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/Info.plist
-t1291385989
-s657
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/MainWindow.nib
-t1291385990
-s999
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/PkgInfo
-t1291385989
-s8
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample
-t1291385990
-s16276
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/TabBarControllerSample.LinkFileList
-c000000004CF8FC85000000000000019F
-t1291385989
-s415
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/TabBarControllerSampleAppDelegate.o
-t1291385990
-s50068
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/main.o
-t1291385990
-s6384
-
-N/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/main.m
-c000000004CF8F3730000000000000174
-t1291383667
-s372
-i<UIKit/UIKit.h>
-
-N/var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarControllerSample_Prefix-egltffjkkrjmfpbrbwjtqoxruspk/TabBarControllerSample_Prefix.pch.gch
-t1291383837
-s15453392
-
-NTabBarControllerSample-Info.plist
-c000000004CF8F372000000000000038D
-t1291383666
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies313078789#313078789#0(0"0(0#1#0"8609384704#0"0#
-
-CCompileC build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/TabBarControllerSampleAppDelegate.o /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Classes/AppDelegate/TabBarControllerSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s313078790.136659
-e313078790.294371
-r1
-xCompileC
-xbuild/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/TabBarControllerSampleAppDelegate.o
-x/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Classes/AppDelegate/TabBarControllerSampleAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@143"Compile /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Classes/AppDelegate/TabBarControllerSampleAppDelegate.m313078790#313078790#0(0"0(0#0#135"/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Classes/AppDelegate/TabBarControllerSampleAppDelegate.m8606375136#2743"    cd /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/TabBarControllerSample-generated-files.hmap -I/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/TabBarControllerSample-own-target-headers.hmap -I/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/TabBarControllerSample-all-target-headers.hmap -iquote /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/TabBarControllerSample-project-headers.hmap -F/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator -I/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/include -I/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/DerivedSources/i386 -I/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/DerivedSources -include /var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarControllerSample_Prefix-egltffjkkrjmfpbrbwjtqoxruspk/TabBarControllerSample_Prefix.pch -c /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Classes/AppDelegate/TabBarControllerSampleAppDelegate.m -o /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/TabBarControllerSampleAppDelegate.o0#
-
-CCompileC build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/main.o /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s313078790.135601
-e313078790.194119
-r1
-xCompileC
-xbuild/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/main.o
-x/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/main.m313078790#313078790#0(0"0(0#0#86"/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/main.m8606606816#2665"    cd /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/TabBarControllerSample-generated-files.hmap -I/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/TabBarControllerSample-own-target-headers.hmap -I/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/TabBarControllerSample-all-target-headers.hmap -iquote /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/TabBarControllerSample-project-headers.hmap -F/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator -I/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/include -I/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/DerivedSources/i386 -I/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/DerivedSources -include /var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarControllerSample_Prefix-egltffjkkrjmfpbrbwjtqoxruspk/TabBarControllerSample_Prefix.pch -c /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/main.m -o /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Resources/NIBs/MainWindow.xib
-s313078789.772711
-e313078790.135430
-r1
-xCompileXIB
-x/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Resources/NIBs/MainWindow.xib
-lSLF07#2@40"CompileXIB Resources/NIBs/MainWindow.xib313078789#313078790#0(0"0(0#0#109"/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Resources/NIBs/MainWindow.xib8609838848#723"    cd /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/MainWindow.nib /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/Resources/NIBs/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CGenerateDSYMFile /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app.dSYM /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample
-s313078790.318507
-e313078790.332239
-r1
-xGenerateDSYMFile
-x/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app.dSYM
-x/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample
-lSLF07#2@154"GenerateDSYMFile build/Debug-iphonesimulator/TabBarControllerSample.app.dSYM build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample313078790#313078790#0(0"0(0#0#157"/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample8606674368#551"    cd /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample -o /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app.dSYM0#
-
-CLd /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample normal i386
-s313078790.294469
-e313078790.318402
-r1
-xLd
-x/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample
-xnormal
-xi386
-lSLF07#2@162"Link /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample313078790#313078790#0(0"0(0#0#0"8609613216#1180"    cd /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator -F/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator -filelist /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/TabBarControllerSample.build/Debug-iphonesimulator/TabBarControllerSample.build/Objects-normal/i386/TabBarControllerSample.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/TabBarControllerSample0#
-
-CProcessInfoPlistFile /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/Info.plist TabBarControllerSample-Info.plist
-s313078789.755063
-e313078789.772603
-r1
-xProcessInfoPlistFile
-x/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/Info.plist
-xTabBarControllerSample-Info.plist
-lSLF07#2@41"Process TabBarControllerSample-Info.plist313078789#313078789#0(0"0(0#0#113"/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/TabBarControllerSample-Info.plist8601963040#647"    cd /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TabBarControllerSample-Info.plist -genpkginfo /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app/Info.plist0#
-
-CProcessPCH /var/folders/ns/nsuJmR-YG6uPMF7u16lcYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarControllerSample_Prefix-egltffjkkrjmfpbrbwjtqoxruspk/TabBarControllerSample_Prefix.pch.gch TabBarControllerSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CTouch /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app
-s313078790.332330
-e313078790.335052
-r1
-xTouch
-x/Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app
-lSLF07#2@140"Touch /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app313078790#313078790#0(0"0(0#0#0"8605990080#375"    cd /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/i015005/development/objective-c/iosstudy/projects/TabBarControllerSample/build/Debug-iphonesimulator/TabBarControllerSample.app0#
-
