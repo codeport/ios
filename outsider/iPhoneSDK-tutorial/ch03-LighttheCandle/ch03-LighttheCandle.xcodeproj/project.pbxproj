@@ -14,6 +14,8 @@
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		C68E8AC813057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E8AC413057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.m */; };
 		C68E8AD2130581C300FB5C92 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68E8AD1130581C300FB5C92 /* MainWindow.xib */; };
+		C68E8AD51305820500FB5C92 /* candle off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C68E8AD31305820500FB5C92 /* candle off.jpg */; };
+		C68E8AD61305820500FB5C92 /* candle on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C68E8AD41305820500FB5C92 /* candle on.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		C68E8AC313057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ch03_LighttheCandleAppDelegate.h; sourceTree = "<group>"; };
 		C68E8AC413057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ch03_LighttheCandleAppDelegate.m; sourceTree = "<group>"; };
 		C68E8AD1130581C300FB5C92 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C68E8AD31305820500FB5C92 /* candle off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle off.jpg"; sourceTree = "<group>"; };
+		C68E8AD41305820500FB5C92 /* candle on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle on.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 		C68E8ACF130581C300FB5C92 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C68E8AD31305820500FB5C92 /* candle off.jpg */,
+				C68E8AD41305820500FB5C92 /* candle on.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -199,6 +205,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68E8AD2130581C300FB5C92 /* MainWindow.xib in Resources */,
+				C68E8AD51305820500FB5C92 /* candle off.jpg in Resources */,
+				C68E8AD61305820500FB5C92 /* candle on.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
