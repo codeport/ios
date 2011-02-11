@@ -88,4 +88,18 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
+	C68E8AC313057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {979, 501}}";
+			sepNavSelRange = "{256, 0}";
+			sepNavVisRange = "{0, 905}";
+		};
+	};
+	C68E8AC413057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 2678}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1174}";
+		};
+	};
 }

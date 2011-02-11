@@ -10,11 +10,10 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		28193060112F816700ECF9B4 /* ch03_LighttheCandle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* ch03_LighttheCandle.xcdatamodeld */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		C68E8AC813057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E8AC413057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.m */; };
+		C68E8AD2130581C300FB5C92 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68E8AD1130581C300FB5C92 /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,14 +21,12 @@
 		1D6058910D05DD3D006BFB54 /* ch03-LighttheCandle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ch03-LighttheCandle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28C3AD890F43EF2300507BA6 /* ch03_LighttheCandle.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = ch03_LighttheCandle.xcdatamodel; sourceTree = "<group>"; };
 		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ch03_LighttheCandle_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ch03_LighttheCandle_Prefix.pch; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* ch03_LighttheCandle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ch03_LighttheCandle-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		C68E8AC313057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ch03_LighttheCandleAppDelegate.h; sourceTree = "<group>"; };
 		C68E8AC413057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ch03_LighttheCandleAppDelegate.m; sourceTree = "<group>"; };
+		C68E8AD1130581C300FB5C92 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				C68E8AC113057CD700FB5C92 /* Classes */,
+				C68E8ACE130581C300FB5C92 /* Resources */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -74,16 +71,6 @@
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2819305F112F816700ECF9B4 /* ch03_LighttheCandle.xcdatamodeld */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* ch03_LighttheCandle-Info.plist */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -138,6 +125,30 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		C68E8ACE130581C300FB5C92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C68E8ACF130581C300FB5C92 /* Images */,
+				C68E8AD0130581C300FB5C92 /* NIBs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C68E8ACF130581C300FB5C92 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C68E8AD0130581C300FB5C92 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				C68E8AD1130581C300FB5C92 /* MainWindow.xib */,
+			);
+			path = NIBs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,7 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				C68E8AD2130581C300FB5C92 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +210,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				28193060112F816700ECF9B4 /* ch03_LighttheCandle.xcdatamodeld in Sources */,
 				C68E8AC813057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,19 +293,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2819305F112F816700ECF9B4 /* ch03_LighttheCandle.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				28C3AD890F43EF2300507BA6 /* ch03_LighttheCandle.xcdatamodel */,
-			);
-			currentVersion = 28C3AD890F43EF2300507BA6 /* ch03_LighttheCandle.xcdatamodel */;
-			path = ch03_LighttheCandle.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
 }
