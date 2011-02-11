@@ -139,17 +139,9 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		3960878312A8D6AD0010120F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		39DC98EF13044A1200C0A227 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3960878312A8D6AD0010120F /* Models */,
 			);
 			name = Models;
 			sourceTree = "<group>";

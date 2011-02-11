@@ -17,6 +17,19 @@
 
 - (IBAction) nextWalkingFrame:(id)sender {
 	NSLog(@"%s", __FUNCTION__);
+	NSLog(@"%@", humanWalkingImageView);
+}
+
+#pragma mark -
+#pragma mark 접근자 
+
+-(UIImageView*) humanWalkingImageView {
+	return humanWalkingImageView;
+}
+
+-(void) setHumanWalkingImageView:(UIImageView*)imageView {
+	NSLog(@"%s", __FUNCTION__);
+	humanWalkingImageView = imageView;
 }
 
 #pragma mark -
