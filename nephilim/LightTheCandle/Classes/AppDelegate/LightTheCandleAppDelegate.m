@@ -3,7 +3,7 @@
 //  LightTheCandle
 //
 //  Created by nephilim on 11. 2. 10..
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 YakShavingLocus All rights reserved.
 //
 
 #import "LightTheCandleAppDelegate.h"
@@ -19,7 +19,9 @@
 	static int imageCount = 0;
 	imageCount = (imageCount + 1) % 5;	
 	NSString* imageName = [NSString stringWithFormat:@"walking%02d.png",imageCount];
-	NSLog(@"%s nextImage=%@", __FUNCTION__, imageName);
+	
+	UIImage* image = [UIImage imageNamed:imageName];
+	humanWalkingImageView.image = image;
 }
 
 #pragma mark -
