@@ -15,6 +15,10 @@
 	UIImageView *candleImageView;
 	UISwitch *onOffSwitch;
 	UILabel *candleStateLabel;
+	
+	BOOL candleState;
+	UIImage *candleOffImage;
+	UIImage *candleOnImage;
     
 @private
     NSManagedObjectContext *managedObjectContext_;
