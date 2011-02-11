@@ -10,9 +10,8 @@
 
 @interface LightTheCandleAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	
+
 	IBOutlet UIImageView* humanWalkingImageView;
-	
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

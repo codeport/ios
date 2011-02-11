@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 540}}";
-			sepNavSelRange = "{438, 24}";
-			sepNavVisRange = "{158, 416}";
+			sepNavIntBoundsRect = "{{0, 0}, {1103, 522}}";
+			sepNavSelRange = "{486, 0}";
+			sepNavVisRange = "{329, 243}";
 		};
 	};
 	1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1962}}";
-			sepNavSelRange = "{606, 0}";
-			sepNavVisRange = "{408, 480}";
+			sepNavIntBoundsRect = "{{0, 0}, {711, 2088}}";
+			sepNavSelRange = "{540, 0}";
+			sepNavVisRange = "{198, 454}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* LightTheCandle */ = {
@@ -156,6 +156,21 @@
 			3928483E13059B380068ABF1 /* PBXTextBookmark */ = 3928483E13059B380068ABF1 /* PBXTextBookmark */;
 			3928483F13059B380068ABF1 /* PBXTextBookmark */ = 3928483F13059B380068ABF1 /* PBXTextBookmark */;
 			3928484013059B380068ABF1 /* PBXTextBookmark */ = 3928484013059B380068ABF1 /* PBXTextBookmark */;
+			3928484113059DF20068ABF1 /* PBXTextBookmark */ = 3928484113059DF20068ABF1 /* PBXTextBookmark */;
+			3928484213059DF20068ABF1 /* PBXTextBookmark */ = 3928484213059DF20068ABF1 /* PBXTextBookmark */;
+			3928484313059DF20068ABF1 /* PBXTextBookmark */ = 3928484313059DF20068ABF1 /* PBXTextBookmark */;
+			3928484413059E6B0068ABF1 /* PBXTextBookmark */ = 3928484413059E6B0068ABF1 /* PBXTextBookmark */;
+			3928484513059E6B0068ABF1 /* PBXTextBookmark */ = 3928484513059E6B0068ABF1 /* PBXTextBookmark */;
+			3928484613059E6B0068ABF1 /* PBXTextBookmark */ = 3928484613059E6B0068ABF1 /* PBXTextBookmark */;
+			3928484913059EF80068ABF1 /* PBXTextBookmark */ = 3928484913059EF80068ABF1 /* PBXTextBookmark */;
+			3928484A13059EF80068ABF1 /* PBXTextBookmark */ = 3928484A13059EF80068ABF1 /* PBXTextBookmark */;
+			3928484B13059EFE0068ABF1 /* PBXTextBookmark */ = 3928484B13059EFE0068ABF1 /* PBXTextBookmark */;
+			3928484C13059F000068ABF1 /* PBXTextBookmark */ = 3928484C13059F000068ABF1 /* PBXTextBookmark */;
+			3928484D13059F310068ABF1 /* PBXTextBookmark */ = 3928484D13059F310068ABF1 /* PBXTextBookmark */;
+			3928485213059F880068ABF1 /* PBXTextBookmark */ = 3928485213059F880068ABF1 /* PBXTextBookmark */;
+			3928485513059FC80068ABF1 /* PBXTextBookmark */ = 3928485513059FC80068ABF1 /* PBXTextBookmark */;
+			3928485613059FFC0068ABF1 /* PBXTextBookmark */ = 3928485613059FFC0068ABF1 /* PBXTextBookmark */;
+			3928485B1305A1050068ABF1 /* PBXTextBookmark */ = 3928485B1305A1050068ABF1 /* PBXTextBookmark */;
 			3960877F12A8D5E90010120F = 3960877F12A8D5E90010120F /* PBXTextBookmark */;
 			3960878912A8D7840010120F = 3960878912A8D7840010120F /* PBXTextBookmark */;
 			3960881B12A922260010120F = 3960881B12A922260010120F /* PBXBookmark */;
@@ -205,7 +220,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 21";
 		rLen = 0;
-		rLoc = 645;
+		rLoc = 749;
 		rType = 0;
 		vrLen = 215;
 		vrLoc = 158;
@@ -225,7 +240,7 @@
 		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
 		name = "LightTheCandleAppDelegate.h: 22";
 		rLen = 0;
-		rLoc = 488;
+		rLoc = 485;
 		rType = 0;
 		vrLen = 411;
 		vrLoc = 155;
@@ -235,7 +250,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 49";
 		rLen = 0;
-		rLoc = 1882;
+		rLoc = 1986;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 1188;
@@ -245,7 +260,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 644;
+		rLoc = 748;
 		rType = 0;
 		vrLen = 517;
 		vrLoc = 341;
@@ -255,7 +270,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 644;
+		rLoc = 748;
 		rType = 0;
 		vrLen = 517;
 		vrLoc = 341;
@@ -265,7 +280,7 @@
 		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
 		name = "LightTheCandleAppDelegate.h: 13";
 		rLen = 0;
-		rLoc = 281;
+		rLoc = 280;
 		rType = 0;
 		vrLen = 419;
 		vrLoc = 155;
@@ -275,7 +290,7 @@
 		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
 		name = "LightTheCandleAppDelegate.h: 18";
 		rLen = 0;
-		rLoc = 358;
+		rLoc = 355;
 		rType = 0;
 		vrLen = 416;
 		vrLoc = 159;
@@ -285,7 +300,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 644;
+		rLoc = 748;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 370;
@@ -295,7 +310,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 384;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 367;
 		vrLoc = 155;
@@ -305,7 +320,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 384;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 367;
 		vrLoc = 155;
@@ -315,7 +330,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 384;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 367;
 		vrLoc = 155;
@@ -325,7 +340,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 384;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 361;
 		vrLoc = 155;
@@ -334,8 +349,8 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 20";
-		rLen = 21;
-		rLoc = 384;
+		rLen = 0;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 261;
 		vrLoc = 0;
@@ -345,7 +360,7 @@
 		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
 		name = "LightTheCandleAppDelegate.h: 21";
 		rLen = 24;
-		rLoc = 438;
+		rLoc = 435;
 		rType = 0;
 		vrLen = 416;
 		vrLoc = 158;
@@ -354,7 +369,7 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		rLen = 1;
-		rLoc = 30;
+		rLoc = 32;
 		rType = 1;
 	};
 	3928483713059AEB0068ABF1 /* PBXTextBookmark */ = {
@@ -362,7 +377,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 606;
+		rLoc = 712;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 410;
@@ -372,7 +387,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 606;
+		rLoc = 712;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 410;
@@ -382,7 +397,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 606;
+		rLoc = 712;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 410;
@@ -391,8 +406,8 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 20";
-		rLen = 21;
-		rLoc = 384;
+		rLen = 0;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 204;
 		vrLoc = 240;
@@ -402,7 +417,7 @@
 		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
 		name = "LightTheCandleAppDelegate.h: 23";
 		rLen = 0;
-		rLoc = 489;
+		rLoc = 486;
 		rType = 0;
 		vrLen = 242;
 		vrLoc = 333;
@@ -412,7 +427,7 @@
 		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
 		name = "LightTheCandleAppDelegate.h: 21";
 		rLen = 24;
-		rLoc = 438;
+		rLoc = 435;
 		rType = 0;
 		vrLen = 416;
 		vrLoc = 158;
@@ -421,7 +436,7 @@
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		rLen = 1;
-		rLoc = 29;
+		rLoc = 31;
 		rType = 1;
 	};
 	3928484013059B380068ABF1 /* PBXTextBookmark */ = {
@@ -429,10 +444,160 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 31";
 		rLen = 0;
-		rLoc = 606;
+		rLoc = 712;
 		rType = 0;
 		vrLen = 480;
 		vrLoc = 408;
+	};
+	3928484113059DF20068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 34";
+		rLen = 0;
+		rLoc = 764;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 485;
+	};
+	3928484213059DF20068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
+		name = "LightTheCandleAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 326;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 35;
+	};
+	3928484313059DF20068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
+		name = "LightTheCandleAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 326;
+		rType = 0;
+		vrLen = 407;
+		vrLoc = 183;
+	};
+	3928484413059E6B0068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 159;
+	};
+	3928484513059E6B0068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
+		name = "LightTheCandleAppDelegate.h: 26";
+		rLen = 16;
+		rLoc = 536;
+		rType = 0;
+		vrLen = 407;
+		vrLoc = 183;
+	};
+	3928484613059E6B0068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
+		name = "LightTheCandleAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 280;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 159;
+	};
+	3928484913059EF80068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
+		name = "LightTheCandleAppDelegate.h: 13";
+		rLen = 0;
+		rLoc = 280;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 159;
+	};
+	3928484A13059EF80068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 411;
+		vrLoc = 159;
+	};
+	3928484B13059EFE0068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 411;
+		vrLoc = 159;
+	};
+	3928484C13059F000068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 411;
+		vrLoc = 159;
+	};
+	3928484D13059F310068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 459;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 159;
+	};
+	3928485213059F880068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 159;
+	};
+	3928485513059FC80068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 159;
+	};
+	3928485613059FFC0068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 280;
+	};
+	3928485B1305A1050068ABF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 198;
 	};
 	396086C612A8C7D50010120F /* LightTheCandle */ = {
 		isa = PBXExecutable;
@@ -652,7 +817,7 @@
 		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
 		name = "LightTheCandleAppDelegate.h: 22";
 		rLen = 41;
-		rLoc = 526;
+		rLoc = 523;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 35;
@@ -672,7 +837,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 19";
 		rLen = 0;
-		rLoc = 407;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 429;
 		vrLoc = 240;
@@ -682,7 +847,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 19";
 		rLen = 0;
-		rLoc = 407;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 429;
 		vrLoc = 240;
@@ -692,7 +857,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 19";
 		rLen = 0;
-		rLoc = 407;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 430;
 		vrLoc = 240;
@@ -702,7 +867,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 407;
+		rLoc = 540;
 		rType = 0;
 		vrLen = 452;
 		vrLoc = 241;
@@ -712,7 +877,7 @@
 		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
 		name = "LightTheCandleAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 408;
+		rLoc = 541;
 		rType = 0;
 		vrLen = 430;
 		vrLoc = 241;

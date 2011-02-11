@@ -16,8 +16,10 @@
 #pragma mark 이벤트 처리
 
 - (IBAction) nextWalkingFrame:(id)sender {
-	NSLog(@"%s", __FUNCTION__);
-	NSLog(@"%@", humanWalkingImageView);
+	static int imageCount = 0;
+	imageCount = (imageCount + 1) % 5;	
+	NSString* imageName = [NSString stringWithFormat:@"walking%02d.png",imageCount];
+	NSLog(@"%s nextImage=%@", __FUNCTION__, imageName);
 }
 
 #pragma mark -
@@ -28,7 +30,6 @@
 }
 
 -(void) setHumanWalkingImageView:(UIImageView*)imageView {
-	NSLog(@"%s", __FUNCTION__);
 	humanWalkingImageView = imageView;
 }
 
