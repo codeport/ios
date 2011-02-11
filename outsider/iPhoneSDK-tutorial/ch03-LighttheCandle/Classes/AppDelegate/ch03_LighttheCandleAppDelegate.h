@@ -12,13 +12,8 @@
 @interface ch03_LighttheCandleAppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
-	UIImageView *candleImageView;
-	UISwitch *onOffSwitch;
-	UILabel *candleStateLabel;
+	UIViewController *viewController;
 	
-	BOOL candleState;
-	UIImage *candleOffImage;
-	UIImage *candleOnImage;
     
 @private
     NSManagedObjectContext *managedObjectContext_;
@@ -27,9 +22,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UIImageView *candleImageView;
-@property (nonatomic, retain) IBOutlet UISwitch *onOffSwitch;
-@property (nonatomic, retain) IBOutlet UILabel *candleStateLabel;
+@property (nonatomic, retain) IBOutlet UIViewController *viewController;
 
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
@@ -37,7 +30,6 @@
 
 - (NSString *)applicationDocumentsDirectory;
 - (void)saveContext;
-- (IBAction)toggleCandle:(id)sender;
 
 @end
 

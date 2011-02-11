@@ -16,6 +16,8 @@
 		C68E8AD2130581C300FB5C92 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68E8AD1130581C300FB5C92 /* MainWindow.xib */; };
 		C68E8AD51305820500FB5C92 /* candle off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C68E8AD31305820500FB5C92 /* candle off.jpg */; };
 		C68E8AD61305820500FB5C92 /* candle on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C68E8AD41305820500FB5C92 /* candle on.jpg */; };
+		C68E8B1A1305952200FB5C92 /* CandleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68E8B191305952200FB5C92 /* CandleController.xib */; };
+		C68E8B1D1305953700FB5C92 /* CandleController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E8B1C1305953700FB5C92 /* CandleController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		C68E8AD1130581C300FB5C92 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		C68E8AD31305820500FB5C92 /* candle off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle off.jpg"; sourceTree = "<group>"; };
 		C68E8AD41305820500FB5C92 /* candle on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle on.jpg"; sourceTree = "<group>"; };
+		C68E8B191305952200FB5C92 /* CandleController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CandleController.xib; sourceTree = "<group>"; };
+		C68E8B1B1305953700FB5C92 /* CandleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandleController.h; sourceTree = "<group>"; };
+		C68E8B1C1305953700FB5C92 /* CandleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandleController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,8 @@
 		C68E8AC513057CD700FB5C92 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C68E8B1B1305953700FB5C92 /* CandleController.h */,
+				C68E8B1C1305953700FB5C92 /* CandleController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -150,6 +157,7 @@
 		C68E8AD0130581C300FB5C92 /* NIBs */ = {
 			isa = PBXGroup;
 			children = (
+				C68E8B191305952200FB5C92 /* CandleController.xib */,
 				C68E8AD1130581C300FB5C92 /* MainWindow.xib */,
 			);
 			path = NIBs;
@@ -207,6 +215,7 @@
 				C68E8AD2130581C300FB5C92 /* MainWindow.xib in Resources */,
 				C68E8AD51305820500FB5C92 /* candle off.jpg in Resources */,
 				C68E8AD61305820500FB5C92 /* candle on.jpg in Resources */,
+				C68E8B1A1305952200FB5C92 /* CandleController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +228,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				C68E8AC813057CD700FB5C92 /* ch03_LighttheCandleAppDelegate.m in Sources */,
+				C68E8B1D1305953700FB5C92 /* CandleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
