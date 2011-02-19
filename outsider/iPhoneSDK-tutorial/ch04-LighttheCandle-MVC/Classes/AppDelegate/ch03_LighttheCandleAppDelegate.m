@@ -21,16 +21,10 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
-    candleState = NO;
+	myCandle = [[Candle alloc] init];
 	
-	NSString *candleOnPath = [[NSBundle mainBundle] pathForResource:@"candle on" ofType:@"jpg"];
-	NSString *candleOffPath = [[NSBundle mainBundle] pathForResource:@"candle off" ofType:@"jpg"];
-	candleOffImage = [[UIImage alloc] initWithContentsOfFile:candleOffPath];
-	candleOnImage = [[UIImage alloc] initWithContentsOfFile:candleOnPath];
-	
-	[candleImageView setImage:candleOffImage];
-	onOffSwitch.on = candleState;
+	[candleImageView setImage:[myCandle candleOffImage]];
+	onOffSwitch.on = [myCandle candleState];
 	candleStateLabel.text = @"Candle is Off. please light on";
     
     [window makeKeyAndVisible];
@@ -207,8 +201,6 @@
     [persistentStoreCoordinator_ release];
     
     [window release];
-	[candleOffImage release];
-	[candleOnImage release];
     [super dealloc];
 }
 
@@ -216,13 +208,13 @@
 #pragma mark User methods
 - (IBAction)toggleCandle:(id)sender
 {
-	candleState = !candleState;
-	if (candleState) {
-		[candleImageView setImage:candleOnImage];
+	[myCandle setCandleState:![myCandle candleState]];
+	if ([myCandle candleState]) {
+		[candleImageView setImage:[myCandle candleOnImage]];
 		onOffSwitch.on = YES;
 		candleStateLabel.text = @"Candle is now on";
 	} else {
-		[candleImageView setImage:candleOffImage];
+		[candleImageView setImage:[myCandle candleOffImage]];
 		onOffSwitch.on = NO;
 		candleStateLabel.text = @"Candle is Off. please light on";
 	}

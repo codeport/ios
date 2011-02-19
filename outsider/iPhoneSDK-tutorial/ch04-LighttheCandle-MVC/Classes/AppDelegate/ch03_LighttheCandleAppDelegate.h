@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+@class Candle;
 
 @interface ch03_LighttheCandleAppDelegate : NSObject <UIApplicationDelegate> {
     
@@ -16,9 +17,7 @@
 	UISwitch *onOffSwitch;
 	UILabel *candleStateLabel;
 	
-	BOOL candleState;
-	UIImage *candleOffImage;
-	UIImage *candleOnImage;
+	Candle *myCandle;
     
 @private
     NSManagedObjectContext *managedObjectContext_;
