@@ -15,13 +15,8 @@
 	UIImage *candleOnImage;
 }
 
-- (BOOL)candleState;
-- (void)setCandleState:(BOOL)newState;
-
-- (UIImage *)candleOffImage;
-- (void)setCandleOffImage:(UIImage *)newImage;
-
-- (UIImage *)candleOnImage;
-- (void)setCandleOnImage:(UIImage *)newImage;
+@property (assign) BOOL candleState;
+@property (retain) UIImage *candleOffImage;
+@property (retain) UIImage *candleOnImage;
 
 @end

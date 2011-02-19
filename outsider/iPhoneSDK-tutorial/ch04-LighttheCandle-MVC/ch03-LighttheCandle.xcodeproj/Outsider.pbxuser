@@ -140,9 +140,9 @@
 	};
 	C68228DA13102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 3055}}";
+			sepNavIntBoundsRect = "{{0, 0}, {2371, 2899}}";
 			sepNavSelRange = "{623, 0}";
-			sepNavVisRange = "{168, 1125}";
+			sepNavVisRange = "{7233, 807}";
 			sepNavWindowFrame = "{{15, 33}, {750, 745}}";
 		};
 	};
@@ -164,8 +164,8 @@
 		isa = PBXTextBookmark;
 		fRef = C68228DD13102A6D00825EB5 /* Candle.h */;
 		name = "Candle.h: 21";
-		rLen = 150;
-		rLoc = 345;
+		rLen = 0;
+		rLoc = 407;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
