@@ -53,6 +53,14 @@
 			C68229011310334500825EB5 /* PBXTextBookmark */ = C68229011310334500825EB5 /* PBXTextBookmark */;
 			C68229021310334500825EB5 /* PBXTextBookmark */ = C68229021310334500825EB5 /* PBXTextBookmark */;
 			C68229031310334500825EB5 /* PBXTextBookmark */ = C68229031310334500825EB5 /* PBXTextBookmark */;
+			C68229191311119E00825EB5 /* PBXTextBookmark */ = C68229191311119E00825EB5 /* PBXTextBookmark */;
+			C682291A1311119E00825EB5 /* PBXTextBookmark */ = C682291A1311119E00825EB5 /* PBXTextBookmark */;
+			C682291B1311119E00825EB5 /* PBXTextBookmark */ = C682291B1311119E00825EB5 /* PBXTextBookmark */;
+			C682291C1311119E00825EB5 /* XCBuildMessageTextBookmark */ = C682291C1311119E00825EB5 /* XCBuildMessageTextBookmark */;
+			C682291D1311119E00825EB5 /* PBXTextBookmark */ = C682291D1311119E00825EB5 /* PBXTextBookmark */;
+			C6822920131111BF00825EB5 /* PBXTextBookmark */ = C6822920131111BF00825EB5 /* PBXTextBookmark */;
+			C6822921131111BF00825EB5 /* PBXTextBookmark */ = C6822921131111BF00825EB5 /* PBXTextBookmark */;
+			C6822922131111C900825EB5 /* PBXTextBookmark */ = C6822922131111C900825EB5 /* PBXTextBookmark */;
 		};
 		sourceControlManager = C68E8AB613057BC500FB5C92 /* Source Control */;
 		userBuildSettings = {
@@ -133,31 +141,31 @@
 	};
 	C68228D913102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 546}}";
-			sepNavSelRange = "{447, 0}";
-			sepNavVisRange = "{112, 1102}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 520}}";
+			sepNavSelRange = "{328, 0}";
+			sepNavVisRange = "{0, 1051}";
 		};
 	};
 	C68228DA13102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2371, 2899}}";
-			sepNavSelRange = "{623, 0}";
-			sepNavVisRange = "{7233, 807}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 3146}}";
+			sepNavSelRange = "{1009, 0}";
+			sepNavVisRange = "{0, 1162}";
 			sepNavWindowFrame = "{{15, 33}, {750, 745}}";
 		};
 	};
 	C68228DD13102A6D00825EB5 /* Candle.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1012, 419}}";
-			sepNavSelRange = "{345, 150}";
-			sepNavVisRange = "{0, 502}";
+			sepNavSelRange = "{282, 0}";
+			sepNavVisRange = "{0, 414}";
 		};
 	};
 	C68228DE13102A6D00825EB5 /* Candle.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 871}}";
-			sepNavSelRange = "{649, 0}";
-			sepNavVisRange = "{140, 716}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 845}}";
+			sepNavSelRange = "{269, 337}";
+			sepNavVisRange = "{0, 719}";
 		};
 	};
 	C68228FF1310334500825EB5 /* PBXTextBookmark */ = {
@@ -185,7 +193,7 @@
 		fRef = C68228D913102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.h */;
 		name = "ch03_LighttheCandleAppDelegate.h: 20";
 		rLen = 0;
-		rLoc = 447;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 1102;
 		vrLoc = 112;
@@ -195,7 +203,7 @@
 		fRef = C68228DA13102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.m */;
 		name = "ch03_LighttheCandleAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 623;
+		rLoc = 1270;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 168;
@@ -205,10 +213,89 @@
 		fRef = C68228DA13102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.m */;
 		name = "ch03_LighttheCandleAppDelegate.m: 26";
 		rLen = 0;
-		rLoc = 623;
+		rLoc = 1270;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 168;
+	};
+	C68229191311119E00825EB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C68228D913102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.h */;
+		name = "ch03_LighttheCandleAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 1119;
+		vrLoc = 112;
+	};
+	C682291A1311119E00825EB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C68228DE13102A6D00825EB5 /* Candle.m */;
+		name = "Candle.m: 19";
+		rLen = 337;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 0;
+	};
+	C682291B1311119E00825EB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C68228DD13102A6D00825EB5 /* Candle.h */;
+		name = "Candle.h: 16";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 0;
+	};
+	C682291C1311119E00825EB5 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'myCandle' undeclared (first use in this function)";
+		fRef = C68228DA13102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 36;
+		rType = 1;
+	};
+	C682291D1311119E00825EB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C68228DA13102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.m */;
+		name = "ch03_LighttheCandleAppDelegate.m: 37";
+		rLen = 0;
+		rLoc = 1301;
+		rType = 0;
+		vrLen = 1164;
+		vrLoc = 335;
+	};
+	C6822920131111BF00825EB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C68228DA13102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.m */;
+		name = "ch03_LighttheCandleAppDelegate.m: 31";
+		rLen = 0;
+		rLoc = 1009;
+		rType = 0;
+		vrLen = 1162;
+		vrLoc = 0;
+	};
+	C6822921131111BF00825EB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C68228D913102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.h */;
+		name = "ch03_LighttheCandleAppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 0;
+	};
+	C6822922131111C900825EB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C68228D913102A6D00825EB5 /* ch03_LighttheCandleAppDelegate.h */;
+		name = "ch03_LighttheCandleAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 328;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 0;
 	};
 	C68E8AA313057BBE00FB5C92 /* ch03-LighttheCandle */ = {
 		isa = PBXExecutable;

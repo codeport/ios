@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>C68E8AB013057BC500FB5C92</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ch03_LighttheCandleAppDelegate.m</string>
+								<string>ch03_LighttheCandleAppDelegate.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,17 +326,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>C68E8AB113057BC500FB5C92</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ch03_LighttheCandleAppDelegate.m</string>
+										<string>ch03_LighttheCandleAppDelegate.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C68229031310334500825EB5</string>
+										<string>C6822922131111C900825EB5</string>
 										<key>history</key>
 										<array>
-											<string>C68228FF1310334500825EB5</string>
-											<string>C68229001310334500825EB5</string>
-											<string>C68229011310334500825EB5</string>
-											<string>C68229021310334500825EB5</string>
+											<string>C682291A1311119E00825EB5</string>
+											<string>C682291B1311119E00825EB5</string>
+											<string>C6822920131111BF00825EB5</string>
+											<string>C68229191311119E00825EB5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
