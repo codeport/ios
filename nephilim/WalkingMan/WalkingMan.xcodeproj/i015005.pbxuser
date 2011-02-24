@@ -1,35 +1,36 @@
 // !$*UTF8*$!
 {
-	1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */ = {
+	1D3623240D0F684500981E51 /* WalkingManAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1103, 522}}";
-			sepNavSelRange = "{280, 0}";
-			sepNavVisRange = "{327, 244}";
+			sepNavIntBoundsRect = "{{0, 0}, {576, 468}}";
+			sepNavSelRange = "{122, 0}";
+			sepNavVisRange = "{0, 375}";
 		};
 	};
-	1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */ = {
+	1D3623250D0F684500981E51 /* WalkingManAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1908}}";
-			sepNavSelRange = "{2978, 0}";
-			sepNavVisRange = "{2715, 338}";
+			sepNavIntBoundsRect = "{{0, 0}, {1503, 1872}}";
+			sepNavSelRange = "{2968, 0}";
+			sepNavVisRange = "{2703, 367}";
 		};
 	};
-	1D6058900D05DD3D006BFB54 /* LightTheCandle */ = {
+	1D6058900D05DD3D006BFB54 /* WalkingMan */ = {
 		activeExec = 0;
 		executables = (
-			396086C612A8C7D50010120F /* LightTheCandle */,
+			396086C612A8C7D50010120F /* WalkingMan */,
 		);
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 396086C612A8C7D50010120F /* LightTheCandle */;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* LightTheCandle */;
+		activeExecutable = 396086C612A8C7D50010120F /* WalkingMan */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* WalkingMan */;
 		addToTargets = (
-			1D6058900D05DD3D006BFB54 /* LightTheCandle */,
+			1D6058900D05DD3D006BFB54 /* WalkingMan */,
 		);
 		codeSenseManager = 396086CF12A8C7F30010120F /* Code sense */;
 		executables = (
-			396086C612A8C7D50010120F /* LightTheCandle */,
+			396086C612A8C7D50010120F /* WalkingMan */,
 		);
 		perUserDictionary = {
 			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
@@ -56,27 +57,13 @@
 					PBXBreakpointsDataSource_ContinueID,
 				);
 			};
-			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
-				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
-				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
-				PBXFileTableDataSourceColumnWidthsKey = (
-					200,
-					200,
-					343,
-				);
-				PBXFileTableDataSourceColumnsKey = (
-					PBXBookmarksDataSource_LocationID,
-					PBXBookmarksDataSource_NameID,
-					PBXBookmarksDataSource_CommentsID,
-				);
-			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					22,
 					300,
-					383,
+					67,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXExecutablesDataSource_ActiveFlagID,
@@ -89,7 +76,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					533,
+					398,
 					20,
 					48,
 					43,
@@ -128,18 +115,20 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320251705;
-			PBXWorkspaceStateSaveDate = 320251705;
+			PBXPerProjectTemplateStateSaveDate = 320251636;
+			PBXWorkspaceStateSaveDate = 320251636;
 		};
 		perUserProjectItems = {
-			3980FFF91316A84200AD003D /* PBXTextBookmark */ = 3980FFF91316A84200AD003D /* PBXTextBookmark */;
-			3980FFFA1316A84200AD003D /* PBXTextBookmark */ = 3980FFFA1316A84200AD003D /* PBXTextBookmark */;
-			3980FFFB1316A84200AD003D /* PBXTextBookmark */ = 3980FFFB1316A84200AD003D /* PBXTextBookmark */;
-			39DC98C01304345700C0A227 /* PBXTextBookmark */ = 39DC98C01304345700C0A227 /* PBXTextBookmark */;
-			39DC98F513044D2C00C0A227 /* PBXTextBookmark */ = 39DC98F513044D2C00C0A227 /* PBXTextBookmark */;
-			39DC98F613044D2C00C0A227 /* PBXTextBookmark */ = 39DC98F613044D2C00C0A227 /* PBXTextBookmark */;
-			39DC98F713044D2C00C0A227 /* PlistBookmark */ = 39DC98F713044D2C00C0A227 /* PlistBookmark */;
-			39DC98F813044D2C00C0A227 /* PBXBookmark */ = 39DC98F813044D2C00C0A227 /* PBXBookmark */;
+			3960877F12A8D5E90010120F = 3960877F12A8D5E90010120F /* PBXTextBookmark */;
+			3960878912A8D7840010120F = 3960878912A8D7840010120F /* PBXTextBookmark */;
+			3960881B12A922260010120F = 3960881B12A922260010120F /* PBXBookmark */;
+			3960882012A926D70010120F = 3960882012A926D70010120F /* PlistBookmark */;
+			398000001316A8AD00AD003D /* PlistBookmark */ = 398000001316A8AD00AD003D /* PlistBookmark */;
+			398000011316A8AD00AD003D /* PBXTextBookmark */ = 398000011316A8AD00AD003D /* PBXTextBookmark */;
+			398000021316A8AD00AD003D /* PBXTextBookmark */ = 398000021316A8AD00AD003D /* PBXTextBookmark */;
+			398000031316A8AD00AD003D /* PBXTextBookmark */ = 398000031316A8AD00AD003D /* PBXTextBookmark */;
+			3980000C1316A8BD00AD003D /* PBXTextBookmark */ = 3980000C1316A8BD00AD003D /* PBXTextBookmark */;
+			3980FFD71316A6F700AD003D /* PlistBookmark */ = 3980FFD71316A6F700AD003D /* PlistBookmark */;
 		};
 		sourceControlManager = 396086CE12A8C7F30010120F /* Source Control */;
 		userBuildSettings = {
@@ -147,20 +136,20 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 393}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1144, 607}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 367}";
+			sepNavVisRange = "{0, 391}";
 			sepNavWindowFrame = "{{15, 43}, {1203, 735}}";
 		};
 	};
-	32CA4F630368D1EE00C91783 /* LightTheCandle_Prefix.pch */ = {
+	32CA4F630368D1EE00C91783 /* WalkingMan_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {712, 393}}";
+			sepNavIntBoundsRect = "{{0, 0}, {754, 136}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 197}";
+			sepNavVisRange = "{0, 0}";
 		};
 	};
-	396086C612A8C7D50010120F /* LightTheCandle */ = {
+	396086C612A8C7D50010120F /* WalkingMan */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -183,7 +172,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = LightTheCandle;
+		name = WalkingMan;
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -202,90 +191,104 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	3980FFF91316A84200AD003D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
-		name = "LightTheCandleAppDelegate.h: 22";
-		rLen = 78;
-		rLoc = 486;
-		rType = 0;
-		vrLen = 416;
-		vrLoc = 155;
-	};
-	3980FFFA1316A84200AD003D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
-		name = "LightTheCandleAppDelegate.m: 16";
-		rLen = 0;
-		rLoc = 292;
-		rType = 0;
-		vrLen = 482;
-		vrLoc = 96;
-	};
-	3980FFFB1316A84200AD003D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
-		name = "LightTheCandleAppDelegate.m: 95";
-		rLen = 0;
-		rLoc = 2978;
-		rType = 0;
-		vrLen = 338;
-		vrLoc = 2715;
-	};
-	39DC98C01304345700C0A227 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 39DC98C11304345700C0A227 /* NSComparisonPredicate.h */;
-		name = "NSComparisonPredicate.h: 6";
-		rLen = 0;
-		rLoc = 124;
-		rType = 0;
-		vrLen = 768;
-		vrLoc = 0;
-	};
-	39DC98C11304345700C0A227 /* NSComparisonPredicate.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = NSComparisonPredicate.h;
-		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSComparisonPredicate.h;
-		sourceTree = "<absolute>";
-	};
-	39DC98F513044D2C00C0A227 /* PBXTextBookmark */ = {
+	3960877F12A8D5E90010120F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
 		name = "main.m: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 367;
+		vrLen = 0;
 		vrLoc = 0;
 	};
-	39DC98F613044D2C00C0A227 /* PBXTextBookmark */ = {
+	3960878912A8D7840010120F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* LightTheCandle_Prefix.pch */;
-		name = "LightTheCandle_Prefix.pch: 1";
+		fRef = 32CA4F630368D1EE00C91783 /* WalkingMan_Prefix.pch */;
+		name = "WalkingMan_Prefix.pch: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 197;
+		vrLen = 0;
 		vrLoc = 0;
 	};
-	39DC98F713044D2C00C0A227 /* PlistBookmark */ = {
+	3960881B12A922260010120F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* WalkingMan-Info.plist */;
+	};
+	3960882012A926D70010120F /* PlistBookmark */ = {
 		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* LightTheCandle-Info.plist */;
+		fRef = 8D1107310486CEB800E47090 /* WalkingMan-Info.plist */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
-			CFBundleExecutable,
 		);
-		name = "/Users/i015005/development/ios/laodan-study/nephilim/LightTheCandle/LightTheCandle-Info.plist";
+		name = "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Window-based Application/Window-based iPhone Application/WalkingMan-Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
-	39DC98F813044D2C00C0A227 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 39DC98D01304390E00C0A227 /* walking00.png */;
+	398000001316A8AD00AD003D /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* WalkingMan-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/i015005/development/ios/laodan-homework/nephilim/WalkingMan/WalkingMan-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
-	8D1107310486CEB800E47090 /* LightTheCandle-Info.plist */ = {
+	398000011316A8AD00AD003D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WalkingManAppDelegate.m */;
+		name = "WalkingManAppDelegate.m: 97";
+		rLen = 0;
+		rLoc = 2968;
+		rType = 0;
+		vrLen = 367;
+		vrLoc = 2703;
+	};
+	398000021316A8AD00AD003D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WalkingManAppDelegate.h */;
+		name = "WalkingManAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 509;
+		rType = 0;
+		vrLen = 410;
+		vrLoc = 151;
+	};
+	398000031316A8AD00AD003D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WalkingManAppDelegate.h */;
+		name = "WalkingManAppDelegate.h: 6";
+		rLen = 0;
+		rLoc = 107;
+		rType = 0;
+		vrLen = 377;
+		vrLoc = 0;
+	};
+	3980000C1316A8BD00AD003D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WalkingManAppDelegate.h */;
+		name = "WalkingManAppDelegate.h: 6";
+		rLen = 0;
+		rLoc = 122;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 0;
+	};
+	3980FFD71316A6F700AD003D /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* WalkingMan-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/i015005/development/ios/laodan-homework/nephilim/WalkingMan/WalkingMan-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	8D1107310486CEB800E47090 /* WalkingMan-Info.plist */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{15, 43}, {1203, 735}}";
 		};
