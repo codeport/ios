@@ -2,16 +2,17 @@
 {
 	1D3623240D0F684500981E51 /* WalkingManAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {576, 468}}";
-			sepNavSelRange = "{122, 0}";
-			sepNavVisRange = "{0, 375}";
+			sepNavIntBoundsRect = "{{0, 0}, {721, 522}}";
+			sepNavSelRange = "{405, 0}";
+			sepNavVisRange = "{46, 513}";
 		};
 	};
 	1D3623250D0F684500981E51 /* WalkingManAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1503, 1872}}";
-			sepNavSelRange = "{2968, 0}";
-			sepNavVisRange = "{2703, 367}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1800}}";
+			sepNavSelRange = "{389, 133}";
+			sepNavVisRange = "{49, 995}";
+			sepNavWindowFrame = "{{2163, -346}, {1275, 824}}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* WalkingMan */ = {
@@ -76,7 +77,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					398,
+					543,
 					20,
 					48,
 					43,
@@ -115,20 +116,21 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320251636;
-			PBXWorkspaceStateSaveDate = 320251636;
+			PBXPerProjectTemplateStateSaveDate = 320768708;
+			PBXWorkspaceStateSaveDate = 320768708;
 		};
 		perUserProjectItems = {
 			3960877F12A8D5E90010120F = 3960877F12A8D5E90010120F /* PBXTextBookmark */;
 			3960878912A8D7840010120F = 3960878912A8D7840010120F /* PBXTextBookmark */;
-			3960881B12A922260010120F = 3960881B12A922260010120F /* PBXBookmark */;
-			3960882012A926D70010120F = 3960882012A926D70010120F /* PlistBookmark */;
-			398000001316A8AD00AD003D /* PlistBookmark */ = 398000001316A8AD00AD003D /* PlistBookmark */;
-			398000011316A8AD00AD003D /* PBXTextBookmark */ = 398000011316A8AD00AD003D /* PBXTextBookmark */;
-			398000021316A8AD00AD003D /* PBXTextBookmark */ = 398000021316A8AD00AD003D /* PBXTextBookmark */;
-			398000031316A8AD00AD003D /* PBXTextBookmark */ = 398000031316A8AD00AD003D /* PBXTextBookmark */;
-			3980000C1316A8BD00AD003D /* PBXTextBookmark */ = 3980000C1316A8BD00AD003D /* PBXTextBookmark */;
-			3980FFD71316A6F700AD003D /* PlistBookmark */ = 3980FFD71316A6F700AD003D /* PlistBookmark */;
+			398000001316A8AD00AD003D = 398000001316A8AD00AD003D /* PlistBookmark */;
+			3980001F131AA0BC00AD003D = 3980001F131AA0BC00AD003D /* PBXTextBookmark */;
+			39800020131AA0BC00AD003D = 39800020131AA0BC00AD003D /* PBXTextBookmark */;
+			39800021131AA0BC00AD003D = 39800021131AA0BC00AD003D /* PBXTextBookmark */;
+			39800022131AA0BC00AD003D = 39800022131AA0BC00AD003D /* PBXTextBookmark */;
+			39800023131AA0BC00AD003D = 39800023131AA0BC00AD003D /* PBXTextBookmark */;
+			39800026131AA0BC00AD003D = 39800026131AA0BC00AD003D /* PBXTextBookmark */;
+			39800027131AA0BC00AD003D = 39800027131AA0BC00AD003D /* PBXTextBookmark */;
+			39800028131AA0BC00AD003D = 39800028131AA0BC00AD003D /* PBXTextBookmark */;
 		};
 		sourceControlManager = 396086CE12A8C7F30010120F /* Source Control */;
 		userBuildSettings = {
@@ -173,6 +175,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = WalkingMan;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -211,21 +215,6 @@
 		vrLen = 0;
 		vrLoc = 0;
 	};
-	3960881B12A922260010120F /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8D1107310486CEB800E47090 /* WalkingMan-Info.plist */;
-	};
-	3960882012A926D70010120F /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* WalkingMan-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Window-based Application/Window-based iPhone Application/WalkingMan-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
 	398000001316A8AD00AD003D /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* WalkingMan-Info.plist */;
@@ -235,58 +224,98 @@
 		);
 		name = "/Users/i015005/development/ios/laodan-homework/nephilim/WalkingMan/WalkingMan-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
-	398000011316A8AD00AD003D /* PBXTextBookmark */ = {
+	3980001A131A97AA00AD003D /* WalkingMan.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 696}}";
+			sepNavSelRange = "{305, 0}";
+			sepNavVisRange = "{0, 312}";
+		};
+	};
+	3980001B131A97AA00AD003D /* WalkingMan.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {721, 522}}";
+			sepNavSelRange = "{214, 0}";
+			sepNavVisRange = "{35, 444}";
+		};
+	};
+	3980001F131AA0BC00AD003D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* WalkingManAppDelegate.m */;
-		name = "WalkingManAppDelegate.m: 97";
-		rLen = 0;
-		rLoc = 2968;
+		name = "WalkingManAppDelegate.m: 18";
+		rLen = 235;
+		rLoc = 325;
 		rType = 0;
-		vrLen = 367;
-		vrLoc = 2703;
+		vrLen = 581;
+		vrLoc = 88;
 	};
-	398000021316A8AD00AD003D /* PBXTextBookmark */ = {
+	39800020131AA0BC00AD003D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* WalkingManAppDelegate.h */;
-		name = "WalkingManAppDelegate.h: 24";
+		name = "WalkingManAppDelegate.h: 19";
 		rLen = 0;
-		rLoc = 509;
+		rLoc = 405;
 		rType = 0;
-		vrLen = 410;
-		vrLoc = 151;
+		vrLen = 513;
+		vrLoc = 46;
 	};
-	398000031316A8AD00AD003D /* PBXTextBookmark */ = {
+	39800021131AA0BC00AD003D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* WalkingManAppDelegate.h */;
-		name = "WalkingManAppDelegate.h: 6";
-		rLen = 0;
-		rLoc = 107;
+		fRef = 3980001A131A97AA00AD003D /* WalkingMan.h */;
+		name = "WalkingMan.h: 18";
+		rLen = 20;
+		rLoc = 285;
 		rType = 0;
-		vrLen = 377;
+		vrLen = 312;
 		vrLoc = 0;
 	};
-	3980000C1316A8BD00AD003D /* PBXTextBookmark */ = {
+	39800022131AA0BC00AD003D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* WalkingManAppDelegate.h */;
-		name = "WalkingManAppDelegate.h: 6";
+		fRef = 3980001B131A97AA00AD003D /* WalkingMan.m */;
+		name = "WalkingMan.m: 15";
 		rLen = 0;
-		rLoc = 122;
+		rLoc = 214;
 		rType = 0;
-		vrLen = 375;
+		vrLen = 444;
+		vrLoc = 35;
+	};
+	39800023131AA0BC00AD003D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3980001B131A97AA00AD003D /* WalkingMan.m */;
+		name = "WalkingMan.m: 15";
+		rLen = 0;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 35;
+	};
+	39800026131AA0BC00AD003D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3980001B131A97AA00AD003D /* WalkingMan.m */;
+		name = "WalkingMan.m: 20";
+		rLen = 0;
+		rLoc = 472;
+		rType = 0;
+		vrLen = 295;
 		vrLoc = 0;
 	};
-	3980FFD71316A6F700AD003D /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* WalkingMan-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/i015005/development/ios/laodan-homework/nephilim/WalkingMan/WalkingMan-Info.plist";
+	39800027131AA0BC00AD003D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3980001A131A97AA00AD003D /* WalkingMan.h */;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 312;
+		rType = 0;
+	};
+	39800028131AA0BC00AD003D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3980001A131A97AA00AD003D /* WalkingMan.h */;
+		name = "WalkingMan.h: 18";
+		rLen = 0;
+		rLoc = 305;
+		rType = 0;
+		vrLen = 312;
+		vrLoc = 0;
 	};
 	8D1107310486CEB800E47090 /* WalkingMan-Info.plist */ = {
 		uiCtxt = {

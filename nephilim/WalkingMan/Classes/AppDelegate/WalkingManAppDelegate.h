@@ -10,7 +10,7 @@
 
 @interface WalkingManAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	
+	NSMutableArray* imageArray;
 	IBOutlet UIImageView* humanWalkingImageView;
 }
 
@@ -22,7 +22,7 @@
 #pragma mark -
 #pragma mark 이벤트 처리 
 
-- (IBAction) nextWalkingFrame:(id)sender;
+-(IBAction) nextWalkingFrame:(id)sender;
 
 @end
 

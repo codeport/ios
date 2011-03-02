@@ -8,6 +8,11 @@
 
 #import "WalkingManAppDelegate.h"
 
+#pragma mark 전방 참조용 카테고리 선언
+@interface WalkingManAppDelegate(Private)
+-(void) initImageArray;
+@end
+
 @implementation WalkingManAppDelegate
 
 @synthesize window;
@@ -35,11 +40,21 @@
 }
 
 #pragma mark -
+-(void) initImageArray {
+	imageArray = [NSMutableArray arrayWithCapacity:5];
+	NSUInteger i, count = [imageArray count];
+	for (i = 0; i < count; i++) {
+		NSString* imageFileName =[NSString stringWithFormat:@"walking%02d.png", i];
+		[imageArray addObject:[UIImage imageNamed:imageFileName]];
+	}
+}
+
+#pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after application launch.
+	[self initImageArray];
     
     [window makeKeyAndVisible];
     
