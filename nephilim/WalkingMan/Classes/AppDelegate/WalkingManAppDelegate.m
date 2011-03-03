@@ -6,6 +6,7 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+#import "WalkingMan.h"
 #import "WalkingManAppDelegate.h"
 
 #pragma mark 전방 참조용 카테고리 선언
@@ -16,16 +17,19 @@
 @implementation WalkingManAppDelegate
 
 @synthesize window;
-#pragma mark -
-#pragma mark 이벤트 처리
 
-- (IBAction) nextWalkingFrame:(id)sender {
-	static int imageCount = 0;
-	imageCount = (imageCount + 1) % 5;	
-	NSString* imageName = [NSString stringWithFormat:@"walking%02d.png",imageCount];
-	
-	UIImage* image = [UIImage imageNamed:imageName];
-	humanWalkingImageView.image = image;
+#pragma mark -
+#pragma mark 걷는 이미지 설정
+- (IBAction) addWalkingState {
+	// 아래 구문은 NSNotification을 발생시킴(KVO)
+	[walkingMan addWalkingState];
+}
+
+- (void) setWalkingImage:(NSNotification*)noti {
+	// WalkingManStateChanged 통지가 발생하면 수행됨
+	NSUInteger stateNumber =[[noti object] intValue];
+	NSLog(@"%s state = %d", __FUNCTION__, stateNumber);
+	humanWalkingImageView.image = [imageArray objectAtIndex:stateNumber];
 }
 
 #pragma mark -
@@ -42,10 +46,13 @@
 #pragma mark -
 -(void) initImageArray {
 	imageArray = [NSMutableArray arrayWithCapacity:5];
-	NSUInteger i, count = [imageArray count];
-	for (i = 0; i < count; i++) {
-		NSString* imageFileName =[NSString stringWithFormat:@"walking%02d.png", i];
-		[imageArray addObject:[UIImage imageNamed:imageFileName]];
+	NSUInteger i;
+	for (i = 0; i < 5; i++) {
+		NSString* imageFileName =[NSString stringWithFormat:@"walking%02d.png", i];	
+		
+		UIImage* image = [UIImage imageNamed:imageFileName];
+		[image retain];
+		[imageArray addObject:image];
 	}
 }
 
@@ -53,9 +60,16 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
+
+    // 초기화
+	walkingMan = [[WalkingMan alloc] init];
 	[self initImageArray];
-    
+	[imageArray retain];
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self 
+											 selector:@selector(setWalkingImage:) 
+												 name:@"WalkingManStateChanged"
+											   object:nil];
     [window makeKeyAndVisible];
     
     return YES;
@@ -111,6 +125,7 @@
 
 
 - (void)dealloc {
+	[walkingMan release];
 	[humanWalkingImageView release];
 	
     [window release];

@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class WalkingMan;
+
 @interface WalkingManAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
 	NSMutableArray* imageArray;
+	WalkingMan* walkingMan;
+	
 	IBOutlet UIImageView* humanWalkingImageView;
 }
 
@@ -20,9 +24,9 @@
 -(void) setHumanWalkingImageView:(UIImageView*)imageView;
 
 #pragma mark -
-#pragma mark 이벤트 처리 
-
--(IBAction) nextWalkingFrame:(id)sender;
+#pragma mark 이벤트 처리
+- (IBAction) addWalkingState;
+- (void) setWalkingImage:(NSNotification*)noti;
 
 @end
 
