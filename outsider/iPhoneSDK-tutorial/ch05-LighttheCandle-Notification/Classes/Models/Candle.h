@@ -15,8 +15,4 @@
 	UIImage *candleOnImage;
 }
 
-@property (assign) BOOL candleState;
-@property (retain) UIImage *candleOffImage;
-@property (retain) UIImage *candleOnImage;
-
 @end

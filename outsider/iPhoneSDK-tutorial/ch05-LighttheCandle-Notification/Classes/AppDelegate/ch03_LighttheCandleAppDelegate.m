@@ -30,7 +30,7 @@
 	[myCandle setValue:candleOffImage forKey:@"candleOffImage"];
 	[myCandle setValue:candleOnImage forKey:@"candleOnImage"];
 	
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(uiUpdate:) name:@"CandleDidChanged" object:nil];
+	[myCandle addObserver:self forKeyPath:@"candleState" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
 	[myCandle setValue:[NSNumber numberWithBool:NO] forKey:@"candleState"];
     
     [window makeKeyAndVisible];
@@ -206,7 +206,11 @@
     [managedObjectModel_ release];
     [persistentStoreCoordinator_ release];
     
+	[myCandle removeObserver:self forKeyPath:@"candleState"];
     [window release];
+	[candleImageView release];
+	[onOffSwitch release];
+	[candleStateLabel release];
     [super dealloc];
 }
 
@@ -214,20 +218,25 @@
 #pragma mark User methods
 - (IBAction)toggleCandle:(id)sender
 {
-	myCandle.candleState = !myCandle.candleState;
+	if ([sender isKindOfClass:[UISwitch class]]) {
+		BOOL newState = [sender isOn];
+		[myCandle setValue:[NSNumber numberWithBool:newState] forKey:@"candleState"];
+	}
 }
 
-- (void)uiUpdate:(NSNotification *)noti {
-	Candle *notiCandle = [noti object];
-	
-	if (notiCandle.candleState) {
-		[candleImageView setImage:notiCandle.candleOnImage];
-		onOffSwitch.on = YES;
-		candleStateLabel.text = @"Candle is now on";
-	} else {
-		[candleImageView setImage:notiCandle.candleOffImage];
-		onOffSwitch.on = NO;
-		candleStateLabel.text = @"Candle is Off. please light on";
+- (void)observeValueForKeyPath:(NSString *)KeyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+	if ([KeyPath isEqualToString:@"candleState"]) {
+		BOOL newState = [[change valueForKey:NSKeyValueChangeNewKey] boolValue];
+		
+		if (newState) {
+			[candleImageView setImage:[object valueForKey:@"candleOnImage"]];
+			onOffSwitch.on = YES;
+			candleStateLabel.text = @"Candle is now on";
+		} else {
+			[candleImageView setImage:[object valueForKey:@"candleOffImage"]];
+			onOffSwitch.on = NO;
+			candleStateLabel.text = @"Candle is Off. please light on";
+		}
 	}
 }
 
