@@ -7,6 +7,7 @@
 //
 
 #import "LightTheCandleAppDelegate.h"
+#import "Candle.h"
 
 @implementation LightTheCandleAppDelegate
 
@@ -14,7 +15,7 @@
 @synthesize candleImageView;
 @synthesize onOffSwitch;
 @synthesize candleStateLabel;
-@synthesize timerz;
+@synthesize timerLabel;
 
 
 
@@ -25,24 +26,24 @@
     
     // Override point for customization after application launch.
 	
-	myCandleDict = [[NSMutableDictionary alloc] initWithCapacity:10];
+	myCandle = [[Candle alloc] init];
 	
-	BOOL candleState = NO;
 	NSString *candleOnPath = [[NSBundle mainBundle] pathForResource:@"candle on" ofType:@"jpg"];
 	NSString *candleOffPath = [[NSBundle mainBundle] pathForResource:@"candle off" ofType:@"jpg"];
 	UIImage *candleOffImage = [[[UIImage alloc] initWithContentsOfFile:candleOffPath] autorelease];
 	UIImage *candleOnImage = [[[UIImage alloc] initWithContentsOfFile:candleOnPath] autorelease];
 	
-	[myCandleDict setValue:[NSNumber numberWithBool:candleState] forKey:@"candleState"];
-	[myCandleDict setValue:candleOffImage forKey:@"candleOffImage"];
-	[myCandleDict setValue:candleOnImage forKey:@"candleOnImage"];
-								
+	[myCandle setValue:candleOffImage forKey:@"candleOffImage"];
+	[myCandle setValue:candleOnImage forKey:@"candleOnImage"];
 	
-	[candleImageView setImage:[myCandleDict valueForKey:@"candleOffImage"]];
-	onOffSwitch.on = [myCandleDict valueForKey:@"candleState"];
-	candleStateLabel.text = @"Candle is Off. please light on";
+	[myCandle addObserver:self forKeyPath:@"candleState"
+				  options:NSKeyValueChangeNewKey ||
+				  NSKeyValueChangeOldKey context:nil];
+
+	[myCandle setValue:[NSNumber numberWithBool:NO] forKey:@"candleState"];
 	
-	timerz.text = @"Timer : 0";
+	timerLabel.text = @"Timer : 0";
+	
 	[window makeKeyAndVisible];
     
     return YES;
@@ -98,65 +99,85 @@
 
 
 - (void)dealloc {
+	[myCandle removeObserver:self forKeyPath:@"candleState"];
     [window release];
 	[candleImageView release];
 	[onOffSwitch release];
 	[candleStateLabel release];
-	[timerz release];
+	[timerLabel release];
     [super dealloc];
 }
 
 - (IBAction)toggleCandle:(id)sender
 {
-	BOOL candleState = [[myCandleDict valueForKey:@"candleState"] boolValue];
-	[myCandleDict setValue:[NSNumber numberWithBool:!candleState] forKey:@"candleState"];
+	if ([sender isKindOfClass:[UISwitch class]]) {
+		BOOL newState = [sender isOn];
+		[myCandle setValue:[NSNumber numberWithBool:newState] forKey:@"candleState"];
+	}
 	
-	if (!candleState) {
-		//On
-		[candleImageView setImage:[myCandleDict valueForKey:@"candleOnImage"]];
-		onOffSwitch.on = YES;
-		candleStateLabel.text = @"Candle is now on";
-	} else {
-		//Off
-		[candleImageView setImage:[myCandleDict valueForKey:@"candleOffImage"]];
-		onOffSwitch.on = NO;
-		candleStateLabel.text = @"Candle is Off. please light on";
+}
+
+- (void) observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+	if ([keyPath isEqualToString:@"candleState"]) {
+		BOOL newState = [[change valueForKey:NSKeyValueChangeNewKey] boolValue];
+		if (newState) {
+			//On
+			[candleImageView setImage:[object valueForKey:@"candleOnImage"]];
+			onOffSwitch.on = YES;
+			candleStateLabel.text = @"Candle is now on";
+			
+			// 타이머 시작
+			candleTimer = [[NSTimer scheduledTimerWithTimeInterval:0.1 target:self 
+														selector:@selector(effect:)
+														userInfo:nil
+														 repeats:YES]retain];
+		} else {
+			//Off
+			[candleImageView setImage:[myCandle valueForKey:@"candleOffImage"]];
+			onOffSwitch.on = NO;
+			candleStateLabel.text = @"Candle is Off. please light on";
+			
+			// 타이머 정지
+			[candleTimer release]; 
+			
+			[candleTimer invalidate];
+			timerLabel.text = @"0";
+			timercount = 0;
+		}
 	}
 }
 
 - (void)effect:(NSTimer *)aTimer{
 	NSString *timerset = [[NSString alloc] initWithFormat:@"%d",timercount++];
-	timerz.text = timerset;
-	if (timercount == 100) {
-		BOOL candleState = [[myCandleDict valueForKey:@"candleState"] boolValue];
-		[myCandleDict setValue:[NSNumber numberWithBool:!candleState] forKey:@"candleState"];
-		[candleImageView setImage:[myCandleDict valueForKey:@"candleOffImage"]];
+	timerLabel.text = timerset;
+	// 타이머 10초 경과시 촛불 소등
+	if ([myCandle valueForKey:@"candleState"] && timercount == 100) {
+		[myCandle setValue:[NSNumber numberWithBool:NO] forKey:@"candleState"];
+		[candleImageView setImage:[myCandle valueForKey:@"candleOffImage"]]; 
 		onOffSwitch.on = NO;
 		candleStateLabel.text = @"Candle is Off. please light on";
-		
-		
-		[timergogo release]; 
-		
-		[timergogo invalidate];
-		timerz.text = @"0";
-		timercount = 0;
 	}
 }
 
 - (IBAction)timerstart:(id)sender{
-	BOOL candleState = [[myCandleDict valueForKey:@"candleState"] boolValue];
-	if (candleState) {
-		timergogo = [[NSTimer scheduledTimerWithTimeInterval:0.1 target:self 
+	//if ([myCandle valueForKey:@"candleState"]) {
+	/*
+	if (timerStarted == FALSE) {
+		candleTimer = [[NSTimer scheduledTimerWithTimeInterval:0.1 target:self 
 													selector:@selector(effect:)
 													userInfo:nil
 													 repeats:YES]retain];
+		timerStarted = TRUE;
 	} else {
-		[timergogo release]; 
+		[candleTimer release]; 
 		
-		[timergogo invalidate];
+		[candleTimer invalidate];
 		timerz.text = @"0";
 		timercount = 0;
+		timerStarted = FALSE;
 	}
+	 */
 }
 
 

@@ -16,12 +16,13 @@
 	UISwitch *onOffSwitch;
 	UILabel *candleStateLabel;
 	
-	NSMutableDictionary *myCandleDict;
+	Candle *myCandle;
 	
-	UILabel *timerz;
-	NSTimer *timergogo;
+	UILabel *timerLabel;
+	NSTimer *candleTimer;
 	
 	int timercount;
+	BOOL timerStarted;
 }
 
 - (IBAction)toggleCandle:(id)sender;
@@ -29,12 +30,14 @@
 - (void)effect:(NSTimer *)aTimer;
 - (IBAction)timerstart:(id)sender;
 
+- (void)stopTimer;
+
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UIImageView *candleImageView;
 @property (nonatomic, retain) IBOutlet UISwitch *onOffSwitch;
 @property (nonatomic, retain) IBOutlet UILabel *candleStateLabel;
 
-@property (nonatomic, retain) IBOutlet UILabel *timerz;
+@property (nonatomic, retain) IBOutlet UILabel *timerLabel;
 
 @end
 
