@@ -17,8 +17,6 @@
 @synthesize candleStateLabel;
 @synthesize timerLabel;
 
-
-
 #pragma mark -
 #pragma mark Application lifecycle
 

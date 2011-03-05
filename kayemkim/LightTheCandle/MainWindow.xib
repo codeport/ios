@@ -169,23 +169,6 @@
 					</object>
 					<int key="connectionID">17</int>
 				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">timerz</string>
-						<reference key="source" ref="664661524"/>
-						<reference key="destination" ref="216000796"/>
-					</object>
-					<int key="connectionID">24</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">timerstart:</string>
-						<reference key="source" ref="199437678"/>
-						<reference key="destination" ref="664661524"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">28</int>
-				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -328,12 +311,10 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>timerstart:</string>
-							<string>timerstop:</string>
 							<string>toggleCandle:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -343,17 +324,12 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>timerstart:</string>
-							<string>timerstop:</string>
 							<string>toggleCandle:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBActionInfo">
 								<string key="name">timerstart:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">timerstop:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
@@ -369,7 +345,7 @@
 							<string>candleImageView</string>
 							<string>candleStateLabel</string>
 							<string>onOffSwitch</string>
-							<string>timerz</string>
+							<string>timerLabel</string>
 							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -388,7 +364,7 @@
 							<string>candleImageView</string>
 							<string>candleStateLabel</string>
 							<string>onOffSwitch</string>
-							<string>timerz</string>
+							<string>timerLabel</string>
 							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
@@ -406,7 +382,7 @@
 								<string key="candidateClassName">UISwitch</string>
 							</object>
 							<object class="IBToOneOutletInfo">
-								<string key="name">timerz</string>
+								<string key="name">timerLabel</string>
 								<string key="candidateClassName">UILabel</string>
 							</object>
 							<object class="IBToOneOutletInfo">

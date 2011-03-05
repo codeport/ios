@@ -29,7 +29,6 @@
 
 - (void)effect:(NSTimer *)aTimer;
 - (IBAction)timerstart:(id)sender;
-
 - (void)stopTimer;
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
