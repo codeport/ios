@@ -1,0 +1,140 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {542, 612}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 146}";
+			sepNavWindowFrame = "{{15, 0}, {1134, 778}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {542, 2742}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 146}";
+			sepNavWindowFrame = "{{15, 0}, {1134, 778}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* LightTheCandle */ = {
+		activeExec = 0;
+		executables = (
+			3938E7D413067250003A3650 /* LightTheCandle */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3938E7D413067250003A3650 /* LightTheCandle */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* LightTheCandle */;
+		codeSenseManager = 3938E7E913067255003A3650 /* Code sense */;
+		executables = (
+			3938E7D413067250003A3650 /* LightTheCandle */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319264911;
+			PBXWorkspaceStateSaveDate = 319264911;
+		};
+		perUserProjectItems = {
+			39F23FF4130818AF0040153E /* PBXTextBookmark */ = 39F23FF4130818AF0040153E /* PBXTextBookmark */;
+			39F23FF5130818AF0040153E /* PBXTextBookmark */ = 39F23FF5130818AF0040153E /* PBXTextBookmark */;
+			39F23FF6130818AF0040153E /* PBXTextBookmark */ = 39F23FF6130818AF0040153E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3938E7E813067255003A3650 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3938E7D413067250003A3650 /* LightTheCandle */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LightTheCandle;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	3938E7E813067255003A3650 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3938E7E913067255003A3650 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	39F23FF4130818AF0040153E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+	39F23FF5130818AF0040153E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
+		name = "LightTheCandleAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+	39F23FF6130818AF0040153E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
+		name = "LightTheCandleAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 146;
+		vrLoc = 0;
+	};
+}
