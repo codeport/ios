@@ -29,12 +29,12 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ModalViewQuestion_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewQuestion_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ModalViewQuestion-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ModalViewQuestion-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		F96DB8BB12B1EE2F00C78DDA /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelViewController.h; path = "/Developer_workspace/xcode/ViewControllerTest Part2/ModalViewQuestion/Classes/ModelViewController.h"; sourceTree = "<absolute>"; };
-		F96DB8BC12B1EE2F00C78DDA /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelViewController.m; path = "/Developer_workspace/xcode/ViewControllerTest Part2/ModalViewQuestion/Classes/ModelViewController.m"; sourceTree = "<absolute>"; };
+		F96DB8BB12B1EE2F00C78DDA /* ModelViewShutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewShutter.h; sourceTree = "<group>"; };
+		F96DB8BC12B1EE2F00C78DDA /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
 		F96DB8BD12B1EE2F00C78DDA /* ModelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ModelViewController.xib; path = Classes/ModelViewController.xib; sourceTree = "<group>"; };
-		F96DB8CF12B1F19900C78DDA /* ModelViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelViewDelegate.h; path = "/Developer_workspace/xcode/ViewControllerTest Part2/ModalViewQuestion/Classes/ModelViewDelegate.h"; sourceTree = "<absolute>"; };
-		F96DB94E12B1F86800C78DDA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = "/Developer_workspace/xcode/ViewControllerTest Part2/ModalViewQuestion/Classes/RootViewController.h"; sourceTree = "<absolute>"; };
-		F96DB94F12B1F86800C78DDA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = "/Developer_workspace/xcode/ViewControllerTest Part2/ModalViewQuestion/Classes/RootViewController.m"; sourceTree = "<absolute>"; };
+		F96DB8CF12B1F19900C78DDA /* ModelViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewDelegate.h; sourceTree = "<group>"; };
+		F96DB94E12B1F86800C78DDA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F96DB94F12B1F86800C78DDA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 				1D3623250D0F684500981E51 /* ModalViewQuestionAppDelegate.m */,
 				F96DB94E12B1F86800C78DDA /* RootViewController.h */,
 				F96DB94F12B1F86800C78DDA /* RootViewController.m */,
-				F96DB8BB12B1EE2F00C78DDA /* ModelViewController.h */,
+				F96DB8BB12B1EE2F00C78DDA /* ModelViewShutter.h */,
 				F96DB8BC12B1EE2F00C78DDA /* ModelViewController.m */,
 				F96DB8CF12B1F19900C78DDA /* ModelViewDelegate.h */,
 			);
