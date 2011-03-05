@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "Candle.h"
 @class Candle;
 
 @interface LightTheCandleAppDelegate : NSObject <UIApplicationDelegate> {

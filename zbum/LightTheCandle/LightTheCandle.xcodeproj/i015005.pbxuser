@@ -2,18 +2,18 @@
 {
 	1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {542, 612}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 146}";
+			sepNavIntBoundsRect = "{{0, 0}, {803.095, 714}}";
+			sepNavSelRange = "{97, 0}";
+			sepNavVisRange = "{57, 211}";
 			sepNavWindowFrame = "{{15, 0}, {1134, 778}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {542, 2742}}";
+			sepNavIntBoundsRect = "{{0, 0}, {629, 2876}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 146}";
-			sepNavWindowFrame = "{{15, 0}, {1134, 778}}";
+			sepNavVisRange = "{0, 149}";
+			sepNavWindowFrame = "{{605, 141}, {1134, 778}}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* LightTheCandle */ = {
@@ -36,7 +36,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					364,
+					451,
 					20,
 					48,
 					43,
@@ -53,17 +53,47 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 319264911;
-			PBXWorkspaceStateSaveDate = 319264911;
+			PBXPerProjectTemplateStateSaveDate = 321005609;
+			PBXWorkspaceStateSaveDate = 321005609;
 		};
 		perUserProjectItems = {
-			39F23FF4130818AF0040153E /* PBXTextBookmark */ = 39F23FF4130818AF0040153E /* PBXTextBookmark */;
-			39F23FF5130818AF0040153E /* PBXTextBookmark */ = 39F23FF5130818AF0040153E /* PBXTextBookmark */;
-			39F23FF6130818AF0040153E /* PBXTextBookmark */ = 39F23FF6130818AF0040153E /* PBXTextBookmark */;
+			3917576D13225F2900FEF13D /* PBXTextBookmark */ = 3917576D13225F2900FEF13D /* PBXTextBookmark */;
+			3917576E13225F2900FEF13D /* PBXTextBookmark */ = 3917576E13225F2900FEF13D /* PBXTextBookmark */;
+			3917576F13225F2900FEF13D /* PBXTextBookmark */ = 3917576F13225F2900FEF13D /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3938E7E813067255003A3650 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	3917576D13225F2900FEF13D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
+		name = "LightTheCandleAppDelegate.h: 5";
+		rLen = 0;
+		rLoc = 97;
+		rType = 0;
+		vrLen = 211;
+		vrLoc = 57;
+	};
+	3917576E13225F2900FEF13D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 150;
+		vrLoc = 0;
+	};
+	3917576F13225F2900FEF13D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 149;
+		vrLoc = 0;
 	};
 	3938E7D413067250003A3650 /* LightTheCandle */ = {
 		isa = PBXExecutable;
@@ -106,35 +136,5 @@
 	3938E7E913067255003A3650 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	39F23FF4130818AF0040153E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
-		name = "LightTheCandleAppDelegate.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 146;
-		vrLoc = 0;
-	};
-	39F23FF5130818AF0040153E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
-		name = "LightTheCandleAppDelegate.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 146;
-		vrLoc = 0;
-	};
-	39F23FF6130818AF0040153E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
-		name = "LightTheCandleAppDelegate.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 146;
-		vrLoc = 0;
 	};
 }

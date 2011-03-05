@@ -5,6 +5,7 @@
 //  Created by 경민 김 on 11. 1. 13..
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
+#define YES   CANDLE_ON;
 
 #import "LightTheCandleAppDelegate.h"
 #import "Candle.h"
@@ -34,11 +35,13 @@
 	[myCandle setValue:candleOffImage forKey:@"candleOffImage"];
 	[myCandle setValue:candleOnImage forKey:@"candleOnImage"];
 	
-	[myCandle addObserver:self forKeyPath:@"candleState"
-				  options:NSKeyValueChangeNewKey ||
-				  NSKeyValueChangeOldKey context:nil];
+	[myCandle addObserver:self 
+			   forKeyPath:@"candleState"
+				  options:NSKeyValueChangeNewKey || NSKeyValueChangeOldKey 
+				  context:nil];
 
-	[myCandle setValue:[NSNumber numberWithBool:NO] forKey:@"candleState"];
+	[myCandle setValue:[NSNumber numberWithBool:NO] 
+				forKey:@"candleState"];
 	
 	timerLabel.text = @"Timer : 0";
 	
@@ -106,6 +109,9 @@
     [super dealloc];
 }
 
+#pragma mark -
+#pragma mark 이벤트 핸들링
+
 - (IBAction)toggleCandle:(id)sender
 {
 	if ([sender isKindOfClass:[UISwitch class]]) {
@@ -122,7 +128,7 @@
 		if (newState) {
 			//On
 			[candleImageView setImage:[object valueForKey:@"candleOnImage"]];
-			onOffSwitch.on = YES;
+			onOffSwitch.on = CANDLE_ON;
 			candleStateLabel.text = @"Candle is now on";
 			
 			// 타이머 시작
@@ -147,7 +153,8 @@
 }
 
 - (void)effect:(NSTimer *)aTimer{
-	NSString *timerset = [[NSString alloc] initWithFormat:@"%d",timercount++];
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	NSString *timerset = [[[NSString alloc] initWithFormat:@"%d",timercount++] autorelease];
 	timerLabel.text = timerset;
 	// 타이머 10초 경과시 촛불 소등
 	if ([myCandle valueForKey:@"candleState"] && timercount == 100) {
@@ -156,6 +163,9 @@
 		onOffSwitch.on = NO;
 		candleStateLabel.text = @"Candle is Off. please light on";
 	}
+	
+	[pool release];
+	
 }
 
 - (IBAction)timerstart:(id)sender{
