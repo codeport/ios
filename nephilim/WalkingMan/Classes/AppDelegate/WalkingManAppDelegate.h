@@ -12,10 +12,10 @@
 
 @interface WalkingManAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	NSMutableArray* imageArray;
-	WalkingMan* walkingMan;
+	NSArray* imageArray;			// 5개의 걷기 이미지(UIImage)를 보관할 배열
+	WalkingMan* walkingMan;			// "걷는 사람" 모델
 	
-	IBOutlet UIImageView* humanWalkingImageView;
+	IBOutlet UIImageView* humanWalkingImageView;		// 화면에 표시할 ImageView
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

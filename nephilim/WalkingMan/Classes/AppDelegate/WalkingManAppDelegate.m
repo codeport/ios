@@ -48,12 +48,11 @@
 	imageArray = [NSMutableArray arrayWithCapacity:5];
 	NSUInteger i;
 	for (i = 0; i < 5; i++) {
-		NSString* imageFileName =[NSString stringWithFormat:@"walking%02d.png", i];	
-		
+		NSString* imageFileName =[NSString stringWithFormat:@"walking%02d.png", i];			
 		UIImage* image = [UIImage imageNamed:imageFileName];
-		[image retain];
 		[imageArray addObject:image];
 	}
+	[imageArray retain];	// 왜 retain을 해줘야 할까?
 }
 
 #pragma mark -
@@ -64,12 +63,11 @@
     // 초기화
 	walkingMan = [[WalkingMan alloc] init];
 	[self initImageArray];
-	[imageArray retain];
-	
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(setWalkingImage:) 
 												 name:@"WalkingManStateChanged"
 											   object:nil];
+	// 화면 표시
     [window makeKeyAndVisible];
     
     return YES;
@@ -125,6 +123,7 @@
 
 
 - (void)dealloc {
+	[imageArray release];
 	[walkingMan release];
 	[humanWalkingImageView release];
 	

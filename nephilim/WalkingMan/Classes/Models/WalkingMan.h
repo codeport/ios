@@ -10,7 +10,9 @@
 
 
 @interface WalkingMan : NSObject {
-	int state_;		// state 0~4
+	int state_;				// state 0~4
+	
+	NSObject* leakedObject;	// 메모리 누수 체크
 }
 
 -(int)walkingState;

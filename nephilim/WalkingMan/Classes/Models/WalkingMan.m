@@ -16,6 +16,7 @@
 	return state_;
 }
 -(void)addWalkingState {
+	leakedObject = [[NSObject alloc] init];
 	state_ = (state_ + 1) % 5;	
 	[[NSNotificationCenter defaultCenter] postNotificationName:@"WalkingManStateChanged" 
 														object:[NSNumber numberWithInt:state_]];
