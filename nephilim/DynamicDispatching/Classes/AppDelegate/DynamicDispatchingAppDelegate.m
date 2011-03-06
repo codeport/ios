@@ -5,27 +5,66 @@
 //  Created by nephilim on 11. 3. 6..
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
+#import <objc/runtime.h> 
+#import <objc/message.h>
 
 #import "DynamicDispatchingAppDelegate.h"
 
 @interface DynamicDispatchingAppDelegate(Private)
 
--(void) initUIElements;
-
+- (void) initUIElements;
+- (void) increaseProgressBar2;
+- (void) increaseProgressBar:(UIProgressView*)progressBar by:(float)rate;
 @end
 
 
 @implementation DynamicDispatchingAppDelegate
 
 @synthesize window;
-@synthesize bbtnNumber;
+@synthesize progress1, progress2;
 
 #pragma mark -
 #pragma mark 초기화
 
--(void) initUIElements {
-	NSString* number = [NSString stringWithFormat:@"%02d", TOTAL_COUNT];
-	[self.bbtnNumber setTitle:number];
+- (void) initUIElements {
+	progress1.progress = 0.0;
+	progress2.progress = 0.0;
+}
+
+
+#pragma mark -
+#pragma mark 프로그레스 뷰 증가 메서드
+
+- (void) increaseProgressBar2 {
+	[self increaseProgressBar:progress2 by:0.1];
+}
+
+-(void) increaseProgressBar:(UIProgressView*)progressBar 
+						 by:(float)rate {
+	float progress = progressBar.progress + rate;
+	if (progress > 1.0 ) { progress =1.0; }
+	progressBar.progress = progress;
+}
+
+#pragma mark -
+#pragma mark 이벤트 핸들링
+
+- (IBAction) increaseProgressBar1 {
+	[self increaseProgressBar:progress1 by:0.1];
+}
+
+- (IBAction) changeDispatcher {
+	Class selfClass = [DynamicDispatchingAppDelegate class];
+	Method original = class_getInstanceMethod(selfClass,@selector(increaseProgressBar1));
+	Method destination = class_getInstanceMethod(selfClass,@selector(increaseProgressBar2));
+	IMP increaseProgressBar2 = method_getImplementation(destination);
+	
+	// 기존 increaseProgressBar1 셀럭터의 메서드 바인딩을 
+	// increaseProgressBar1 메서드에서 -> increaseProgressBar2 메서드 구현으로 변경
+	method_setImplementation(original, increaseProgressBar2);
+	
+	// 이후 [DynamicDispatchingAppDelegate increaseProgressBar1] 메세지는 
+	// increaseProgressBar2 메서드 구현을 호출함(Progress2 증가)
 }
 
 #pragma mark -
@@ -90,7 +129,6 @@
 
 
 - (void)dealloc {
-	[bbtnNumber release];
     [window release];
     [super dealloc];
 }

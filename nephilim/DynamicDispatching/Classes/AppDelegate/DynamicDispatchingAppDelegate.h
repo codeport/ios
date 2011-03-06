@@ -12,14 +12,18 @@
 @interface DynamicDispatchingAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
 	
-	UIBarButtonItem* bbtnNumber;
+	UIProgressView* progress1;
+	UIProgressView* progress2;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UIBarButtonItem* bbtnNumber;
+@property (nonatomic, retain) IBOutlet UIProgressView* progress1;
+@property (nonatomic, retain) IBOutlet UIProgressView* progress2;
 
 #pragma mark -
 #pragma mark 이벤트 핸들링
 
+- (IBAction) increaseProgressBar1;
+- (IBAction) changeDispatcher;
 @end
 
