@@ -13,8 +13,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		F96DB8BE12B1EE2F00C78DDA /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DB8BC12B1EE2F00C78DDA /* ModelViewController.m */; };
-		F96DB8BF12B1EE2F00C78DDA /* ModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96DB8BD12B1EE2F00C78DDA /* ModelViewController.xib */; };
+		F96DB8BE12B1EE2F00C78DDA /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DB8BC12B1EE2F00C78DDA /* ModalViewController.m */; };
+		F96DB8BF12B1EE2F00C78DDA /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96DB8BD12B1EE2F00C78DDA /* ModalViewController.xib */; };
 		F96DB95012B1F86800C78DDA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96DB94F12B1F86800C78DDA /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -29,12 +29,12 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ModalViewQuestion_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewQuestion_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ModalViewQuestion-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ModalViewQuestion-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		F96DB8BB12B1EE2F00C78DDA /* ModelViewShutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewShutter.h; sourceTree = "<group>"; };
-		F96DB8BC12B1EE2F00C78DDA /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
-		F96DB8BD12B1EE2F00C78DDA /* ModelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ModelViewController.xib; path = Classes/ModelViewController.xib; sourceTree = "<group>"; };
-		F96DB8CF12B1F19900C78DDA /* ModelViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewDelegate.h; sourceTree = "<group>"; };
+		F96DB8BC12B1EE2F00C78DDA /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		F96DB8BD12B1EE2F00C78DDA /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ModalViewController.xib; path = Classes/ModalViewController.xib; sourceTree = "<group>"; };
+		F96DB8CF12B1F19900C78DDA /* ModalViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewDelegate.h; sourceTree = "<group>"; };
 		F96DB94E12B1F86800C78DDA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F96DB94F12B1F86800C78DDA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F9BBE5D21322238500C41E84 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 				1D3623250D0F684500981E51 /* ModalViewQuestionAppDelegate.m */,
 				F96DB94E12B1F86800C78DDA /* RootViewController.h */,
 				F96DB94F12B1F86800C78DDA /* RootViewController.m */,
-				F96DB8BB12B1EE2F00C78DDA /* ModelViewShutter.h */,
-				F96DB8BC12B1EE2F00C78DDA /* ModelViewController.m */,
-				F96DB8CF12B1F19900C78DDA /* ModelViewDelegate.h */,
+				F9BBE5D21322238500C41E84 /* ModalViewController.h */,
+				F96DB8BC12B1EE2F00C78DDA /* ModalViewController.m */,
+				F96DB8CF12B1F19900C78DDA /* ModalViewDelegate.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				F96DB8BD12B1EE2F00C78DDA /* ModelViewController.xib */,
+				F96DB8BD12B1EE2F00C78DDA /* ModalViewController.xib */,
 				8D1107310486CEB800E47090 /* ModalViewQuestion-Info.plist */,
 			);
 			name = Resources;
@@ -164,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				F96DB8BF12B1EE2F00C78DDA /* ModelViewController.xib in Resources */,
+				F96DB8BF12B1EE2F00C78DDA /* ModalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +177,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ModalViewQuestionAppDelegate.m in Sources */,
-				F96DB8BE12B1EE2F00C78DDA /* ModelViewController.m in Sources */,
+				F96DB8BE12B1EE2F00C78DDA /* ModalViewController.m in Sources */,
 				F96DB95012B1F86800C78DDA /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
