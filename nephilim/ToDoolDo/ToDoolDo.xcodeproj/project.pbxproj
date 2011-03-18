@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ToDoolDoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ToDoolDoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		39B415A81333AE1400264E95 /* TodoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B415A61333AE1400264E95 /* TodoTableView.m */; };
+		39B415AD1333B1C500264E95 /* TodoTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B415AC1333B1C500264E95 /* TodoTableView.xib */; };
+		39B48EAB1333C02F00CF1FA3 /* TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B48EAA1333C02F00CF1FA3 /* TodoItem.m */; };
+		39B48EBC1333C30200CF1FA3 /* daclouds.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EB21333C30200CF1FA3 /* daclouds.png */; };
+		39B48EBD1333C30200CF1FA3 /* zeide.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EB31333C30200CF1FA3 /* zeide.png */; };
+		39B48EBE1333C30200CF1FA3 /* anarcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EB41333C30200CF1FA3 /* anarcher.png */; };
+		39B48EBF1333C30200CF1FA3 /* givenjazz.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EB51333C30200CF1FA3 /* givenjazz.png */; };
+		39B48EC01333C30200CF1FA3 /* outsider.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EB61333C30200CF1FA3 /* outsider.png */; };
+		39B48EC11333C30200CF1FA3 /* otatoh.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EB71333C30200CF1FA3 /* otatoh.png */; };
+		39B48EC21333C30200CF1FA3 /* arawn.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EB81333C30200CF1FA3 /* arawn.png */; };
+		39B48EC31333C30200CF1FA3 /* pooom.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EB91333C30200CF1FA3 /* pooom.png */; };
+		39B48EC41333C30200CF1FA3 /* fupfin.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EBA1333C30200CF1FA3 /* fupfin.png */; };
+		39B48EC51333C30200CF1FA3 /* sonegy.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EBB1333C30200CF1FA3 /* sonegy.png */; };
+		39B48ECB1333C3BF00CF1FA3 /* javajigi.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48ECA1333C3BF00CF1FA3 /* javajigi.png */; };
+		39B48ECD1333C3C300CF1FA3 /* kayem.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48ECC1333C3C300CF1FA3 /* kayem.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ToDoolDoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoolDoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ToDoolDoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoolDoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ToDoolDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoolDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ToDoolDo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoolDo_Prefix.pch; sourceTree = "<group>"; };
+		39B415A51333AE1400264E95 /* TodoTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoTableView.h; sourceTree = "<group>"; };
+		39B415A61333AE1400264E95 /* TodoTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoTableView.m; sourceTree = "<group>"; };
+		39B415AC1333B1C500264E95 /* TodoTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoTableView.xib; sourceTree = "<group>"; };
+		39B48EA91333C02F00CF1FA3 /* TodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoItem.h; sourceTree = "<group>"; };
+		39B48EAA1333C02F00CF1FA3 /* TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItem.m; sourceTree = "<group>"; };
+		39B48EB21333C30200CF1FA3 /* daclouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daclouds.png; sourceTree = "<group>"; };
+		39B48EB31333C30200CF1FA3 /* zeide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zeide.png; sourceTree = "<group>"; };
+		39B48EB41333C30200CF1FA3 /* anarcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anarcher.png; sourceTree = "<group>"; };
+		39B48EB51333C30200CF1FA3 /* givenjazz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = givenjazz.png; sourceTree = "<group>"; };
+		39B48EB61333C30200CF1FA3 /* outsider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outsider.png; sourceTree = "<group>"; };
+		39B48EB71333C30200CF1FA3 /* otatoh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otatoh.png; sourceTree = "<group>"; };
+		39B48EB81333C30200CF1FA3 /* arawn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arawn.png; sourceTree = "<group>"; };
+		39B48EB91333C30200CF1FA3 /* pooom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pooom.png; sourceTree = "<group>"; };
+		39B48EBA1333C30200CF1FA3 /* fupfin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fupfin.png; sourceTree = "<group>"; };
+		39B48EBB1333C30200CF1FA3 /* sonegy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonegy.png; sourceTree = "<group>"; };
+		39B48ECA1333C3BF00CF1FA3 /* javajigi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = javajigi.png; sourceTree = "<group>"; };
+		39B48ECC1333C3C300CF1FA3 /* kayem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kayem.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ToDoolDo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ToDoolDo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3960878412A8D6B30010120F /* Controllers */,
+				3960878312A8D6AD0010120F /* Models */,
+				3960878212A8D6A60010120F /* Helpers */,
+				3960877812A8D3090010120F /* AppDelegate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ToDoolDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* ToDoolDo-Info.plist */,
+				32CA4F630368D1EE00C91783 /* ToDoolDo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3960877412A8D0470010120F /* NIBs */,
+				3960877512A8D0530010120F /* images */,
+				3960877712A8D0700010120F /* sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3960877412A8D0470010120F /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				39B415AC1333B1C500264E95 /* TodoTableView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+			);
+			path = NIBs;
+			sourceTree = "<group>";
+		};
+		3960877512A8D0530010120F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				39B48ECA1333C3BF00CF1FA3 /* javajigi.png */,
+				39B48ECC1333C3C300CF1FA3 /* kayem.png */,
+				39B48EB21333C30200CF1FA3 /* daclouds.png */,
+				39B48EB31333C30200CF1FA3 /* zeide.png */,
+				39B48EB41333C30200CF1FA3 /* anarcher.png */,
+				39B48EB51333C30200CF1FA3 /* givenjazz.png */,
+				39B48EB61333C30200CF1FA3 /* outsider.png */,
+				39B48EB71333C30200CF1FA3 /* otatoh.png */,
+				39B48EB81333C30200CF1FA3 /* arawn.png */,
+				39B48EB91333C30200CF1FA3 /* pooom.png */,
+				39B48EBA1333C30200CF1FA3 /* fupfin.png */,
+				39B48EBB1333C30200CF1FA3 /* sonegy.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		3960877712A8D0700010120F /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		3960877812A8D3090010120F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* ToDoolDoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ToDoolDoAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3960878212A8D6A60010120F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3960878312A8D6AD0010120F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39B48EA91333C02F00CF1FA3 /* TodoItem.h */,
+				39B48EAA1333C02F00CF1FA3 /* TodoItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3960878412A8D6B30010120F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39B415A51333AE1400264E95 /* TodoTableView.h */,
+				39B415A61333AE1400264E95 /* TodoTableView.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ToDoolDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ToDoolDo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoolDo;
+			productName = ToDoolDo;
+			productReference = 1D6058910D05DD3D006BFB54 /* ToDoolDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ToDoolDo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ToDoolDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				39B415AD1333B1C500264E95 /* TodoTableView.xib in Resources */,
+				39B48EBC1333C30200CF1FA3 /* daclouds.png in Resources */,
+				39B48EBD1333C30200CF1FA3 /* zeide.png in Resources */,
+				39B48EBE1333C30200CF1FA3 /* anarcher.png in Resources */,
+				39B48EBF1333C30200CF1FA3 /* givenjazz.png in Resources */,
+				39B48EC01333C30200CF1FA3 /* outsider.png in Resources */,
+				39B48EC11333C30200CF1FA3 /* otatoh.png in Resources */,
+				39B48EC21333C30200CF1FA3 /* arawn.png in Resources */,
+				39B48EC31333C30200CF1FA3 /* pooom.png in Resources */,
+				39B48EC41333C30200CF1FA3 /* fupfin.png in Resources */,
+				39B48EC51333C30200CF1FA3 /* sonegy.png in Resources */,
+				39B48ECB1333C3BF00CF1FA3 /* javajigi.png in Resources */,
+				39B48ECD1333C3C300CF1FA3 /* kayem.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ToDoolDoAppDelegate.m in Sources */,
+				39B415A81333AE1400264E95 /* TodoTableView.m in Sources */,
+				39B48EAB1333C02F00CF1FA3 /* TodoItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ToDoolDo_Prefix.pch;
+				INFOPLIST_FILE = "ToDoolDo-Info.plist";
+				PRODUCT_NAME = ToDoolDo;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ToDoolDo_Prefix.pch;
+				INFOPLIST_FILE = "ToDoolDo-Info.plist";
+				PRODUCT_NAME = ToDoolDo;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ToDoolDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ToDoolDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
