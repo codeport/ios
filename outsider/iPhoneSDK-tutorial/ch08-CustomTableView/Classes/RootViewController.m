@@ -15,14 +15,14 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-*/
+
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -45,13 +45,13 @@
 }
 */
 
-/*
+
  // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	// Return YES for supported orientations.
-	return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	return YES;
 }
- */
+ 
 
 
 #pragma mark -
@@ -91,6 +91,7 @@
 	
 	label = (UILabel *)[cell viewWithTag:3];
 	label.text = [employee valueForKey:@"departmentOfEmployee"];
+	label.autoresizingMask = UIViewAutoresizingFlexibleWidth;
 	
 	UIImageView *imageView = (UIImageView *)[cell viewWithTag:1];
 	imageView.image = [employee valueForKey:@"thumbnailOfEmployee"];
