@@ -23,7 +23,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-	personnel = [[NSArray alloc] initWithArray:[self createEmployees]];
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"Employees" ofType:@"plist"];
+	personnel = [NSArray arrayWithContentsOfFile:path];
     
     // Add the navigation controller's view to the window and display.
     [window addSubview:navigationController.view];
@@ -87,21 +88,6 @@
 	[window release];
 	[super dealloc];
 }
-
-#pragma mark -
-#pragma mark User methods
-
-- (NSArray *)createEmployees {
-	NSDictionary *employee1 = [NSDictionary dictionaryWithObjectsAndKeys:@"네피림", @"nameOfEmployee", @"Commander", @"departmentOfEmployee", nil];
-	NSDictionary *employee2 = [NSDictionary dictionaryWithObjectsAndKeys:@"더클라우드", @"nameOfEmployee", @"Database", @"departmentOfEmployee", nil];
-	NSDictionary *employee3 = [NSDictionary dictionaryWithObjectsAndKeys:@"아웃사이더", @"nameOfEmployee", @"Development", @"departmentOfEmployee", nil];
-	NSDictionary *employee4 = [NSDictionary dictionaryWithObjectsAndKeys:@"아롱", @"nameOfEmployee", @"Development", @"departmentOfEmployee", nil];
-	
-	NSArray *outsiderArray = [NSArray arrayWithObjects:employee1, employee2, employee3, employee4, nil];
-	
-	return outsiderArray;
-}
-
 
 @end
 
