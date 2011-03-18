@@ -77,17 +77,24 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+		NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:@"MyCustomTableCell" owner:self options:nil];
+		cell = [topLevelObjects objectAtIndex:0];
     }
     
 	// Configure the cell.
 	NSMutableArray *personnel = [self appDelegate].personnel;
 	NSDictionary *employee = [personnel objectAtIndex:indexPath.row];
-	cell.textLabel.text = [employee valueForKey:@"nameOfEmployee"];
-	cell.detailTextLabel.text = [employee valueForKey:@"departmentOfEmployee"];
-	cell.imageView.image = [employee valueForKey:@"thumbnailOfEmployee"];
-	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-
+	
+	UILabel *label;
+	label = (UILabel *)[cell viewWithTag:2];
+	label.text = [employee valueForKey:@"nameOfEmployee"];
+	
+	label = (UILabel *)[cell viewWithTag:3];
+	label.text = [employee valueForKey:@"departmentOfEmployee"];
+	
+	UIImageView *imageView = (UIImageView *)[cell viewWithTag:1];
+	imageView.image = [employee valueForKey:@"thumbnailOfEmployee"];
+	
     return cell;
 }
 
