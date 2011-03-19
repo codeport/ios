@@ -10,7 +10,7 @@
 
 
 @interface TodoTableView : UITableViewController {
-	NSMutableArray* todoItems;
+	
 }
 
 @end

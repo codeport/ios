@@ -28,6 +28,7 @@
 		39B48EC51333C30200CF1FA3 /* sonegy.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48EBB1333C30200CF1FA3 /* sonegy.png */; };
 		39B48ECB1333C3BF00CF1FA3 /* javajigi.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48ECA1333C3BF00CF1FA3 /* javajigi.png */; };
 		39B48ECD1333C3C300CF1FA3 /* kayem.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48ECC1333C3C300CF1FA3 /* kayem.png */; };
+		39B48F211334498700CF1FA3 /* TodoItemRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B48F201334498700CF1FA3 /* TodoItemRegistry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,8 @@
 		39B48EBB1333C30200CF1FA3 /* sonegy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sonegy.png; sourceTree = "<group>"; };
 		39B48ECA1333C3BF00CF1FA3 /* javajigi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = javajigi.png; sourceTree = "<group>"; };
 		39B48ECC1333C3C300CF1FA3 /* kayem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kayem.png; sourceTree = "<group>"; };
+		39B48F1F1334498700CF1FA3 /* TodoItemRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoItemRegistry.h; sourceTree = "<group>"; };
+		39B48F201334498700CF1FA3 /* TodoItemRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItemRegistry.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ToDoolDo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ToDoolDo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,6 +194,8 @@
 			children = (
 				39B48EA91333C02F00CF1FA3 /* TodoItem.h */,
 				39B48EAA1333C02F00CF1FA3 /* TodoItem.m */,
+				39B48F1F1334498700CF1FA3 /* TodoItemRegistry.h */,
+				39B48F201334498700CF1FA3 /* TodoItemRegistry.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				1D3623260D0F684500981E51 /* ToDoolDoAppDelegate.m in Sources */,
 				39B415A81333AE1400264E95 /* TodoTableView.m in Sources */,
 				39B48EAB1333C02F00CF1FA3 /* TodoItem.m in Sources */,
+				39B48F211334498700CF1FA3 /* TodoItemRegistry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "TodoTableView.h"
+#import "TodoItemRegistry.h"
 #import "TodoItem.h"
 
 @implementation TodoTableView
@@ -27,10 +28,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-	TodoItem* javajigi = [[TodoItem alloc] initWithName:@"박재성" 
-												  photo:[UIImage imageNamed:@"javajigi.png"]
-												   rage:20];
-	todoItems = [NSMutableArray arrayWithObjects:javajigi, nil];
+
 }
 
 /*
@@ -68,7 +66,8 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-	return [todoItems count];
+	TodoItemRegistry* sharedRegistry = [TodoItemRegistry sharedInstance];
+	return [sharedRegistry.todoItems count];
 }
 
 
@@ -83,6 +82,7 @@
     }
     
     // Configure the cell...
+	NSMutableArray* todoItems = [[TodoItemRegistry sharedInstance] todoItems];
 	TodoItem* todoItem = [todoItems objectAtIndex:indexPath.row];
     cell.textLabel.text = todoItem.name;
 	cell.imageView.image = todoItem.photo;

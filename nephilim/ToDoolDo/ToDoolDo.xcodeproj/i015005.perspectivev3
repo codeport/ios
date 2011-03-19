@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>39B48F1D1333D07F00CF1FA3</string>
+						<string>39B48F61133457D800CF1FA3</string>
 						<key>history</key>
 						<array>
 							<string>39B48EE51333C76D00CF1FA3</string>
@@ -236,7 +236,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>15 451 1275 722 0 0 1920 1178 </string>
+				<string>0 56 1275 722 0 0 1280 778 </string>
 			</dict>
 		</dict>
 		<dict>
@@ -257,7 +257,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>39B48F1E1333D07F00CF1FA3</string>
+						<string>39B48F62133457D800CF1FA3</string>
 						<key>history</key>
 						<array>
 							<string>39B48EFA1333CB0C00CF1FA3</string>
@@ -277,7 +277,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>625 158 1275 722 0 0 1920 1178 </string>
+				<string>5 56 1275 722 0 0 1280 778 </string>
 			</dict>
 		</dict>
 	</array>
@@ -314,6 +314,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -371,13 +373,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {370, 707}}</string>
+							<string>{{0, 0}, {370, 664}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -387,14 +389,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {387, 725}}</string>
+						<string>{{0, 0}, {387, 682}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>370</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>413 98 1314 766 0 0 1920 1178 </string>
+						<string>0 55 1237 723 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -405,14 +407,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>39D7107312A927F200AC802F</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TodoTableView.m</string>
+								<string>TodoItemRegistry.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -420,11 +420,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>39D7107412A927F200AC802F</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TodoTableView.m</string>
+										<string>TodoItemRegistry.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39B48F1C1333D07F00CF1FA3</string>
+										<string>39B48F60133457D800CF1FA3</string>
 										<key>history</key>
 										<array>
 											<string>3960877F12A8D5E90010120F</string>
@@ -436,11 +436,13 @@
 											<string>39B48ED91333C76600CF1FA3</string>
 											<string>39B48EDA1333C76600CF1FA3</string>
 											<string>39B48EDC1333C76600CF1FA3</string>
-											<string>39B48EDD1333C76600CF1FA3</string>
-											<string>39B48EDE1333C76600CF1FA3</string>
 											<string>39B48EF51333CB0C00CF1FA3</string>
-											<string>39B48F001333CC2B00CF1FA3</string>
-											<string>39B48EF41333CB0C00CF1FA3</string>
+											<string>39B48F28133453EB00CF1FA3</string>
+											<string>39B48F391334563500CF1FA3</string>
+											<string>39B48F3A1334563500CF1FA3</string>
+											<string>39B48F3C1334563500CF1FA3</string>
+											<string>39B48F46133456D800CF1FA3</string>
+											<string>39B48F47133456D800CF1FA3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -454,14 +456,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {922, 620}}</string>
+								<string>{{0, 0}, {845, 577}}</string>
 								<key>RubberWindowFrame</key>
-								<string>413 98 1314 766 0 0 1920 1178 </string>
+								<string>0 55 1237 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>620pt</string>
+							<string>577pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
@@ -479,9 +481,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {922, 73}}</string>
-										<key>RubberWindowFrame</key>
-										<string>413 98 1314 766 0 0 1920 1178 </string>
+										<string>{{10, 27}, {845, 73}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -535,7 +535,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 31}, {603, 297}}</string>
+										<string>{{10, 27}, {845, 73}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 55 1237 723 0 0 1280 778 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -544,7 +546,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>922pt</string>
+					<string>845pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -757,12 +759,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>39B48F49133456D800CF1FA3</string>
 		<string>39B48EF81333CB0C00CF1FA3</string>
 		<string>39B48EE31333C76D00CF1FA3</string>
 		<string>/Users/i015005/development/ios/laodan-homework/nephilim/ToDoolDo/ToDoolDo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>413 98 1314 766 0 0 1920 1178 </string>
+	<string>0 55 1237 723 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
