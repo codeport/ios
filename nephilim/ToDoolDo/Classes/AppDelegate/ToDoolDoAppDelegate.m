@@ -12,7 +12,6 @@
 
 @synthesize window, todoTableView;
 
-
 #pragma mark -
 #pragma mark Application lifecycle
 

@@ -18,6 +18,7 @@
 					photo:(UIImage*)photo 
 					 rage:(int)rage 
 {	
+
 	self = [super init];
 	if (self != nil) {
 		self.name = name;

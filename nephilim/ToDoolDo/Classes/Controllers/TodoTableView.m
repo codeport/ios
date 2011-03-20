@@ -78,16 +78,29 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
+        //cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
+
+		NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:
+									@"McuTargetTableViewCell" owner:self options:nil];
+
+		cell = [topLevelObjects objectAtIndex:0];
     }
     
     // Configure the cell...
 	NSMutableArray* todoItems = [[TodoItemRegistry sharedInstance] todoItems];
 	TodoItem* todoItem = [todoItems objectAtIndex:indexPath.row];
-    cell.textLabel.text = todoItem.name;
-	cell.imageView.image = todoItem.photo;
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"rage: %d",todoItem.rage];
-    return cell;
+	
+	if ( todoItem ) {
+		UIImageView* photo = (UIImageView*)[cell viewWithTag:1];
+		photo.image = todoItem.photo;
+		
+		UILabel* name = (UILabel*)[cell viewWithTag:2];
+		name.text = todoItem.name;
+		
+		UILabel* rage = (UILabel*)[cell viewWithTag:3];
+		rage.text = [NSString stringWithFormat:@"%d",todoItem.rage];
+	}
+	return cell;
 }
 
 
@@ -154,6 +167,7 @@
     [super didReceiveMemoryWarning];
     
     // Relinquish ownership any cached data, images, etc. that aren't in use.
+	NSLog(@"%s", __FUNCTION__ );
 }
 
 - (void)viewDidUnload {

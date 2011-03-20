@@ -29,6 +29,7 @@
 		39B48ECB1333C3BF00CF1FA3 /* javajigi.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48ECA1333C3BF00CF1FA3 /* javajigi.png */; };
 		39B48ECD1333C3C300CF1FA3 /* kayem.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B48ECC1333C3C300CF1FA3 /* kayem.png */; };
 		39B48F211334498700CF1FA3 /* TodoItemRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B48F201334498700CF1FA3 /* TodoItemRegistry.m */; };
+		39B48F6A1334649300CF1FA3 /* McuTargetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39B48F691334649300CF1FA3 /* McuTargetTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		39B48ECC1333C3C300CF1FA3 /* kayem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kayem.png; sourceTree = "<group>"; };
 		39B48F1F1334498700CF1FA3 /* TodoItemRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoItemRegistry.h; sourceTree = "<group>"; };
 		39B48F201334498700CF1FA3 /* TodoItemRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoItemRegistry.m; sourceTree = "<group>"; };
+		39B48F691334649300CF1FA3 /* McuTargetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = McuTargetTableViewCell.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ToDoolDo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ToDoolDo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +143,7 @@
 		3960877412A8D0470010120F /* NIBs */ = {
 			isa = PBXGroup;
 			children = (
+				39B48F691334649300CF1FA3 /* McuTargetTableViewCell.xib */,
 				39B415AC1333B1C500264E95 /* TodoTableView.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 			);
@@ -272,6 +275,7 @@
 				39B48EC51333C30200CF1FA3 /* sonegy.png in Resources */,
 				39B48ECB1333C3BF00CF1FA3 /* javajigi.png in Resources */,
 				39B48ECD1333C3C300CF1FA3 /* kayem.png in Resources */,
+				39B48F6A1334649300CF1FA3 /* McuTargetTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
