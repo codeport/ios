@@ -1,0 +1,73 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* WalkingMan */ = {
+		activeExec = 0;
+		executables = (
+			534E54F11322056C0022AEBE /* WalkingMan */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 534E54F11322056C0022AEBE /* WalkingMan */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* WalkingMan */;
+		codeSenseManager = 534E55031322058B0022AEBE /* Code sense */;
+		executables = (
+			534E54F11322056C0022AEBE /* WalkingMan */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 320996716;
+			PBXWorkspaceStateSaveDate = 320996716;
+		};
+		sourceControlManager = 534E55021322058B0022AEBE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3980001B131A97AA00AD003D /* WalkingMan.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 750}}";
+			sepNavSelRange = "{192, 0}";
+			sepNavVisRange = "{0, 668}";
+		};
+	};
+	534E54F11322056C0022AEBE /* WalkingMan */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = WalkingMan;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	534E55021322058B0022AEBE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	534E55031322058B0022AEBE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

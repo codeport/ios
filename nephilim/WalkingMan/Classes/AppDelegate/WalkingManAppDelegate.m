@@ -63,6 +63,7 @@
     // 초기화
 	walkingMan = [[WalkingMan alloc] init];
 	[self initImageArray];
+	
 	[[NSNotificationCenter defaultCenter] addObserver:self 
 											 selector:@selector(setWalkingImage:) 
 												 name:@"WalkingManStateChanged"

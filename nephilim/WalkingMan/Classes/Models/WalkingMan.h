@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface WalkingMan : NSObject {
 	int state_;				// state 0~4
 	
@@ -18,7 +17,5 @@
 -(int)walkingState;
 -(void)addWalkingState;
 
-
-//-(UIImage*)getImage;
-
 @end
+
