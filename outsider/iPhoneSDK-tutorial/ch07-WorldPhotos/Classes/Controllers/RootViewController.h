@@ -6,9 +6,10 @@
 //  Copyright 2011 Side Effect Studio. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@class ch07_WorldPhotosAppDelegate;
 
 @interface RootViewController : UITableViewController {
 }
 
+- (ch07_WorldPhotosAppDelegate *)appDelegate;
 @end

@@ -7,7 +7,8 @@
 //
 
 #import "RootViewController.h"
-
+#import "ch07_WorldPhotosAppDelegate.h"
+#import "PhotoDetailViewController.h"
 
 @implementation RootViewController
 
@@ -15,14 +16,10 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	self.navigationItem.title = @"World Photos";
 }
-*/
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -65,7 +62,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+	return [[self appDelegate].photoArray count];
 }
 
 
@@ -76,10 +73,16 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
     
 	// Configure the cell.
+	NSDictionary *photoData = [[self appDelegate].photoArray objectAtIndex:indexPath.row];
+	
+	cell.textLabel.text = [photoData valueForKey:@"Country"];
+	cell.detailTextLabel.text = [photoData valueForKey:@"Region"];
+	cell.imageView.image = [photoData valueForKey:@"Thumbnail"];
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 
     return cell;
 }
@@ -129,14 +132,11 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+    PhotoDetailViewController *detailViewController = [[PhotoDetailViewController alloc] initWithNibName:@"PhotoDetailViewController" bundle:nil];
+	NSDictionary *photoData = [[self appDelegate].photoArray objectAtIndex:indexPath.row];
+	detailViewController.photoData = photoData;
+	[self.navigationController pushViewController:detailViewController animated:YES];
+	[detailViewController release];
 }
 
 
@@ -158,6 +158,13 @@
 
 - (void)dealloc {
     [super dealloc];
+}
+
+#pragma mark -
+#pragma mark user methods;
+
+- (ch07_WorldPhotosAppDelegate *)appDelegate {
+	return [[UIApplication sharedApplication] delegate];
 }
 
 
