@@ -59,7 +59,7 @@
 
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    return 2;
 }
 
 
@@ -89,6 +89,9 @@
     return cell;
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	return [NSString stringWithFormat:@"Code Port #%d", section+1];
+}
 
 /*
 // Override to support conditional editing of the table view.
