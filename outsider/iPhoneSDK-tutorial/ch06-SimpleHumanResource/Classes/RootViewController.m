@@ -53,6 +53,16 @@
 }
  */
 
+- (void)loadView {
+	[super loadView];
+	
+	CGRect titleRect = CGRectMake(0, 0, 300, 40);
+	UILabel *tableTitle = [[UILabel alloc] initWithFrame:titleRect];
+	tableTitle.textColor = [UIColor blueColor];
+	tableTitle.font = [UIFont boldSystemFontOfSize:18];
+	tableTitle.text = @"Hello Table";
+	self.tableView.tableHeaderView = tableTitle;
+}
 
 #pragma mark -
 #pragma mark Table view data source
@@ -81,7 +91,7 @@
     }
     
 	// Configure the cell.
-	NSMutableArray *personnel = [self appDelegate].personnel;
+	NSMutableArray *personnel = [[self appDelegate].personnel retain];
 	NSDictionary *employee = [personnel objectAtIndex:indexPath.row];
 	cell.textLabel.text = [employee valueForKey:@"nameOfEmployee"];
 	cell.detailTextLabel.text = [employee valueForKey:@"departmentOfEmployee"];
