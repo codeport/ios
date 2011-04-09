@@ -10,8 +10,7 @@
 
 @implementation NavigationControllerFromZeroAppDelegate
 
-@synthesize window;
-
+@synthesize window, rootViewController;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -19,9 +18,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    
+    [rootViewController.view setFrame:[[UIScreen mainScreen] applicationFrame]];
+	[window addSubview:rootViewController.view];
     [window makeKeyAndVisible];
-    
+
     return YES;
 }
 
@@ -75,6 +75,7 @@
 
 
 - (void)dealloc {
+	[rootViewController release];
     [window release];
     [super dealloc];
 }
