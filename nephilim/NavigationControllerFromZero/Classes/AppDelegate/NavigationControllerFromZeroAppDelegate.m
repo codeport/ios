@@ -10,7 +10,7 @@
 
 @implementation NavigationControllerFromZeroAppDelegate
 
-@synthesize window, rootViewController;
+@synthesize window, rootViewController, navigationController;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -20,13 +20,13 @@
     // Override point for customization after application launch.
 	[[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleBlackTranslucent];
 	rootViewController.wantsFullScreenLayout = YES;
-	
+
 	/*
 	 CGRect frame = [[UIScreen mainScreen] applicationFrame];
 	 NSLog(@"(%f, %f) - w:%f, h:%f", frame.origin.x, frame.origin.y, frame.size.width, frame.size.width);
 	 [rootViewController.view setFrame:frame];
 	 */
-	[window addSubview:rootViewController.view];
+	[window addSubview:	navigationController.view];
     [window makeKeyAndVisible];
 
     return YES;
@@ -83,6 +83,7 @@
 
 - (void)dealloc {
 	[rootViewController release];
+	[navigationController release];
     [window release];
     [super dealloc];
 }
