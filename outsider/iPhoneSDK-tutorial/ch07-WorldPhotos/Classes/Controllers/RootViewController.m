@@ -1,13 +1,14 @@
 //
 //  RootViewController.m
-//  ch06-SimpleHumanResource
+//  ch07-WorldPhotos
 //
-//  Created by Outsider on 11. 3. 18..
+//  Created by Outsider on 11. 4. 7..
 //  Copyright 2011 Side Effect Studio. All rights reserved.
 //
 
 #import "RootViewController.h"
-#import "ch06_SimpleHumanResourceAppDelegate.h"
+#import "ch07_WorldPhotosAppDelegate.h"
+#import "PhotoDetailViewController.h"
 
 @implementation RootViewController
 
@@ -15,14 +16,10 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	self.navigationItem.title = @"World Photos";
 }
-*/
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -53,30 +50,19 @@
 }
  */
 
-- (void)loadView {
-	[super loadView];
-	
-	CGRect titleRect = CGRectMake(0, 0, 300, 40);
-	UILabel *tableTitle = [[UILabel alloc] initWithFrame:titleRect];
-	tableTitle.textColor = [UIColor blueColor];
-	tableTitle.font = [UIFont boldSystemFontOfSize:18];
-	tableTitle.text = @"Hello Table";
-	self.tableView.tableHeaderView = tableTitle;
-}
 
 #pragma mark -
 #pragma mark Table view data source
 
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 2;
+    return 1;
 }
 
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    int rowCount = [[self appDelegate].personnel count];
-	return rowCount;
+	return [[self appDelegate].photoArray count];
 }
 
 
@@ -87,21 +73,20 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
     
 	// Configure the cell.
-	NSMutableArray *personnel = [[self appDelegate].personnel retain];
-	NSDictionary *employee = [personnel objectAtIndex:indexPath.row];
-	cell.textLabel.text = [employee valueForKey:@"nameOfEmployee"];
-	cell.detailTextLabel.text = [employee valueForKey:@"departmentOfEmployee"];
+	NSDictionary *photoData = [[self appDelegate].photoArray objectAtIndex:indexPath.row];
+	
+	cell.textLabel.text = [photoData valueForKey:@"Country"];
+	cell.detailTextLabel.text = [photoData valueForKey:@"Region"];
+	cell.imageView.image = [photoData valueForKey:@"Thumbnail"];
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 
     return cell;
 }
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-	return [NSString stringWithFormat:@"Code Port #%d", section+1];
-}
 
 /*
 // Override to support conditional editing of the table view.
@@ -147,14 +132,11 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+    PhotoDetailViewController *detailViewController = [[PhotoDetailViewController alloc] initWithNibName:@"PhotoDetailViewController" bundle:nil];
+	NSDictionary *photoData = [[self appDelegate].photoArray objectAtIndex:indexPath.row];
+	detailViewController.photoData = photoData;
+	[self.navigationController pushViewController:detailViewController animated:YES];
+	[detailViewController release];
 }
 
 
@@ -179,10 +161,12 @@
 }
 
 #pragma mark -
-#pragma mark user methods
-- (ch06_SimpleHumanResourceAppDelegate *)appDelegate {
+#pragma mark user methods;
+
+- (ch07_WorldPhotosAppDelegate *)appDelegate {
 	return [[UIApplication sharedApplication] delegate];
 }
+
 
 @end
 
