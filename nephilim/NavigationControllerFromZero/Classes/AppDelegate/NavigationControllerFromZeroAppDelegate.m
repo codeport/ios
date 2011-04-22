@@ -19,7 +19,7 @@
     
     // Override point for customization after application launch.
 	[[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleBlackTranslucent];
-	rootViewController.wantsFullScreenLayout = YES;
+	//rootViewController.wantsFullScreenLayout = YES;
 
 	/*
 	 CGRect frame = [[UIScreen mainScreen] applicationFrame];
@@ -27,7 +27,7 @@
 	 [rootViewController.view setFrame:frame];
 	 */
 	[window addSubview:	navigationController.view];
-    [window makeKeyAndVisible];
+	[window makeKeyAndVisible];
 
     return YES;
 }

@@ -7,9 +7,21 @@
 //
 
 #import "ViewController1.h"
-
+#import "ViewController2.h"
 
 @implementation ViewController1
+
+#pragma mark -
+#pragma mark 네비게이션 관련 flow처리 메서드
+
+-(IBAction) pushNextViewController:(id)sender 
+{
+	UIViewController* viewCtrller = [[ViewController2 alloc] initWithNibName:@"ViewController2"
+																	  bundle:nil];
+	[self.navigationController pushViewController:viewCtrller animated:YES];
+	[viewCtrller release];
+}
+ 
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -22,12 +34,20 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	UIBarButtonItem* nextBarBtn = [[UIBarButtonItem alloc]
+								   initWithTitle:@"to VC2" 
+								   style:UIBarButtonItemStylePlain 
+								   target:self 
+								   action:@selector(pushNextViewController:)];
+	self.navigationItem.rightBarButtonItem = nextBarBtn;
+	[nextBarBtn	release];	 
 }
-*/
+
 
 /*
 // Override to allow orientations other than the default portrait orientation.

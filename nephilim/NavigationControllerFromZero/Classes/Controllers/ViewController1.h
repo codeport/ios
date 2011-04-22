@@ -10,7 +10,12 @@
 
 
 @interface ViewController1 : UIViewController {
-
 }
+
+
+#pragma mark -
+#pragma mark 네비게이션 관련 flow처리 메서드
+
+-(IBAction) pushNextViewController:(id)sender;
 
 @end
