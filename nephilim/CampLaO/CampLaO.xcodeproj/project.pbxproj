@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CampLaOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CampLaOAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* CampLaOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CampLaOViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* CampLaOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CampLaOViewController.m */; };
+		3917859613FD6CCA00838589 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917859513FD6CCA00838589 /* SystemConfiguration.framework */; };
+		391785D813FD6E1F00838589 /* UAGithubEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785A013FD6E1E00838589 /* UAGithubEngine.m */; };
+		391785D913FD6E1F00838589 /* UAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785A213FD6E1E00838589 /* UAReachability.m */; };
+		391785DA13FD6E1F00838589 /* UAGithubURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785A613FD6E1E00838589 /* UAGithubURLConnection.m */; };
+		391785DB13FD6E1F00838589 /* UAGithubEngineConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785A813FD6E1E00838589 /* UAGithubEngineConstants.m */; };
+		391785DC13FD6E1F00838589 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785AB13FD6E1E00838589 /* NSData+Base64.m */; };
+		391785DD13FD6E1F00838589 /* NSString+UAGithubEngineUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785AD13FD6E1E00838589 /* NSString+UAGithubEngineUtilities.m */; };
+		391785DE13FD6E1F00838589 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785AF13FD6E1E00838589 /* NSString+UUID.m */; };
+		391785DF13FD6E1F00838589 /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785B113FD6E1E00838589 /* NSArray+Utilities.m */; };
+		391785E013FD6E1F00838589 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785B513FD6E1E00838589 /* CDataScanner.m */; };
+		391785E113FD6E1F00838589 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785B813FD6E1E00838589 /* CDataScanner_Extensions.m */; };
+		391785E213FD6E1F00838589 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785BA13FD6E1E00838589 /* NSCharacterSet_Extensions.m */; };
+		391785E313FD6E1F00838589 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785BC13FD6E1E00838589 /* NSDictionary_JSONExtensions.m */; };
+		391785E413FD6E1F00838589 /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785BE13FD6E1E00838589 /* NSScanner_Extensions.m */; };
+		391785E513FD6E1F00838589 /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785C113FD6E1E00838589 /* CJSONDataSerializer.m */; };
+		391785E613FD6E1F00838589 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785C313FD6E1E00838589 /* CJSONDeserializer.m */; };
+		391785E713FD6E1F00838589 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785C513FD6E1E00838589 /* CJSONScanner.m */; };
+		391785E813FD6E1F00838589 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785C713FD6E1E00838589 /* CJSONSerializer.m */; };
+		391785E913FD6E1F00838589 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785C913FD6E1E00838589 /* CSerializedJSONData.m */; };
+		391785EA13FD6E1F00838589 /* UAGithubJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785CB13FD6E1E00838589 /* UAGithubJSONParser.m */; };
+		391785EB13FD6E1F00838589 /* UAGithubSimpleJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785CD13FD6E1E00838589 /* UAGithubSimpleJSONParser.m */; };
+		391785EC13FD6E1F00838589 /* UAGithubUsersJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785CF13FD6E1E00838589 /* UAGithubUsersJSONParser.m */; };
+		391785ED13FD6E1F00838589 /* UAGithubRepositoriesJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785D113FD6E1E00838589 /* UAGithubRepositoriesJSONParser.m */; };
+		391785EE13FD6E1F00838589 /* UAGithubCommitsJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785D313FD6E1E00838589 /* UAGithubCommitsJSONParser.m */; };
+		391785EF13FD6E1F00838589 /* UAGithubIssuesJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785D513FD6E1E00838589 /* UAGithubIssuesJSONParser.m */; };
+		391785F013FD6E1F00838589 /* UAGithubIssueCommentsJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 391785D713FD6E1E00838589 /* UAGithubIssueCommentsJSONParser.m */; };
+		391C5C9013F2E27400D10314 /* heartocat.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C5C8F13F2E27400D10314 /* heartocat.png */; };
+		391C5CBB13F2EBD500D10314 /* db_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C5CB913F2EBD500D10314 /* db_logo.png */; };
+		391C5CBC13F2EBD500D10314 /* db_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C5CBA13F2EBD500D10314 /* db_logo@2x.png */; };
+		391C5CCF13F33A6F00D10314 /* laodan_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C5CCE13F33A6F00D10314 /* laodan_logo.png */; };
+		391C5CD313F33AE700D10314 /* laodan_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391C5CD213F33AE700D10314 /* laodan_logo@2x.png */; };
+		392757F613F18F2D00D3D2A4 /* agendacat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 392757F513F18F2D00D3D2A4 /* agendacat.jpg */; };
+		399BCB3113F4329400E85131 /* laodan_background_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 399BCB2C13F4329400E85131 /* laodan_background_01.png */; };
+		399BCB3213F4329400E85131 /* laodan_background_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 399BCB2D13F4329400E85131 /* laodan_background_02.png */; };
+		399BCB3313F4329400E85131 /* laodan_background_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 399BCB2E13F4329400E85131 /* laodan_background_03.png */; };
+		399BCB3413F4329400E85131 /* laodan_background_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 399BCB2F13F4329400E85131 /* laodan_background_default.png */; };
+		399BCB3513F4329400E85131 /* laodan_background_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 399BCB3013F4329400E85131 /* laodan_background_07.png */; };
+		399BCB7613F43A1500E85131 /* LaOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399BCB7513F43A1500E85131 /* LaOLoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CampLaOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampLaOAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CampLaOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampLaOAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CampLaO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampLaO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* CampLaOViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CampLaOViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* CampLaOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampLaOViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* CampLaOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampLaOViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CampLaO_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampLaO_Prefix.pch; sourceTree = "<group>"; };
+		3917859513FD6CCA00838589 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3917859E13FD6E1E00838589 /* UAGithubURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubURLConnection.h; sourceTree = "<group>"; };
+		3917859F13FD6E1E00838589 /* UAGithubEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngine.h; sourceTree = "<group>"; };
+		391785A013FD6E1E00838589 /* UAGithubEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubEngine.m; sourceTree = "<group>"; };
+		391785A113FD6E1E00838589 /* UAReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAReachability.h; sourceTree = "<group>"; };
+		391785A213FD6E1E00838589 /* UAReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAReachability.m; sourceTree = "<group>"; };
+		391785A313FD6E1E00838589 /* UAGithubEngineDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineDelegate.h; sourceTree = "<group>"; };
+		391785A413FD6E1E00838589 /* UAGithubEngineRequestTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineRequestTypes.h; sourceTree = "<group>"; };
+		391785A513FD6E1E00838589 /* UAGithubParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubParserDelegate.h; sourceTree = "<group>"; };
+		391785A613FD6E1E00838589 /* UAGithubURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubURLConnection.m; sourceTree = "<group>"; };
+		391785A713FD6E1E00838589 /* UAGithubEngineConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineConstants.h; sourceTree = "<group>"; };
+		391785A813FD6E1E00838589 /* UAGithubEngineConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubEngineConstants.m; sourceTree = "<group>"; };
+		391785AA13FD6E1E00838589 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		391785AB13FD6E1E00838589 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		391785AC13FD6E1E00838589 /* NSString+UAGithubEngineUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UAGithubEngineUtilities.h"; sourceTree = "<group>"; };
+		391785AD13FD6E1E00838589 /* NSString+UAGithubEngineUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UAGithubEngineUtilities.m"; sourceTree = "<group>"; };
+		391785AE13FD6E1E00838589 /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		391785AF13FD6E1E00838589 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		391785B013FD6E1E00838589 /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
+		391785B113FD6E1E00838589 /* NSArray+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utilities.m"; sourceTree = "<group>"; };
+		391785B413FD6E1E00838589 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		391785B513FD6E1E00838589 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		391785B713FD6E1E00838589 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		391785B813FD6E1E00838589 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		391785B913FD6E1E00838589 /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
+		391785BA13FD6E1E00838589 /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSet_Extensions.m; sourceTree = "<group>"; };
+		391785BB13FD6E1E00838589 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		391785BC13FD6E1E00838589 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		391785BD13FD6E1E00838589 /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSScanner_Extensions.h; sourceTree = "<group>"; };
+		391785BE13FD6E1E00838589 /* NSScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSScanner_Extensions.m; sourceTree = "<group>"; };
+		391785C013FD6E1E00838589 /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDataSerializer.h; sourceTree = "<group>"; };
+		391785C113FD6E1E00838589 /* CJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDataSerializer.m; sourceTree = "<group>"; };
+		391785C213FD6E1E00838589 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		391785C313FD6E1E00838589 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		391785C413FD6E1E00838589 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		391785C513FD6E1E00838589 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		391785C613FD6E1E00838589 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		391785C713FD6E1E00838589 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		391785C813FD6E1E00838589 /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSerializedJSONData.h; sourceTree = "<group>"; };
+		391785C913FD6E1E00838589 /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSerializedJSONData.m; sourceTree = "<group>"; };
+		391785CA13FD6E1E00838589 /* UAGithubJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubJSONParser.h; sourceTree = "<group>"; };
+		391785CB13FD6E1E00838589 /* UAGithubJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubJSONParser.m; sourceTree = "<group>"; };
+		391785CC13FD6E1E00838589 /* UAGithubSimpleJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubSimpleJSONParser.h; sourceTree = "<group>"; };
+		391785CD13FD6E1E00838589 /* UAGithubSimpleJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubSimpleJSONParser.m; sourceTree = "<group>"; };
+		391785CE13FD6E1E00838589 /* UAGithubUsersJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubUsersJSONParser.h; sourceTree = "<group>"; };
+		391785CF13FD6E1E00838589 /* UAGithubUsersJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubUsersJSONParser.m; sourceTree = "<group>"; };
+		391785D013FD6E1E00838589 /* UAGithubRepositoriesJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubRepositoriesJSONParser.h; sourceTree = "<group>"; };
+		391785D113FD6E1E00838589 /* UAGithubRepositoriesJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubRepositoriesJSONParser.m; sourceTree = "<group>"; };
+		391785D213FD6E1E00838589 /* UAGithubCommitsJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubCommitsJSONParser.h; sourceTree = "<group>"; };
+		391785D313FD6E1E00838589 /* UAGithubCommitsJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubCommitsJSONParser.m; sourceTree = "<group>"; };
+		391785D413FD6E1E00838589 /* UAGithubIssuesJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubIssuesJSONParser.h; sourceTree = "<group>"; };
+		391785D513FD6E1E00838589 /* UAGithubIssuesJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubIssuesJSONParser.m; sourceTree = "<group>"; };
+		391785D613FD6E1E00838589 /* UAGithubIssueCommentsJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubIssueCommentsJSONParser.h; sourceTree = "<group>"; };
+		391785D713FD6E1E00838589 /* UAGithubIssueCommentsJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubIssueCommentsJSONParser.m; sourceTree = "<group>"; };
+		391C5C8F13F2E27400D10314 /* heartocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartocat.png; sourceTree = "<group>"; };
+		391C5CB913F2EBD500D10314 /* db_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_logo.png; sourceTree = "<group>"; };
+		391C5CBA13F2EBD500D10314 /* db_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "db_logo@2x.png"; sourceTree = "<group>"; };
+		391C5CCE13F33A6F00D10314 /* laodan_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_logo.png; sourceTree = "<group>"; };
+		391C5CD213F33AE700D10314 /* laodan_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "laodan_logo@2x.png"; sourceTree = "<group>"; };
+		392757F513F18F2D00D3D2A4 /* agendacat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agendacat.jpg; sourceTree = "<group>"; };
+		399BCB2C13F4329400E85131 /* laodan_background_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_background_01.png; sourceTree = "<group>"; };
+		399BCB2D13F4329400E85131 /* laodan_background_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_background_02.png; sourceTree = "<group>"; };
+		399BCB2E13F4329400E85131 /* laodan_background_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_background_03.png; sourceTree = "<group>"; };
+		399BCB2F13F4329400E85131 /* laodan_background_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_background_default.png; sourceTree = "<group>"; };
+		399BCB3013F4329400E85131 /* laodan_background_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_background_07.png; sourceTree = "<group>"; };
+		399BCB7413F43A1500E85131 /* LaOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaOLoginViewController.h; sourceTree = "<group>"; };
+		399BCB7513F43A1500E85131 /* LaOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaOLoginViewController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CampLaO-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CampLaO-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				3917859613FD6CCA00838589 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3917859D13FD6E1E00838589 /* UAGithubEngine */,
+				392757EE13F18E0500D3D2A4 /* controller */,
+				1D3623240D0F684500981E51 /* CampLaOAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CampLaOAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* CampLaOViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* CampLaOViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CampLaO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CampLaO_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				392757F413F18F1000D3D2A4 /* images */,
+				2899E5210DE3E06400AC0155 /* CampLaOViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CampLaO-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				3917859513FD6CCA00838589 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3917859D13FD6E1E00838589 /* UAGithubEngine */ = {
+			isa = PBXGroup;
+			children = (
+				391785B213FD6E1E00838589 /* JSON Parsers */,
+				391785A913FD6E1E00838589 /* Categories */,
+				3917859E13FD6E1E00838589 /* UAGithubURLConnection.h */,
+				3917859F13FD6E1E00838589 /* UAGithubEngine.h */,
+				391785A013FD6E1E00838589 /* UAGithubEngine.m */,
+				391785A113FD6E1E00838589 /* UAReachability.h */,
+				391785A213FD6E1E00838589 /* UAReachability.m */,
+				391785A313FD6E1E00838589 /* UAGithubEngineDelegate.h */,
+				391785A413FD6E1E00838589 /* UAGithubEngineRequestTypes.h */,
+				391785A513FD6E1E00838589 /* UAGithubParserDelegate.h */,
+				391785A613FD6E1E00838589 /* UAGithubURLConnection.m */,
+				391785A713FD6E1E00838589 /* UAGithubEngineConstants.h */,
+				391785A813FD6E1E00838589 /* UAGithubEngineConstants.m */,
+			);
+			name = UAGithubEngine;
+			sourceTree = "<group>";
+		};
+		391785A913FD6E1E00838589 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				391785AA13FD6E1E00838589 /* NSData+Base64.h */,
+				391785AB13FD6E1E00838589 /* NSData+Base64.m */,
+				391785AC13FD6E1E00838589 /* NSString+UAGithubEngineUtilities.h */,
+				391785AD13FD6E1E00838589 /* NSString+UAGithubEngineUtilities.m */,
+				391785AE13FD6E1E00838589 /* NSString+UUID.h */,
+				391785AF13FD6E1E00838589 /* NSString+UUID.m */,
+				391785B013FD6E1E00838589 /* NSArray+Utilities.h */,
+				391785B113FD6E1E00838589 /* NSArray+Utilities.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		391785B213FD6E1E00838589 /* JSON Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				391785CA13FD6E1E00838589 /* UAGithubJSONParser.h */,
+				391785CB13FD6E1E00838589 /* UAGithubJSONParser.m */,
+				391785CC13FD6E1E00838589 /* UAGithubSimpleJSONParser.h */,
+				391785CD13FD6E1E00838589 /* UAGithubSimpleJSONParser.m */,
+				391785CE13FD6E1E00838589 /* UAGithubUsersJSONParser.h */,
+				391785CF13FD6E1E00838589 /* UAGithubUsersJSONParser.m */,
+				391785D013FD6E1E00838589 /* UAGithubRepositoriesJSONParser.h */,
+				391785D113FD6E1E00838589 /* UAGithubRepositoriesJSONParser.m */,
+				391785D213FD6E1E00838589 /* UAGithubCommitsJSONParser.h */,
+				391785D313FD6E1E00838589 /* UAGithubCommitsJSONParser.m */,
+				391785D413FD6E1E00838589 /* UAGithubIssuesJSONParser.h */,
+				391785D513FD6E1E00838589 /* UAGithubIssuesJSONParser.m */,
+				391785D613FD6E1E00838589 /* UAGithubIssueCommentsJSONParser.h */,
+				391785D713FD6E1E00838589 /* UAGithubIssueCommentsJSONParser.m */,
+				391785B313FD6E1E00838589 /* TouchJSON */,
+			);
+			name = "JSON Parsers";
+			sourceTree = "<group>";
+		};
+		391785B313FD6E1E00838589 /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				391785B413FD6E1E00838589 /* CDataScanner.h */,
+				391785B513FD6E1E00838589 /* CDataScanner.m */,
+				391785B613FD6E1E00838589 /* Extensions */,
+				391785BF13FD6E1E00838589 /* JSON */,
+			);
+			name = TouchJSON;
+			sourceTree = "<group>";
+		};
+		391785B613FD6E1E00838589 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				391785B713FD6E1E00838589 /* CDataScanner_Extensions.h */,
+				391785B813FD6E1E00838589 /* CDataScanner_Extensions.m */,
+				391785B913FD6E1E00838589 /* NSCharacterSet_Extensions.h */,
+				391785BA13FD6E1E00838589 /* NSCharacterSet_Extensions.m */,
+				391785BB13FD6E1E00838589 /* NSDictionary_JSONExtensions.h */,
+				391785BC13FD6E1E00838589 /* NSDictionary_JSONExtensions.m */,
+				391785BD13FD6E1E00838589 /* NSScanner_Extensions.h */,
+				391785BE13FD6E1E00838589 /* NSScanner_Extensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		391785BF13FD6E1E00838589 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				391785C013FD6E1E00838589 /* CJSONDataSerializer.h */,
+				391785C113FD6E1E00838589 /* CJSONDataSerializer.m */,
+				391785C213FD6E1E00838589 /* CJSONDeserializer.h */,
+				391785C313FD6E1E00838589 /* CJSONDeserializer.m */,
+				391785C413FD6E1E00838589 /* CJSONScanner.h */,
+				391785C513FD6E1E00838589 /* CJSONScanner.m */,
+				391785C613FD6E1E00838589 /* CJSONSerializer.h */,
+				391785C713FD6E1E00838589 /* CJSONSerializer.m */,
+				391785C813FD6E1E00838589 /* CSerializedJSONData.h */,
+				391785C913FD6E1E00838589 /* CSerializedJSONData.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		392757EE13F18E0500D3D2A4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				399BCB7413F43A1500E85131 /* LaOLoginViewController.h */,
+				399BCB7513F43A1500E85131 /* LaOLoginViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		392757F413F18F1000D3D2A4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				399BCB2C13F4329400E85131 /* laodan_background_01.png */,
+				399BCB2D13F4329400E85131 /* laodan_background_02.png */,
+				399BCB2E13F4329400E85131 /* laodan_background_03.png */,
+				399BCB2F13F4329400E85131 /* laodan_background_default.png */,
+				399BCB3013F4329400E85131 /* laodan_background_07.png */,
+				391C5CCE13F33A6F00D10314 /* laodan_logo.png */,
+				391C5CD213F33AE700D10314 /* laodan_logo@2x.png */,
+				391C5CB913F2EBD500D10314 /* db_logo.png */,
+				391C5CBA13F2EBD500D10314 /* db_logo@2x.png */,
+				392757F513F18F2D00D3D2A4 /* agendacat.jpg */,
+				391C5C8F13F2E27400D10314 /* heartocat.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CampLaO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CampLaO" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampLaO;
+			productName = CampLaO;
+			productReference = 1D6058910D05DD3D006BFB54 /* CampLaO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CampLaO" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CampLaO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* CampLaOViewController.xib in Resources */,
+				392757F613F18F2D00D3D2A4 /* agendacat.jpg in Resources */,
+				391C5C9013F2E27400D10314 /* heartocat.png in Resources */,
+				391C5CBB13F2EBD500D10314 /* db_logo.png in Resources */,
+				391C5CBC13F2EBD500D10314 /* db_logo@2x.png in Resources */,
+				391C5CCF13F33A6F00D10314 /* laodan_logo.png in Resources */,
+				391C5CD313F33AE700D10314 /* laodan_logo@2x.png in Resources */,
+				399BCB3113F4329400E85131 /* laodan_background_01.png in Resources */,
+				399BCB3213F4329400E85131 /* laodan_background_02.png in Resources */,
+				399BCB3313F4329400E85131 /* laodan_background_03.png in Resources */,
+				399BCB3413F4329400E85131 /* laodan_background_default.png in Resources */,
+				399BCB3513F4329400E85131 /* laodan_background_07.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CampLaOAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* CampLaOViewController.m in Sources */,
+				399BCB7613F43A1500E85131 /* LaOLoginViewController.m in Sources */,
+				391785D813FD6E1F00838589 /* UAGithubEngine.m in Sources */,
+				391785D913FD6E1F00838589 /* UAReachability.m in Sources */,
+				391785DA13FD6E1F00838589 /* UAGithubURLConnection.m in Sources */,
+				391785DB13FD6E1F00838589 /* UAGithubEngineConstants.m in Sources */,
+				391785DC13FD6E1F00838589 /* NSData+Base64.m in Sources */,
+				391785DD13FD6E1F00838589 /* NSString+UAGithubEngineUtilities.m in Sources */,
+				391785DE13FD6E1F00838589 /* NSString+UUID.m in Sources */,
+				391785DF13FD6E1F00838589 /* NSArray+Utilities.m in Sources */,
+				391785E013FD6E1F00838589 /* CDataScanner.m in Sources */,
+				391785E113FD6E1F00838589 /* CDataScanner_Extensions.m in Sources */,
+				391785E213FD6E1F00838589 /* NSCharacterSet_Extensions.m in Sources */,
+				391785E313FD6E1F00838589 /* NSDictionary_JSONExtensions.m in Sources */,
+				391785E413FD6E1F00838589 /* NSScanner_Extensions.m in Sources */,
+				391785E513FD6E1F00838589 /* CJSONDataSerializer.m in Sources */,
+				391785E613FD6E1F00838589 /* CJSONDeserializer.m in Sources */,
+				391785E713FD6E1F00838589 /* CJSONScanner.m in Sources */,
+				391785E813FD6E1F00838589 /* CJSONSerializer.m in Sources */,
+				391785E913FD6E1F00838589 /* CSerializedJSONData.m in Sources */,
+				391785EA13FD6E1F00838589 /* UAGithubJSONParser.m in Sources */,
+				391785EB13FD6E1F00838589 /* UAGithubSimpleJSONParser.m in Sources */,
+				391785EC13FD6E1F00838589 /* UAGithubUsersJSONParser.m in Sources */,
+				391785ED13FD6E1F00838589 /* UAGithubRepositoriesJSONParser.m in Sources */,
+				391785EE13FD6E1F00838589 /* UAGithubCommitsJSONParser.m in Sources */,
+				391785EF13FD6E1F00838589 /* UAGithubIssuesJSONParser.m in Sources */,
+				391785F013FD6E1F00838589 /* UAGithubIssueCommentsJSONParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CampLaO_Prefix.pch;
+				INFOPLIST_FILE = "CampLaO-Info.plist";
+				PRODUCT_NAME = CampLaO;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CampLaO_Prefix.pch;
+				INFOPLIST_FILE = "CampLaO-Info.plist";
+				PRODUCT_NAME = CampLaO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CampLaO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CampLaO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
