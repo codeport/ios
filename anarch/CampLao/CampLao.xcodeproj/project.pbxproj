@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0940FB1408D2B500AB7A55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0940FA1408D2B500AB7A55 /* UIKit.framework */; };
+		8E0940FD1408D2B500AB7A55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0940FC1408D2B500AB7A55 /* Foundation.framework */; };
+		8E0940FF1408D2B500AB7A55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0940FE1408D2B500AB7A55 /* CoreGraphics.framework */; };
+		8E0941051408D2B500AB7A55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E0941031408D2B500AB7A55 /* InfoPlist.strings */; };
+		8E0941071408D2B500AB7A55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0941061408D2B500AB7A55 /* main.m */; };
+		8E09410B1408D2B500AB7A55 /* CampLaoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E09410A1408D2B500AB7A55 /* CampLaoAppDelegate.m */; };
+		8E09410E1408D2B500AB7A55 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E09410C1408D2B500AB7A55 /* MainWindow.xib */; };
+		8E0941111408D2B500AB7A55 /* CampLaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0941101408D2B500AB7A55 /* CampLaoViewController.m */; };
+		8E0941141408D2B500AB7A55 /* CampLaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0941121408D2B500AB7A55 /* CampLaoViewController.xib */; };
+		8E09411C1408D2B500AB7A55 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E09411B1408D2B500AB7A55 /* SenTestingKit.framework */; };
+		8E09411D1408D2B500AB7A55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0940FA1408D2B500AB7A55 /* UIKit.framework */; };
+		8E09411E1408D2B500AB7A55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0940FC1408D2B500AB7A55 /* Foundation.framework */; };
+		8E09411F1408D2B500AB7A55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0940FE1408D2B500AB7A55 /* CoreGraphics.framework */; };
+		8E0941271408D2B500AB7A55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E0941251408D2B500AB7A55 /* InfoPlist.strings */; };
+		8E0941291408D2B500AB7A55 /* CampLaoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E0941281408D2B500AB7A55 /* CampLaoTests.h */; };
+		8E09412B1408D2B500AB7A55 /* CampLaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E09412A1408D2B500AB7A55 /* CampLaoTests.m */; };
+		8E09413A1408D45D00AB7A55 /* laodan_background_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0941391408D45D00AB7A55 /* laodan_background_01.png */; };
+		8E0941451408D46900AB7A55 /* laodan_background_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E09413B1408D46900AB7A55 /* laodan_background_02.png */; };
+		8E0941461408D46900AB7A55 /* laodan_background_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E09413C1408D46900AB7A55 /* laodan_background_03.png */; };
+		8E0941471408D46900AB7A55 /* laodan_background_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E09413D1408D46900AB7A55 /* laodan_background_default.png */; };
+		8E0941481408D46900AB7A55 /* laodan_background_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E09413E1408D46900AB7A55 /* laodan_background_07.png */; };
+		8E0941491408D46900AB7A55 /* laodan_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E09413F1408D46900AB7A55 /* laodan_logo.png */; };
+		8E09414A1408D46900AB7A55 /* laodan_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0941401408D46900AB7A55 /* laodan_logo@2x.png */; };
+		8E09414B1408D46900AB7A55 /* db_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0941411408D46900AB7A55 /* db_logo.png */; };
+		8E09414C1408D46900AB7A55 /* db_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0941421408D46900AB7A55 /* db_logo@2x.png */; };
+		8E09414D1408D46900AB7A55 /* agendacat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0941431408D46900AB7A55 /* agendacat.jpg */; };
+		8E09414E1408D46900AB7A55 /* heartocat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0941441408D46900AB7A55 /* heartocat.png */; };
+		8E0941541408D74200AB7A55 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0941531408D74200AB7A55 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E0941201408D2B500AB7A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E0940ED1408D2B500AB7A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0940F51408D2B500AB7A55;
+			remoteInfo = CampLao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E0940F61408D2B500AB7A55 /* CampLao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampLao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0940FA1408D2B500AB7A55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E0940FC1408D2B500AB7A55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E0940FE1408D2B500AB7A55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E0941021408D2B500AB7A55 /* CampLao-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CampLao-Info.plist"; sourceTree = "<group>"; };
+		8E0941041408D2B500AB7A55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E0941061408D2B500AB7A55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E0941081408D2B500AB7A55 /* CampLao-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CampLao-Prefix.pch"; sourceTree = "<group>"; };
+		8E0941091408D2B500AB7A55 /* CampLaoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CampLaoAppDelegate.h; sourceTree = "<group>"; };
+		8E09410A1408D2B500AB7A55 /* CampLaoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampLaoAppDelegate.m; sourceTree = "<group>"; };
+		8E09410D1408D2B500AB7A55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8E09410F1408D2B500AB7A55 /* CampLaoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CampLaoViewController.h; sourceTree = "<group>"; };
+		8E0941101408D2B500AB7A55 /* CampLaoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampLaoViewController.m; sourceTree = "<group>"; };
+		8E0941131408D2B500AB7A55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CampLaoViewController.xib; sourceTree = "<group>"; };
+		8E09411A1408D2B500AB7A55 /* CampLaoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampLaoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E09411B1408D2B500AB7A55 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E0941241408D2B500AB7A55 /* CampLaoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CampLaoTests-Info.plist"; sourceTree = "<group>"; };
+		8E0941261408D2B500AB7A55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E0941281408D2B500AB7A55 /* CampLaoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CampLaoTests.h; sourceTree = "<group>"; };
+		8E09412A1408D2B500AB7A55 /* CampLaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampLaoTests.m; sourceTree = "<group>"; };
+		8E0941391408D45D00AB7A55 /* laodan_background_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_background_01.png; sourceTree = "<group>"; };
+		8E09413B1408D46900AB7A55 /* laodan_background_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_background_02.png; sourceTree = "<group>"; };
+		8E09413C1408D46900AB7A55 /* laodan_background_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_background_03.png; sourceTree = "<group>"; };
+		8E09413D1408D46900AB7A55 /* laodan_background_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_background_default.png; sourceTree = "<group>"; };
+		8E09413E1408D46900AB7A55 /* laodan_background_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_background_07.png; sourceTree = "<group>"; };
+		8E09413F1408D46900AB7A55 /* laodan_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laodan_logo.png; sourceTree = "<group>"; };
+		8E0941401408D46900AB7A55 /* laodan_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "laodan_logo@2x.png"; sourceTree = "<group>"; };
+		8E0941411408D46900AB7A55 /* db_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_logo.png; sourceTree = "<group>"; };
+		8E0941421408D46900AB7A55 /* db_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "db_logo@2x.png"; sourceTree = "<group>"; };
+		8E0941431408D46900AB7A55 /* agendacat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agendacat.jpg; sourceTree = "<group>"; };
+		8E0941441408D46900AB7A55 /* heartocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartocat.png; sourceTree = "<group>"; };
+		8E0941521408D74200AB7A55 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8E0941531408D74200AB7A55 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E0940F31408D2B500AB7A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0940FB1408D2B500AB7A55 /* UIKit.framework in Frameworks */,
+				8E0940FD1408D2B500AB7A55 /* Foundation.framework in Frameworks */,
+				8E0940FF1408D2B500AB7A55 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0941161408D2B500AB7A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E09411C1408D2B500AB7A55 /* SenTestingKit.framework in Frameworks */,
+				8E09411D1408D2B500AB7A55 /* UIKit.framework in Frameworks */,
+				8E09411E1408D2B500AB7A55 /* Foundation.framework in Frameworks */,
+				8E09411F1408D2B500AB7A55 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E0940EB1408D2B500AB7A55 = {
+			isa = PBXGroup;
+			children = (
+				8E0941001408D2B500AB7A55 /* CampLao */,
+				8E0941221408D2B500AB7A55 /* CampLaoTests */,
+				8E0940F91408D2B500AB7A55 /* Frameworks */,
+				8E0940F71408D2B500AB7A55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E0940F71408D2B500AB7A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E0940F61408D2B500AB7A55 /* CampLao.app */,
+				8E09411A1408D2B500AB7A55 /* CampLaoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E0940F91408D2B500AB7A55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E0940FA1408D2B500AB7A55 /* UIKit.framework */,
+				8E0940FC1408D2B500AB7A55 /* Foundation.framework */,
+				8E0940FE1408D2B500AB7A55 /* CoreGraphics.framework */,
+				8E09411B1408D2B500AB7A55 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E0941001408D2B500AB7A55 /* CampLao */ = {
+			isa = PBXGroup;
+			children = (
+				8E0941381408D44700AB7A55 /* images */,
+				8E0941091408D2B500AB7A55 /* CampLaoAppDelegate.h */,
+				8E09410A1408D2B500AB7A55 /* CampLaoAppDelegate.m */,
+				8E09410C1408D2B500AB7A55 /* MainWindow.xib */,
+				8E09410F1408D2B500AB7A55 /* CampLaoViewController.h */,
+				8E0941101408D2B500AB7A55 /* CampLaoViewController.m */,
+				8E0941121408D2B500AB7A55 /* CampLaoViewController.xib */,
+				8E0941011408D2B500AB7A55 /* Supporting Files */,
+				8E0941521408D74200AB7A55 /* LoginViewController.h */,
+				8E0941531408D74200AB7A55 /* LoginViewController.m */,
+			);
+			path = CampLao;
+			sourceTree = "<group>";
+		};
+		8E0941011408D2B500AB7A55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E0941021408D2B500AB7A55 /* CampLao-Info.plist */,
+				8E0941031408D2B500AB7A55 /* InfoPlist.strings */,
+				8E0941061408D2B500AB7A55 /* main.m */,
+				8E0941081408D2B500AB7A55 /* CampLao-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E0941221408D2B500AB7A55 /* CampLaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E0941281408D2B500AB7A55 /* CampLaoTests.h */,
+				8E09412A1408D2B500AB7A55 /* CampLaoTests.m */,
+				8E0941231408D2B500AB7A55 /* Supporting Files */,
+			);
+			path = CampLaoTests;
+			sourceTree = "<group>";
+		};
+		8E0941231408D2B500AB7A55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E0941241408D2B500AB7A55 /* CampLaoTests-Info.plist */,
+				8E0941251408D2B500AB7A55 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E0941381408D44700AB7A55 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8E09413B1408D46900AB7A55 /* laodan_background_02.png */,
+				8E09413C1408D46900AB7A55 /* laodan_background_03.png */,
+				8E09413D1408D46900AB7A55 /* laodan_background_default.png */,
+				8E09413E1408D46900AB7A55 /* laodan_background_07.png */,
+				8E09413F1408D46900AB7A55 /* laodan_logo.png */,
+				8E0941401408D46900AB7A55 /* laodan_logo@2x.png */,
+				8E0941411408D46900AB7A55 /* db_logo.png */,
+				8E0941421408D46900AB7A55 /* db_logo@2x.png */,
+				8E0941431408D46900AB7A55 /* agendacat.jpg */,
+				8E0941441408D46900AB7A55 /* heartocat.png */,
+				8E0941391408D45D00AB7A55 /* laodan_background_01.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E0940F51408D2B500AB7A55 /* CampLao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E09412E1408D2B500AB7A55 /* Build configuration list for PBXNativeTarget "CampLao" */;
+			buildPhases = (
+				8E0940F21408D2B500AB7A55 /* Sources */,
+				8E0940F31408D2B500AB7A55 /* Frameworks */,
+				8E0940F41408D2B500AB7A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampLao;
+			productName = CampLao;
+			productReference = 8E0940F61408D2B500AB7A55 /* CampLao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E0941191408D2B500AB7A55 /* CampLaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0941311408D2B500AB7A55 /* Build configuration list for PBXNativeTarget "CampLaoTests" */;
+			buildPhases = (
+				8E0941151408D2B500AB7A55 /* Sources */,
+				8E0941161408D2B500AB7A55 /* Frameworks */,
+				8E0941171408D2B500AB7A55 /* Resources */,
+				8E0941181408D2B500AB7A55 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E0941211408D2B500AB7A55 /* PBXTargetDependency */,
+			);
+			name = CampLaoTests;
+			productName = CampLaoTests;
+			productReference = 8E09411A1408D2B500AB7A55 /* CampLaoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E0940ED1408D2B500AB7A55 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8E0940F01408D2B500AB7A55 /* Build configuration list for PBXProject "CampLao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E0940EB1408D2B500AB7A55;
+			productRefGroup = 8E0940F71408D2B500AB7A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E0940F51408D2B500AB7A55 /* CampLao */,
+				8E0941191408D2B500AB7A55 /* CampLaoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E0940F41408D2B500AB7A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0941051408D2B500AB7A55 /* InfoPlist.strings in Resources */,
+				8E09410E1408D2B500AB7A55 /* MainWindow.xib in Resources */,
+				8E0941141408D2B500AB7A55 /* CampLaoViewController.xib in Resources */,
+				8E09413A1408D45D00AB7A55 /* laodan_background_01.png in Resources */,
+				8E0941451408D46900AB7A55 /* laodan_background_02.png in Resources */,
+				8E0941461408D46900AB7A55 /* laodan_background_03.png in Resources */,
+				8E0941471408D46900AB7A55 /* laodan_background_default.png in Resources */,
+				8E0941481408D46900AB7A55 /* laodan_background_07.png in Resources */,
+				8E0941491408D46900AB7A55 /* laodan_logo.png in Resources */,
+				8E09414A1408D46900AB7A55 /* laodan_logo@2x.png in Resources */,
+				8E09414B1408D46900AB7A55 /* db_logo.png in Resources */,
+				8E09414C1408D46900AB7A55 /* db_logo@2x.png in Resources */,
+				8E09414D1408D46900AB7A55 /* agendacat.jpg in Resources */,
+				8E09414E1408D46900AB7A55 /* heartocat.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0941171408D2B500AB7A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0941271408D2B500AB7A55 /* InfoPlist.strings in Resources */,
+				8E0941291408D2B500AB7A55 /* CampLaoTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E0941181408D2B500AB7A55 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E0940F21408D2B500AB7A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0941071408D2B500AB7A55 /* main.m in Sources */,
+				8E09410B1408D2B500AB7A55 /* CampLaoAppDelegate.m in Sources */,
+				8E0941111408D2B500AB7A55 /* CampLaoViewController.m in Sources */,
+				8E0941541408D74200AB7A55 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0941151408D2B500AB7A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E09412B1408D2B500AB7A55 /* CampLaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E0941211408D2B500AB7A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E0940F51408D2B500AB7A55 /* CampLao */;
+			targetProxy = 8E0941201408D2B500AB7A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E0941031408D2B500AB7A55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0941041408D2B500AB7A55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E09410C1408D2B500AB7A55 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E09410D1408D2B500AB7A55 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8E0941121408D2B500AB7A55 /* CampLaoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0941131408D2B500AB7A55 /* en */,
+			);
+			name = CampLaoViewController.xib;
+			sourceTree = "<group>";
+		};
+		8E0941251408D2B500AB7A55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0941261408D2B500AB7A55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E09412C1408D2B500AB7A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E09412D1408D2B500AB7A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E09412F1408D2B500AB7A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampLao/CampLao-Prefix.pch";
+				INFOPLIST_FILE = "CampLao/CampLao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E0941301408D2B500AB7A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampLao/CampLao-Prefix.pch";
+				INFOPLIST_FILE = "CampLao/CampLao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E0941321408D2B500AB7A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CampLao.app/CampLao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampLao/CampLao-Prefix.pch";
+				INFOPLIST_FILE = "CampLaoTests/CampLaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8E0941331408D2B500AB7A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CampLao.app/CampLao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampLao/CampLao-Prefix.pch";
+				INFOPLIST_FILE = "CampLaoTests/CampLaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E0940F01408D2B500AB7A55 /* Build configuration list for PBXProject "CampLao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E09412C1408D2B500AB7A55 /* Debug */,
+				8E09412D1408D2B500AB7A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E09412E1408D2B500AB7A55 /* Build configuration list for PBXNativeTarget "CampLao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E09412F1408D2B500AB7A55 /* Debug */,
+				8E0941301408D2B500AB7A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E0941311408D2B500AB7A55 /* Build configuration list for PBXNativeTarget "CampLaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0941321408D2B500AB7A55 /* Debug */,
+				8E0941331408D2B500AB7A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E0940ED1408D2B500AB7A55 /* Project object */;
+}
