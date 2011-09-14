@@ -1,0 +1,178 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 534}}";
+			sepNavSelRange = "{295, 0}";
+			sepNavVisRange = "{0, 722}";
+		};
+	};
+	1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {873, 910}}";
+			sepNavSelRange = "{1653, 0}";
+			sepNavVisRange = "{329, 679}";
+			sepNavWindowFrame = "{{19, 0}, {750, 878}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* LightTheCandle */ = {
+		activeExec = 0;
+		executables = (
+			53AA093D1324773C002AC87C /* LightTheCandle */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 53AA093D1324773C002AC87C /* LightTheCandle */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* LightTheCandle */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* LightTheCandle */,
+		);
+		codeSenseManager = 53AA094D13247748002AC87C /* Code sense */;
+		executables = (
+			53AA093D1324773C002AC87C /* LightTheCandle */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					834,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321283854;
+			PBXWorkspaceStateSaveDate = 321283854;
+		};
+		perUserProjectItems = {
+			530CC67A132B490F00FE0F0D /* PBXTextBookmark */ = 530CC67A132B490F00FE0F0D /* PBXTextBookmark */;
+			530CC698132B4F4300FE0F0D /* PBXTextBookmark */ = 530CC698132B4F4300FE0F0D /* PBXTextBookmark */;
+			530CC6C8132B505700FE0F0D /* PBXTextBookmark */ = 530CC6C8132B505700FE0F0D /* PBXTextBookmark */;
+			530CC6C9132B505700FE0F0D /* XCBuildMessageTextBookmark */ = 530CC6C9132B505700FE0F0D /* XCBuildMessageTextBookmark */;
+			530CC6E3132B940F00FE0F0D /* PBXTextBookmark */ = 530CC6E3132B940F00FE0F0D /* PBXTextBookmark */;
+		};
+		sourceControlManager = 53AA094C13247748002AC87C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 534}}";
+			sepNavSelRange = "{347, 0}";
+			sepNavVisRange = "{0, 350}";
+		};
+	};
+	530CC67A132B490F00FE0F0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 530CC67B132B490F00FE0F0D /* UIImageView.h */;
+		name = "UIImageView.h: 14";
+		rLen = 61;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 1721;
+		vrLoc = 0;
+	};
+	530CC67B132B490F00FE0F0D /* UIImageView.h */ = {
+		isa = PBXFileReference;
+		name = UIImageView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImageView.h;
+		sourceTree = "<absolute>";
+	};
+	530CC698132B4F4300FE0F0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 16";
+		rLen = 0;
+		rLoc = 347;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 0;
+	};
+	530CC6C8132B505700FE0F0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* LightTheCandleAppDelegate.h */;
+		name = "LightTheCandleAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 295;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	530CC6C9132B505700FE0F0D /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Stray '`' in program";
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 60;
+		rType = 1;
+	};
+	530CC6E3132B940F00FE0F0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LightTheCandleAppDelegate.m */;
+		name = "LightTheCandleAppDelegate.m: 54";
+		rLen = 1;
+		rLoc = 1488;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 871;
+	};
+	53AA093D1324773C002AC87C /* LightTheCandle */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LightTheCandle;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	53AA094C13247748002AC87C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	53AA094D13247748002AC87C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
