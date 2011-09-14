@@ -12,3 +12,13 @@
 build/
 
 .xcodeproj/ !*.xcodeproj/project.pbxproj
+
+jangtaejun/GITManager/GITManager.xcodeproj/xcuserdata/taejunjang.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist
+
+jangtaejun/GITManager/GITManager.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+jangtaejun/GITManager/GITManager.xcodeproj/project.xcworkspace/xcuserdata/taejunjang.xcuserdatad/UserInterfaceState.xcuserstate
+
+jangtaejun/GITManager/GITManager.xcodeproj/xcuserdata/taejunjang.xcuserdatad/xcschemes/GITManager.xcscheme
+
+jangtaejun/GITManager/GITManager.xcodeproj/xcuserdata/taejunjang.xcuserdatad/xcschemes/xcschememanagement.plist
