@@ -5687,7 +5687,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>17</integer>
+					<integer>31</integer>
 				</dict>
 			</array>
 		</dict>
@@ -7335,9 +7335,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>339953442.09741098</real>
-		<string>{101, 894}</string>
-		<string>{685, 0}</string>
+		<real>339953683.72345001</real>
+		<string>{55, 1018}</string>
+		<string>{756, 0}</string>
 		<string>-viewDidLoad</string>
 		<dict>
 			<key>$class</key>
@@ -7371,7 +7371,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {699, 987}}</string>
+		<string>{{0, 0}, {699, 1124}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7753,7 +7753,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1400, 987}}</string>
+		<string>{{0, 0}, {1400, 1124}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -12594,7 +12594,7 @@
 				<integer>848</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>339953090.31937701</real>
+			<real>339953666.01391798</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -12605,7 +12605,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 오전 12:24</string>
+		<string>Today at 오전 12:34</string>
 		<integer>234</integer>
 		<dict>
 			<key>$class</key>

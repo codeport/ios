@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JustOneButtonViewController : UIViewController
+@interface JustOneButtonViewController : UIViewController {
+    UIBarButtonItem *btnClick;
+}
+
+@property (nonatomic, retain) IBOutlet UIBarButtonItem *btnClick;
 
 @end

@@ -28,6 +28,8 @@
     [super viewDidLoad];
     //TODO: Bar Button Item의 경우에는?
     
+    btnClick.target = self;
+    btnClick.action = @selector(printLog);
 }
 
 
