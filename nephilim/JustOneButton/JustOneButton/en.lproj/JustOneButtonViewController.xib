@@ -65,6 +65,7 @@
 						<string key="NSFrame">{{118, 357}, {85, 85}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:222</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<int key="IBUIContentMode">1</int>
@@ -76,7 +77,6 @@
 							<double key="NSSize">15</double>
 							<int key="NSfFlags">16</int>
 						</object>
-						<int key="IBUIButtonType">1</int>
 						<string key="IBUINormalTitle">Click Me</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor">
 							<int key="NSColorSpace">3</int>
@@ -89,6 +89,10 @@
 						<object class="NSColor" key="IBUINormalTitleShadowColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
+						</object>
+						<object class="NSCustomResource" key="IBUINormalImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">glass-candle.png</string>
 						</object>
 					</object>
 				</object>
@@ -242,8 +246,17 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">visionary.png</string>
-			<string key="NS.object.0">{500, 500}</string>
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<object class="NSArray" key="dict.sortedKeys">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>glass-candle.png</string>
+				<string>visionary.png</string>
+			</object>
+			<object class="NSMutableArray" key="dict.values">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>{128, 128}</string>
+				<string>{500, 500}</string>
+			</object>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">534</string>
 	</data>

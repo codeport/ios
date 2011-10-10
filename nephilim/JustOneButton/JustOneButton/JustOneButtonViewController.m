@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [btnClick addTarget:self 
-                 action:@selector(printLog) 
+                 action:@selector(saySomething) 
        forControlEvents:UIControlEventTouchUpInside];
     [super viewDidLoad];
 }
@@ -50,5 +50,14 @@
 // TODO:
 - (void) printLog {
     NSLog(@"로그를 찍어봅니다.");
+}
+
+- (void) saySomething {
+   UIAlertView* alert = [[[UIAlertView alloc] initWithTitle:@"감사" 
+                                                  message:@"Good Bye" 
+                                                 delegate:nil 
+                                        cancelButtonTitle:@"OK" 
+                                        otherButtonTitles:nil] autorelease];
+    [alert show];
 }
 @end
