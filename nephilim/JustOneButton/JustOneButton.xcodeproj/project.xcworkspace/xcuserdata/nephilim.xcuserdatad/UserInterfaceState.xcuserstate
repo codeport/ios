@@ -2253,10 +2253,10 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>339950443.23953801</real>
-		<string>{37, 891}</string>
-		<string>{922, 0}</string>
-		<string>@implementation JustOneButtonViewController</string>
+		<real>339950590.77431202</real>
+		<string>{101, 967}</string>
+		<string>{749, 0}</string>
+		<string>-viewDidLoad</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -3189,7 +3189,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>487</integer>
+					<integer>488</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5260,11 +5260,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>486</integer>
+					<integer>487</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>142</integer>
+					<integer>59</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5289,11 +5289,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>472</integer>
+					<integer>473</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>477</integer>
+					<integer>478</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5373,12 +5373,13 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>142</integer>
+					<integer>472</integer>
 				</dict>
 			</array>
 		</dict>
 		<real>4</real>
 		<string>: </string>
+		<string>JustOneButton</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5404,15 +5405,15 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>473</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>474</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>475</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>476</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5422,7 +5423,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>476</integer>
+				<integer>477</integer>
 			</dict>
 			<key>NS.data</key>
 			<data>
@@ -5468,15 +5469,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>478</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>479</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>465</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5484,14 +5477,22 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
+					<integer>465</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>481</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>482</integer>
 				</dict>
 			</array>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>482</integer>
+					<integer>483</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5499,11 +5500,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>483</integer>
+					<integer>484</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>485</integer>
+					<integer>486</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5524,10 +5525,10 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>484</integer>
+				<integer>485</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>339950131.07424003</real>
+			<real>339950589.525374</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -5538,8 +5539,8 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 오후 11:35</string>
-		<integer>106</integer>
+		<string>Today at 오후 11:43</string>
+		<integer>234</integer>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5550,27 +5551,23 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>488</integer>
+					<integer>489</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>490</integer>
+					<integer>491</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>492</integer>
+					<integer>493</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>494</integer>
+					<integer>495</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>496</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>498</integer>
+					<integer>497</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5579,6 +5576,10 @@
 				<dict>
 					<key>CF$UID</key>
 					<integer>500</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>501</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5596,7 +5597,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>489</integer>
+				<integer>490</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/nephilim/development/ios/laodan-github/nephilim/JustOneButton/JustOneButton/JustOneButtonViewController.m</string>
@@ -5614,7 +5615,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>491</integer>
+				<integer>492</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/nephilim/development/ios/laodan-github/nephilim/JustOneButton/JustOneButton/JustOneButtonViewController.h</string>
@@ -5632,7 +5633,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>493</integer>
+				<integer>494</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/nephilim/development/ios/laodan-github/nephilim/JustOneButton/JustOneButton/en.lproj/JustOneButtonViewController.xib</string>
@@ -5650,7 +5651,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>495</integer>
+				<integer>496</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/nephilim/development/ios/laodan-github/nephilim/JustOneButton/JustOneButton/en.lproj/MainWindow.xib</string>
@@ -5668,7 +5669,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>497</integer>
+				<integer>498</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/nephilim/development/ios/laodan-github/nephilim/JustOneButton/JustOneButton/JustOneButtonAppDelegate.h</string>
@@ -5720,7 +5721,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>501</integer>
+				<integer>502</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/nephilim/development/ios/laodan-github/nephilim/JustOneButton/JustOneButton/JustOneButtonAppDelegate.m</string>

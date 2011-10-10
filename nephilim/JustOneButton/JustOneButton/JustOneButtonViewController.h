@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JustOneButtonViewController : UIViewController
+@interface JustOneButtonViewController : UIViewController {
+    UIButton *btnClick;
+}
+
+@property (nonatomic, retain) IBOutlet UIButton *btnClick;
 
 @end

@@ -21,13 +21,16 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+    [btnClick addTarget:self 
+                 action:@selector(printLog) 
+       forControlEvents:UIControlEventTouchUpInside];
     [super viewDidLoad];
 }
-*/
+
 
 - (void)viewDidUnload
 {
@@ -45,4 +48,7 @@
 
 #pragma mark - 이벤트 처리 
 // TODO:
+- (void) printLog {
+    NSLog(@"로그를 찍어봅니다.");
+}
 @end
