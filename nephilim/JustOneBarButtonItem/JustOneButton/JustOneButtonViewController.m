@@ -9,6 +9,7 @@
 #import "JustOneButtonViewController.h"
 
 @implementation JustOneButtonViewController
+@synthesize btnClick;
 
 - (void)didReceiveMemoryWarning
 {
@@ -20,19 +21,32 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //TODO: Bar Button Item의 경우에는?
+    
 }
-*/
+
 
 - (void)viewDidUnload
 {
+    [self setBtnClick:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
 
+- (void)dealloc {
+    [btnClick release];
+    [super dealloc];
+}
+
+#pragma mark - 이벤트 핸들링
+
+-(void) printLog {
+    NSLog(@"로그를 출력합니다.");
+}
 @end
