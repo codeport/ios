@@ -9,6 +9,7 @@
 #import "JustOneButtonViewController.h"
 
 @implementation JustOneButtonViewController
+@synthesize btnClick;
 
 - (void)didReceiveMemoryWarning
 {
@@ -30,11 +31,18 @@
 
 - (void)viewDidUnload
 {
+    [self setBtnClick:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
 
-#pragma mark - Event Handling
+- (void)dealloc {
+    [btnClick release];
+    [super dealloc];
+}
 
+
+#pragma mark - 이벤트 처리 
+// TODO:
 @end
