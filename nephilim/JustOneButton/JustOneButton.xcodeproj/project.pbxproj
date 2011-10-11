@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68E712814400360001AFD9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68E712714400360001AFD9C /* UIKit.framework */; };
+		C68E712A14400360001AFD9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68E712914400360001AFD9C /* Foundation.framework */; };
+		C68E712C14400360001AFD9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68E712B14400360001AFD9C /* CoreGraphics.framework */; };
+		C68E713214400360001AFD9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C68E713014400360001AFD9C /* InfoPlist.strings */; };
+		C68E713414400360001AFD9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E713314400360001AFD9C /* main.m */; };
+		C68E713814400360001AFD9C /* JustOneButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E713714400360001AFD9C /* JustOneButtonAppDelegate.m */; };
+		C68E713B14400360001AFD9C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68E713914400360001AFD9C /* MainWindow.xib */; };
+		C68E713E14400360001AFD9C /* JustOneButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E713D14400360001AFD9C /* JustOneButtonViewController.m */; };
+		C68E714114400360001AFD9C /* JustOneButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68E713F14400360001AFD9C /* JustOneButtonViewController.xib */; };
+		C68E714914400360001AFD9C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68E714814400360001AFD9C /* SenTestingKit.framework */; };
+		C68E714A14400360001AFD9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68E712714400360001AFD9C /* UIKit.framework */; };
+		C68E714B14400360001AFD9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68E712914400360001AFD9C /* Foundation.framework */; };
+		C68E714C14400360001AFD9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68E712B14400360001AFD9C /* CoreGraphics.framework */; };
+		C68E715414400360001AFD9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C68E715214400360001AFD9C /* InfoPlist.strings */; };
+		C68E715614400360001AFD9C /* JustOneButtonTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C68E715514400360001AFD9C /* JustOneButtonTests.h */; };
+		C68E715814400360001AFD9C /* JustOneButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E715714400360001AFD9C /* JustOneButtonTests.m */; };
+		C68E716214400755001AFD9C /* visionary.png in Resources */ = {isa = PBXBuildFile; fileRef = C68E716114400755001AFD9C /* visionary.png */; };
+		C6FA3F0E1443399000F28653 /* glass-candle.png in Resources */ = {isa = PBXBuildFile; fileRef = C6FA3F0D1443399000F28653 /* glass-candle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C68E714D14400360001AFD9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C68E711A14400360001AFD9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68E712214400360001AFD9C;
+			remoteInfo = JustOneButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C68E712314400360001AFD9C /* JustOneButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustOneButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68E712714400360001AFD9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C68E712914400360001AFD9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C68E712B14400360001AFD9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C68E712F14400360001AFD9C /* JustOneButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JustOneButton-Info.plist"; sourceTree = "<group>"; };
+		C68E713114400360001AFD9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C68E713314400360001AFD9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C68E713514400360001AFD9C /* JustOneButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JustOneButton-Prefix.pch"; sourceTree = "<group>"; };
+		C68E713614400360001AFD9C /* JustOneButtonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustOneButtonAppDelegate.h; sourceTree = "<group>"; };
+		C68E713714400360001AFD9C /* JustOneButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustOneButtonAppDelegate.m; sourceTree = "<group>"; };
+		C68E713A14400360001AFD9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C68E713C14400360001AFD9C /* JustOneButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustOneButtonViewController.h; sourceTree = "<group>"; };
+		C68E713D14400360001AFD9C /* JustOneButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustOneButtonViewController.m; sourceTree = "<group>"; };
+		C68E714014400360001AFD9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JustOneButtonViewController.xib; sourceTree = "<group>"; };
+		C68E714714400360001AFD9C /* JustOneButtonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustOneButtonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68E714814400360001AFD9C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C68E715114400360001AFD9C /* JustOneButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JustOneButtonTests-Info.plist"; sourceTree = "<group>"; };
+		C68E715314400360001AFD9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C68E715514400360001AFD9C /* JustOneButtonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JustOneButtonTests.h; sourceTree = "<group>"; };
+		C68E715714400360001AFD9C /* JustOneButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustOneButtonTests.m; sourceTree = "<group>"; };
+		C68E716114400755001AFD9C /* visionary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visionary.png; sourceTree = "<group>"; };
+		C6FA3F0D1443399000F28653 /* glass-candle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glass-candle.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68E712014400360001AFD9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68E712814400360001AFD9C /* UIKit.framework in Frameworks */,
+				C68E712A14400360001AFD9C /* Foundation.framework in Frameworks */,
+				C68E712C14400360001AFD9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68E714314400360001AFD9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68E714914400360001AFD9C /* SenTestingKit.framework in Frameworks */,
+				C68E714A14400360001AFD9C /* UIKit.framework in Frameworks */,
+				C68E714B14400360001AFD9C /* Foundation.framework in Frameworks */,
+				C68E714C14400360001AFD9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C68E711814400360001AFD9C = {
+			isa = PBXGroup;
+			children = (
+				C68E712D14400360001AFD9C /* JustOneButton */,
+				C68E714F14400360001AFD9C /* JustOneButtonTests */,
+				C68E712614400360001AFD9C /* Frameworks */,
+				C68E712414400360001AFD9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C68E712414400360001AFD9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68E712314400360001AFD9C /* JustOneButton.app */,
+				C68E714714400360001AFD9C /* JustOneButtonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68E712614400360001AFD9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C68E712714400360001AFD9C /* UIKit.framework */,
+				C68E712914400360001AFD9C /* Foundation.framework */,
+				C68E712B14400360001AFD9C /* CoreGraphics.framework */,
+				C68E714814400360001AFD9C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C68E712D14400360001AFD9C /* JustOneButton */ = {
+			isa = PBXGroup;
+			children = (
+				C68E713614400360001AFD9C /* JustOneButtonAppDelegate.h */,
+				C68E713714400360001AFD9C /* JustOneButtonAppDelegate.m */,
+				C68E713914400360001AFD9C /* MainWindow.xib */,
+				C68E713C14400360001AFD9C /* JustOneButtonViewController.h */,
+				C68E713D14400360001AFD9C /* JustOneButtonViewController.m */,
+				C68E713F14400360001AFD9C /* JustOneButtonViewController.xib */,
+				C68E712E14400360001AFD9C /* Supporting Files */,
+			);
+			path = JustOneButton;
+			sourceTree = "<group>";
+		};
+		C68E712E14400360001AFD9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6FA3F0D1443399000F28653 /* glass-candle.png */,
+				C68E716114400755001AFD9C /* visionary.png */,
+				C68E712F14400360001AFD9C /* JustOneButton-Info.plist */,
+				C68E713014400360001AFD9C /* InfoPlist.strings */,
+				C68E713314400360001AFD9C /* main.m */,
+				C68E713514400360001AFD9C /* JustOneButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C68E714F14400360001AFD9C /* JustOneButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				C68E715514400360001AFD9C /* JustOneButtonTests.h */,
+				C68E715714400360001AFD9C /* JustOneButtonTests.m */,
+				C68E715014400360001AFD9C /* Supporting Files */,
+			);
+			path = JustOneButtonTests;
+			sourceTree = "<group>";
+		};
+		C68E715014400360001AFD9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68E715114400360001AFD9C /* JustOneButtonTests-Info.plist */,
+				C68E715214400360001AFD9C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68E712214400360001AFD9C /* JustOneButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68E715B14400360001AFD9C /* Build configuration list for PBXNativeTarget "JustOneButton" */;
+			buildPhases = (
+				C68E711F14400360001AFD9C /* Sources */,
+				C68E712014400360001AFD9C /* Frameworks */,
+				C68E712114400360001AFD9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustOneButton;
+			productName = JustOneButton;
+			productReference = C68E712314400360001AFD9C /* JustOneButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C68E714614400360001AFD9C /* JustOneButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68E715E14400360001AFD9C /* Build configuration list for PBXNativeTarget "JustOneButtonTests" */;
+			buildPhases = (
+				C68E714214400360001AFD9C /* Sources */,
+				C68E714314400360001AFD9C /* Frameworks */,
+				C68E714414400360001AFD9C /* Resources */,
+				C68E714514400360001AFD9C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C68E714E14400360001AFD9C /* PBXTargetDependency */,
+			);
+			name = JustOneButtonTests;
+			productName = JustOneButtonTests;
+			productReference = C68E714714400360001AFD9C /* JustOneButtonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68E711A14400360001AFD9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "i015005@gmail.com";
+			};
+			buildConfigurationList = C68E711D14400360001AFD9C /* Build configuration list for PBXProject "JustOneButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C68E711814400360001AFD9C;
+			productRefGroup = C68E712414400360001AFD9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68E712214400360001AFD9C /* JustOneButton */,
+				C68E714614400360001AFD9C /* JustOneButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68E712114400360001AFD9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68E713214400360001AFD9C /* InfoPlist.strings in Resources */,
+				C68E713B14400360001AFD9C /* MainWindow.xib in Resources */,
+				C68E714114400360001AFD9C /* JustOneButtonViewController.xib in Resources */,
+				C68E716214400755001AFD9C /* visionary.png in Resources */,
+				C6FA3F0E1443399000F28653 /* glass-candle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68E714414400360001AFD9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68E715414400360001AFD9C /* InfoPlist.strings in Resources */,
+				C68E715614400360001AFD9C /* JustOneButtonTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C68E714514400360001AFD9C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68E711F14400360001AFD9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68E713414400360001AFD9C /* main.m in Sources */,
+				C68E713814400360001AFD9C /* JustOneButtonAppDelegate.m in Sources */,
+				C68E713E14400360001AFD9C /* JustOneButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68E714214400360001AFD9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68E715814400360001AFD9C /* JustOneButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C68E714E14400360001AFD9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C68E712214400360001AFD9C /* JustOneButton */;
+			targetProxy = C68E714D14400360001AFD9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C68E713014400360001AFD9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68E713114400360001AFD9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C68E713914400360001AFD9C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68E713A14400360001AFD9C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C68E713F14400360001AFD9C /* JustOneButtonViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68E714014400360001AFD9C /* en */,
+			);
+			name = JustOneButtonViewController.xib;
+			sourceTree = "<group>";
+		};
+		C68E715214400360001AFD9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68E715314400360001AFD9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C68E715914400360001AFD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C68E715A14400360001AFD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C68E715C14400360001AFD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustOneButton/JustOneButton-Prefix.pch";
+				INFOPLIST_FILE = "JustOneButton/JustOneButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C68E715D14400360001AFD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustOneButton/JustOneButton-Prefix.pch";
+				INFOPLIST_FILE = "JustOneButton/JustOneButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C68E715F14400360001AFD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JustOneButton.app/JustOneButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustOneButton/JustOneButton-Prefix.pch";
+				INFOPLIST_FILE = "JustOneButtonTests/JustOneButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C68E716014400360001AFD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JustOneButton.app/JustOneButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JustOneButton/JustOneButton-Prefix.pch";
+				INFOPLIST_FILE = "JustOneButtonTests/JustOneButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68E711D14400360001AFD9C /* Build configuration list for PBXProject "JustOneButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68E715914400360001AFD9C /* Debug */,
+				C68E715A14400360001AFD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68E715B14400360001AFD9C /* Build configuration list for PBXNativeTarget "JustOneButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68E715C14400360001AFD9C /* Debug */,
+				C68E715D14400360001AFD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68E715E14400360001AFD9C /* Build configuration list for PBXNativeTarget "JustOneButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68E715F14400360001AFD9C /* Debug */,
+				C68E716014400360001AFD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68E711A14400360001AFD9C /* Project object */;
+}
